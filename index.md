@@ -1,8 +1,8 @@
 ---
-title: Homepage
+title: Welcome
 layout: default
 ---
 
-# [[page.title]]
+# {{page.title}}
 
 This is still a work in progress.
