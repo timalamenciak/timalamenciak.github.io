@@ -1,0 +1,22 @@
+# /_data/authors.yml
+
+Tim Alamenciak:
+  name        : "Tim Alamenciak"
+  bio         : "Community-based restoration ecologist"
+  avatar      : "/smallprofile.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tim.a@uwaterloo.ca"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/timalamenciak"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/tim-alamenciak-41419b15/"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0002-1296-2528"
+    - label: "University of Waterloo profile"
+      icon: "fas fa-graduation-cap"
+      url: "https://uwaterloo.ca/scholar/talamenc/"

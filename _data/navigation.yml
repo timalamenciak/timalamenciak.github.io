@@ -1,0 +1,19 @@
+main:
+  - title: "CV"
+    url: /CV/
+  - title: "Blog"
+    url: /blog/
+  - title: "Open Restoration"
+    url: /techniques/
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Top"
+        url: "techniques/#Top"
+      - title: "Middle"
+        url: "techniques/#Middle"
+      - title: "Bottom"
+        url: "techniques/#Bottom"
+      - title: "Very bottom"
+        url: "techniques/#Very bottom"
