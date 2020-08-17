@@ -10,7 +10,6 @@ title: "Open Restoration"
 # General
 
 [Ontario Ministry of Natural Resources and Forestry Prescribed Burn Manual](https://www.ontario.ca/document/prescribed-burn-manual) <br/>
-<span style="font-size:10pt">[mirror](../pdfs/Ontario_MNRF_BurnManual.pdf)</span>
 
 [Seed ball strategies for gardening and restoration in arid landscapes](https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1797-2019.pdf) <br/>
 <span style="font-size: 10pt">by Elise Gornish </span>
