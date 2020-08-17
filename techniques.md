@@ -31,7 +31,7 @@ title: "Open Restoration"
 
 ## Forests
 
-[Implementing Forest Landscape Restoration: A Practitioner's Guide](../pdfs/Stanturf_FLR.pdf)<br/><span style="font-size: 10pt">by John Stanturf, Stephanie Mansourian, Michael Kleine **Public domain**</span>
+[Implementing Forest Landscape Restoration: A Practitioner's Guide](../pdfs/Stanturf_FLR.pdf)<br/><span style="font-size: 10pt">by John Stanturf, Stephanie Mansourian, Michael Kleine</span>
 
 [Restoring eastern Oregon's dry forests: A practical guide for ecological restoration](../pdfs/OregonDryForests.pdf)<span style="font-size: 10pt">by Tim Lillebo **CC BY 3.0**</span>
 
