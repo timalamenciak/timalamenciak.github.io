@@ -13,11 +13,11 @@ title: "Open Restoration"
 <span style="font-size:10pt">[mirror](../pdfs/Ontario_MNRF_BurnManual.pdf)</span>
 
 [Seed ball strategies for gardening and restoration in arid landscapes](https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1797-2019.pdf) <br/>
-<span style="font-size: 10pt">by Elise Gornish <a href="../pdfs/SeedBalls.pdf">mirror</a></span>
+<span style="font-size: 10pt">by Elise Gornish </span>
 
 [Towards Braiding](../pdfs/TowardsBraiding.pdf)<br/><span style="font-size: 10pt">By Elwood Jimmy and Vanessa Andreotti with Sharon Stein **CC BY 4.0**</span>
 
-[The Instant Expert Guide to Mycorrhiza: The Connection for Functional Ecosystems](https://www.parco1.com/text/mycorrhiza/Mycorrhiza%20Primer.pdf)<br/><span style="font-size: 10pt">by Ted St. John [mirror](../pdfs/MycorrhizaPrimer.pdf)</span>
+[The Instant Expert Guide to Mycorrhiza: The Connection for Functional Ecosystems](https://www.parco1.com/text/mycorrhiza/Mycorrhiza%20Primer.pdf)<br/><span style="font-size: 10pt">by Ted St. John</span>
 
 # Terrestrial
 
@@ -28,7 +28,7 @@ title: "Open Restoration"
 
 [Planting the Seed: A Guide to Establishing Prairie and Meadow Communities in Southern Ontario](https://www.csu.edu/cerc/researchreports/documents/PlantingTheSeedGuideEstablishingPrairieMeadowCommunities2004.pdf)<br/><span style="font-size: 10pt">by Kim Delaney, Lindsay Roger, P. Allen Woodliffe, Gail Rhynard and Paul Morris</span>
 
-[A Landowner’s Guide to Tallgrass Prairie and Savanna Management in Ontario](https://tallgrassontario.org/wp-site/wp-content/uploads/2018/07/LandownersGuide2005.pdf)<br/><span style="font-size: 10pt">by Cathy Quinlan [mirror](../pdfs/TGPrairie2005.pdf)</span>
+[A Landowner’s Guide to Tallgrass Prairie and Savanna Management in Ontario](https://tallgrassontario.org/wp-site/wp-content/uploads/2018/07/LandownersGuide2005.pdf)<br/><span style="font-size: 10pt">by Cathy Quinlan</span>
 
 ## Forests
 
