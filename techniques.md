@@ -50,6 +50,12 @@ title: "Open Restoration"
 [Peatland Restoration Guide: Second Edition](http://www.gret-perg.ulaval.ca/uploads/tx_centrerecherche/Peatland_Restoration_guide_2ndEd.pdf)<br/>
 <span style="font-size: 10pt">by François Quinty and Line Rochefort</span>
 
+## Invasive species control
+
+[Managing Phragmites with Volunteers: Assessing the
+Efficacy of Citizen Scientist Volunteers Employing a
+Manual Spading Technique on Invasive Phragmites](https://static1.squarespace.com/static/5e0eda51bd9c76034e849041/t/5ec7dd05e60b116c8879b88f/1590156555276/Phragmites+Report.pdf)<br/><span style="font-size: 10pt">by EcoSpark and Lynn Short</span>
+
 # Aquatic
 
 [Ecological Restoration of Degraded Aquatic Habitats: A Watershed Approach](http://www.salmonconservation.ca/wp-content/uploads/2017/04/Ecological20Restoration20of20Degraded20Aquatic20Habitats20-20a20Wat.pdf)
