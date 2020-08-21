@@ -9,7 +9,7 @@ toc_label: "CV"
 
 ---
 
-I am an environmental social science researcher with a strong background in evidence synthesis and analysis. 
+I am an environmental social science researcher who focuses on participation in ecological restoration.
 
 ## Education
 
