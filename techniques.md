@@ -9,18 +9,18 @@ title: "Open Restoration"
 
 # General
 
-[Ontario Ministry of Natural Resources and Forestry Prescribed Burn Manual](https://www.ontario.ca/document/prescribed-burn-manual) <br/>
-
 [Community-based ecological monitoring: Manual for practitioners](http://www.fao.org/forestry/14700-0271f3fb3f50174269227fd97906437a9.pdf)<br/><Span style="font-size: 10pt">by Alexander Fröde and Christopher Masara</span>
+
+[Towards Braiding](../pdfs/TowardsBraiding.pdf)<br/><span style="font-size: 10pt">By Elwood Jimmy and Vanessa Andreotti with Sharon Stein **CC BY 4.0**</span>
+
+# Terrestrial
+
+[Ontario Ministry of Natural Resources and Forestry Prescribed Burn Manual](https://www.ontario.ca/document/prescribed-burn-manual) <br/>
 
 [Seed ball strategies for gardening and restoration in arid landscapes](https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1797-2019.pdf) <br/>
 <span style="font-size: 10pt">by Elise Gornish </span>
 
-[Towards Braiding](../pdfs/TowardsBraiding.pdf)<br/><span style="font-size: 10pt">By Elwood Jimmy and Vanessa Andreotti with Sharon Stein **CC BY 4.0**</span>
-
 [The Instant Expert Guide to Mycorrhiza: The Connection for Functional Ecosystems](https://www.parco1.com/text/mycorrhiza/Mycorrhiza%20Primer.pdf)<br/><span style="font-size: 10pt">by Ted St. John</span>
-
-# Terrestrial
 
 ## Meadow and prairie
 
