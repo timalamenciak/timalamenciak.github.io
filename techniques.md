@@ -11,6 +11,8 @@ title: "Open Restoration"
 
 [Ontario Ministry of Natural Resources and Forestry Prescribed Burn Manual](https://www.ontario.ca/document/prescribed-burn-manual) <br/>
 
+[Community-based ecological monitoring: Manual for practitioners](http://www.fao.org/forestry/14700-0271f3fb3f50174269227fd97906437a9.pdf)<br/><Span style="font-size: 10pt">by Alexander Fröde and Christopher Masara</span>
+
 [Seed ball strategies for gardening and restoration in arid landscapes](https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1797-2019.pdf) <br/>
 <span style="font-size: 10pt">by Elise Gornish </span>
 
