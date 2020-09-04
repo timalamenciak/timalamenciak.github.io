@@ -31,6 +31,8 @@ title: "Open Restoration"
 
 [A Landowner’s Guide to Tallgrass Prairie and Savanna Management in Ontario](https://tallgrassontario.org/wp-site/wp-content/uploads/2018/07/LandownersGuide2005.pdf)<br/><span style="font-size: 10pt">by Cathy Quinlan</span>
 
+[Tallgrass Prairie Center Native Seed Production manual](https://www.tallgrassprairiecenter.org/sites/default/files/pdfs/native_seed_production_manual.pdf)
+
 ## Forests
 
 [Implementing Forest Landscape Restoration: A Practitioner's Guide](../pdfs/Stanturf_FLR.pdf)<br/><span style="font-size: 10pt">by John Stanturf, Stephanie Mansourian, Michael Kleine</span>
