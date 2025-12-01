@@ -1,149 +1,282 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
-
 <html lang="en">
 <head>
-  <title>Tim Alamenciak</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Tim Alamenciak — Academic CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
-    .profile {
+    body {
+      font-family: 'Lato', sans-serif;
+      font-size: 17px;
+      background-color: #f7f7f4;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Merriweather', serif;
+      color: #295135; /* Forest green accent */
+    }
+
+    a {
+      color: #295135;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Navbar */
+    .navbar-custom {
+      background-color: #ffffff;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .navbar-nav .nav-link {
+      color: #295135 !important;
+      font-weight: 600;
+    }
+
+    /* Profile image */
+    .profile-img {
+      width: 200px;
       border-radius: 50%;
-      width: 150px;
-      margin: auto;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     }
-    .paper {
+
+    /* Sidebar */
+    .sidebar-box {
+      background: #eef2ee;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid #295135;
+    }
+
+    .sidebar-heading {
+      font-size: 20px;
+      font-weight: 700;
       margin-bottom: 10px;
+      color: #295135;
     }
+
+    /* Section spacing */
+    section {
+      margin-bottom: 50px;
+    }
+
+    /* Publications */
+    .paper {
+      margin-bottom: 18px;
+    }
+    .paper-title {
+      font-weight: 600;
+    }
+
   </style>
 </head>
+
 <body>
 
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#" style="color:#295135;">Tim Alamenciak</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#projects">Projects</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-  
-  <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <!-- Entries Column -->
-            <div class="col-md-8">
-                
-                <!-- Main Image -->
-                <p style="text-align:center;"><img class="img-responsive profile" src="pfp.jpg" alt=""></p><br>
-                
-                <div style="margin-top:5%; text-align:justify; padding-right: 20px;">    
-					        <p>I am a translational ecologist working on engagement, open knowledge systems and communities of practice. </p>
-					        <p>I believe that connecting people with nature through conservation and ecological restoration plays a crucial role in tackling the climate and biodiversity crises. I am passionate about community-engaged research, ecological art and knowledge sharing. I take a collaborative approach to academic research and teaching with an emphasis on the practical application of findings.</p>	
-					        <p>I use quantitative and qualitative research tools like geospatial analysis, surveys, interviews and field research to answer three critical questions: How can we best support greater engagement with nature? How can we increase access to open ecological knowledge and data? How can scientists, practitioners and community members collaborate better?</p>
-                </div>
-            </div>
-
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4" style="border-left: 1pt dotted">
-              <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Tim Alamenciak</b></div><br>
-              <p><b>tim.alamenciak@cunet.carleton.ca</b><br>
-                <p property="foaf:Organization" typeof="foaf:Organization">
-                  <span property="foaf:name">Bennett Lab</span>
-                  @ <span property="foaf:member">Department of Biology</span><br>
-                  <span property="foaf:based_near">Carleton University</span><br>
-                  <span property="foaf:based_near">1125 Colonel By Drive</span><br>
-                  <span property="foaf:based_near">Ottawa, Ontario</span><br>
-                  <span property="foaf:based_near">Canada</span>
-                </p>
-                
-                <p property="foaf:Organization" typeof="foaf:Organization">
-                  <span property="foaf:name">DRAGEN Lab</span>
-                  @ <span property="foaf:member">St. Jerome's University</span><br>
-                  <span property="foaf:based_near">University of Waterloo</span><br>
-                  <span property="foaf:based_near">200 University Ave W</span><br>
-                  <span property="foaf:based_near">Waterloo, Ontario</span><br>
-                  <span property="foaf:based_near">Canada</span>
-                </p>
-            </div>
-            
-            
-            <!-- Links on the Sidebar -->
-            <div class="col-md-4" style="border-left: 1pt dotted;">
-              <dd><a href="https://github.com/timalamenciak"><i class="fa-brands fa-github"></i> Github</a></dd> 
-			        <dd><a href="https://orcid.org/0000-0002-1296-2528"><i class="fa-solid fa-id-card"></i> ORCID</a></dd> 
-			        <dd><a href="https://scholia.toolforge.org/author/Q120766436"><i class="fa-solid fa-graduation-cap"></i> Scholia</a></dd> 
-              <dd><a href="#"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></dd>
-            </div>
-          </div>
-            
-            <!-- Publications -->
-            <div class="col-md-8">    
-                <h2 id="publications">Publications</h2>
-                
-                <strong>Peer-reviewed</strong><br/>
-                <ul>
-                <li class="paper" words="knowledge graph, open data, ecolink"><a href="https://link.springer.com/chapter/10.1007/978-3-032-06136-2_33">Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</a> <b>Tim Alamenciak</b>, Carlos Alberto Arnillas, Harry Caufield, Katherine Compton, Kian Drew, Robert Frühstückl, Tina Heger, Birgitta König-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, and Lars Vogt. <em>New Trends in Theory and Practice of Digital Libraries</em></li>  
-                <li class="paper" words="volunteer engagement, restoration ecology, survey"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028">Dimensions of effective volunteer restoration techniques in North America</a> <b>Tim Alamenciak</b>, Elise Gornish, and Stephen Murphy. <em>Restoration Ecology</em>.</li>
-                <li class="paper" words="convivial restoration, restoration ecology, qualitative research"><a href="https://doi.org/10.5751/ES-15258-290303">What makes a convivial community tool? Investigating grassroots ecological restoration</a><a href="https://www.researchequals.com/modules/h3gv-g93x">&#128266;</a> <b>Tim Alamenciak</b> and Stephen Murphy. <em>Ecology & Society</em></li>
-                <li class="paper" words="volunteer engagement, restoration ecology, systematic scoping review"><a href="https://doi.org/10.1111/rec.14155">Motivations for volunteers to participate in ecological restoration: a systematic map</a><a href="https://www.researchequals.com/modules/hprp-rh02">&#128266;</a> <b>Tim Alamenciak</b> and Stephen Murphy. <em>Restoration Ecology</em></li>
-                <li class="paper" words="restoration ecology, systematic scoping review"><a href="https://doi.org/10.1139/facets-2022-0157">Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</a> <b>Tim Alamenciak</b>, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, <a href="https://orcid.org/0000-0002-3315-0174">Sonia Voicescu</a>, and Eric Higgs. <em>FACETS</em></li>
-                <li class="paper" words="invasive species, equity, restoration social science"><a href="https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biaf073/8158522">Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al.</a> Josie South, Roxana Barbulescu, Rafael L Macêdo, Camille L Musseau, Simone Guareschi, <b>Tim Alamenciak</b>, Gabriella Alberti, Sylvie Allen, Sven Bacher, Emma Baker, Michaela Benson, Maud Bernard-Verdier, Rashida Bibi, Manuela Boatcă, Rossano Bolpagni, Timothy M Brown, Bridget Byrne, Susan Canavan, Esther Neira Castro, Deirdre Conlon, Jean-Paul Demoule, Alison M Dunn, Thomas Faist, Glenda Garelli, Paula Gervazoni, Ben Gidley, Jérôme M W Gippet, Matthew Harwood, Tina Heger, Theresa Henke, Sara Hill, Joshua Hobbs, James Hodson, George Holmes, Phillip E Hulme, Hannah Jones, Dumisani Khosa, Majella Kilkey, Danai Kontou, Anne Lavanchy, Hannah Lewis, Rosa Mas Giralt, Laura A Meyerson, Ana Novoa, Zarah Pattison, Pavel Pipek, Anna F Probert, Petr Pyšek, Anthony Ricciardi, Jonathan David Roberts, Florian Ruland, Wolf-Christian Saul, Ross Shackleton, Nando Sigona, Daniel Simberloff, John Solomos, Li Sun, Louise Waite, Pip Wilson, Florencia A Yannelli, Zana Vathi, Tesfalem Yemane, Ulrike M Vieten, Giovanni Vimercati, Elena Zambelli, Deah Lieurance. <em>BioScience</em></li>
-                <li class="paper" words="conservation ecology, research methods"><a href="https://doi.org/10.52201/CEJ19XIFF2753">EDITORIAL: Creating Testable Questions in Practical Conservation: A Process and 100 Questions</a> William J. Sutherland, Jake M. Robinson, David C. Aldridge, <b>Tim Alamenciak</b>, Matthew Armes, Nina Baranduin, Andrew J. Bladon, Martin F. Breed, Nicki Dyas, Chris S. Elphick, Richard A. Griffiths, Jonny Hughes, Beccy Middleton, Nick A. Littlewood, Roger Mitchell, William H. Morgan, Roy Mosley, Silviu O. Petrovan, Kit Prendergast, Euan G. Ritchie, Hugh Raven, Rebecca K. Smith, Sarah H. Watts, and Ann Thornton. <em>Conservation Evidence Journal</em></li>
-                <li class="paper" words="pedagogy, doctoral education"><a href="https://doi.org/10.1177/1946756720976710">What Will a PhD Look Like in the Future? Perspectives on Emerging Trends in Sustainability Doctoral Programs in a Time of Disruption</a> Anita Lazurko, <b>Tim Alamenciak</b>, Lowine Stella Hill, Ella-Kari Muhl, Augustine Kwame Osei, Dorian Pomezanski, Kyle Schang, and Dilruba Fatima Sharmin. <em>World Futures Review</em></li>  
-                </ul>
-            </div>
-            <!-- Projects -->
-            <div class="col-md-8">    
-              <h2 id="projects">Projects</h2>
-              <h3>Active projects</h3>
-              <ul>
-                <li class="project">Evaluating the potential of temporary conserved areas for biodiversity conservation — 2025 to 2028<br/> <a href="https://carleton.ca/bennett-lab/">Bennett Lab</a> x <a href="https://www.ducks.ca/">Ducks Unlimited Canada</a><br/><em>NSERC Alliance funding</em>
-                </li>
-                <li class="project">Environments of Change — 2020 to 2026<br/> <A href="https://www.dragenlab.ca/">Research Fellow @ DRAGEN Lab</a><br/><em>SSHRC Partnership funding</em>
-                </li>
-                <li class="project"><a href="https://www.hi-knowledge.org/about">Toolkit for Restoration Ecology Knowledge (TReK)</a><br/> Ontology lead <br/><em>Private foundation funding</em>
-                </li>
-              </ul>
-              <h3>Completed projects</h3>
-              <ul>
-                <li class=""project"><a href="https://onlineacademiccommunity.uvic.ca/ecorestoration/resources/">Ecological Restoration Knowledge Synthesis Project</a> - 2021<br/> 
-                </li>
-              </ul>
-            </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+      </ul>
     </div>
-    
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
-</body>
+  </div>
+</nav>
 
+<!-- Main container -->
+<div class="container mt-4">
+
+  <div class="row">
+
+    <!-- Main content -->
+    <div class="col-lg-8">
+
+      <!-- Profile image -->
+      <section id="about" class="mb-4">
+        <img src="pfp.jpg" alt="Profile Photo" class="profile-img mb-4">
+
+        <h1 class="text-center">Tim Alamenciak</h1>
+
+        <p>
+          I am a translational ecologist working at the intersection of community engagement, ecological restoration,
+          and open knowledge systems. My work focuses on improving access to ecological information,
+          strengthening collaborations between communities and scientists, and supporting deeper human–nature connections.
+        </p>
+
+        <p>
+          I use quantitative and qualitative methods—including geospatial analysis, surveys, interviews, and field research—to explore three guiding questions:
+        </p>
+
+        <ul>
+          <li><strong>Engagement:</strong> How can we better support public engagement with nature?</li>
+          <li><strong>Knowledge:</strong> How can ecological knowledge and data be made more open, accessible, and useful?</li>
+          <li><strong>Collaboration:</strong> How can scientists, practitioners, and communities work together more effectively?</li>
+        </ul>
+
+      </section>
+
+      <!-- Publications -->
+      <section id="publications">
+        <h2>Publications</h2>
+
+        <h4 class="mt-3">Peer-reviewed</h4>
+        <ul class="list-unstyled">
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-032-06136-2_33">Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</a>
+            </span><br>
+            <em>New Trends in Theory and Practice of Digital Libraries.</em><br>
+            <strong>Tim Alamenciak</strong>, et al.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028">Dimensions of effective volunteer restoration techniques in North America</a>
+            </span><br>
+            <em>Restoration Ecology.</em><br>
+            <strong>Tim Alamenciak</strong>, Elise Gornish, Stephen Murphy.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://doi.org/10.5751/ES-15258-290303">What makes a convivial community tool?</a>
+            </span><br>
+            <em>Ecology & Society.</em><br>
+            <strong>Tim Alamenciak</strong>, Stephen Murphy.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://doi.org/10.1111/rec.14155">Motivations for volunteers to participate in ecological restoration: a systematic map</a>
+            </span><br>
+            <em>Restoration Ecology.</em><br>
+            <strong>Tim Alamenciak</strong>, Stephen Murphy.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://doi.org/10.1139/facets-2022-0157">Ecological Restoration Research in Canada</a>
+            </span><br>
+            <em>FACETS.</em><br>
+            <strong>Tim Alamenciak</strong>, et al.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biaf073/8158522">Parallels between biological invasions and human migration are flawed…</a>
+            </span><br>
+            <em>BioScience.</em>
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://doi.org/10.52201/CEJ19XIFF2753">Creating Testable Questions in Practical Conservation</a>
+            </span><br>
+            <em>Conservation Evidence Journal.</em>
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">
+              <a href="https://doi.org/10.1177/1946756720976710">What Will a PhD Look Like in the Future?</a>
+            </span><br>
+            <em>World Futures Review.</em>
+          </li>
+
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <h4>Active Projects</h4>
+        <ul>
+          <li>
+            <strong>Evaluating the potential of temporary conserved areas (2025–2028)</strong><br>
+            Bennett Lab × Ducks Unlimited Canada<br>
+            <em>NSERC Alliance funding</em>
+          </li>
+
+          <li class="mt-2">
+            <strong>Environments of Change (2020–2026)</strong><br>
+            Research Fellow, DRAGEN Lab<br>
+            <em>SSHRC Partnership funding</em>
+          </li>
+
+          <li class="mt-2">
+            <strong><a href="https://www.hi-knowledge.org/about">Toolkit for Restoration Ecology Knowledge (TReK)</a></strong><br>
+            Ontology Lead<br>
+            <em>Private foundation funding</em>
+          </li>
+        </ul>
+
+        <h4 class="mt-4">Completed Projects</h4>
+        <ul>
+          <li>
+            <a href="https://onlineacademiccommunity.uvic.ca/ecorestoration/resources/">Ecological Restoration Knowledge Synthesis Project</a> (2021)
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+
+      <div class="sidebar-box">
+        <div class="sidebar-heading">Contact</div>
+        <p><i class="fa-solid fa-envelope"></i> tim.alamenciak@cunet.carleton.ca</p>
+      </div>
+
+      <div class="sidebar-box">
+        <div class="sidebar-heading">Affiliations</div>
+
+        <p><strong>Bennett Lab</strong><br>Department of Biology<br>Carleton University<br>Ottawa, Canada</p>
+
+        <p><strong>DRAGEN Lab</strong><br>St. Jerome’s University<br>University of Waterloo<br>Waterloo, Canada</p>
+      </div>
+
+      <div class="sidebar-box">
+        <div class="sidebar-heading">Profiles</div>
+
+        <p><i class="fa-brands fa-github"></i> <a href="https://github.com/timalamenciak">GitHub</a></p>
+        <p><i class="fa-solid fa-id-card"></i> <a href="https://orcid.org/0000-0002-1296-2528">ORCID</a></p>
+        <p><i class="fa-solid fa-graduation-cap"></i> <a href="https://scholia.toolforge.org/author/Q120766436">Scholia</a></p>
+        <p><i class="fa-brands fa-linkedin"></i> <a href="#">LinkedIn</a></p>
+      </div>
+
+    </div>
+
+  </div> <!-- row -->
+</div> <!-- container -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
