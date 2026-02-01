@@ -235,3 +235,7 @@
 .featured-reason i{
   opacity: 0.9;
 }
+
+.featured-pubs .paper-featured + .paper-featured{
+  margin-top: 0.9rem;
+}
