@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tim Alamenciak – CV</title>
+  <style>
+    /* ── Page setup for print/PDF ── */
+    @page {
+      size: letter;
+      margin: 0.75in 0.85in;
+    }
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+
+    /* ── Base typography ── */
+    body {
+      font-family: 'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10.5pt;
+      color: #1a1a1a;
+      line-height: 1.45;
+      margin: 0; padding: 0;
+    }
+
+    a { color: #295135; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Header ── */
+    .cv-header {
+      text-align: center;
+      margin-bottom: 14pt;
+      border-bottom: 2px solid #295135;
+      padding-bottom: 10pt;
+    }
+    .cv-header h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      margin: 0 0 4pt 0;
+      color: #295135;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .cv-header .contact-line {
+      font-size: 9.5pt;
+      color: #444;
+    }
+
+    /* ── Section headings ── */
+    h2.cv-section {
+      font-size: 12pt;
+      font-weight: 700;
+      color: #295135;
+      border-bottom: 1px solid #295135;
+      padding-bottom: 3pt;
+      margin: 16pt 0 8pt 0;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    h3.cv-subsection {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #333;
+      margin: 10pt 0 4pt 0;
+    }
+
+    /* ── Position / entry blocks ── */
+    .cv-entry {
+      margin-bottom: 10pt;
+      page-break-inside: avoid;
+    }
+    .cv-entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .cv-entry-header .role {
+      font-weight: 700;
+    }
+    .cv-entry-header .dates {
+      font-style: italic;
+      white-space: nowrap;
+      font-size: 9.5pt;
+      color: #555;
+    }
+    .cv-entry .org {
+      font-style: italic;
+      color: #444;
+    }
+    .cv-entry ul {
+      margin: 3pt 0 0 18pt;
+      padding: 0;
+    }
+    .cv-entry ul li {
+      margin-bottom: 2pt;
+    }
+
+    /* ── Publication list ── */
+    .pub-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .pub-list li {
+      margin-bottom: 8pt;
+      padding-left: 2em;
+      text-indent: -2em;
+      page-break-inside: avoid;
+    }
+    .pub-year {
+      font-weight: 700;
+      color: #295135;
+    }
+
+    /* ── Presentation list ── */
+    .pres-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .pres-list li {
+      margin-bottom: 6pt;
+      padding-left: 2em;
+      text-indent: -2em;
+      page-break-inside: avoid;
+    }
+
+    /* ── Simple list (service, training, etc.) ── */
+    .simple-list {
+      list-style: none;
+      padding: 0;
+    }
+    .simple-list li {
+      margin-bottom: 4pt;
+    }
+    .simple-list .sl-dates {
+      display: inline-block;
+      width: 7em;
+      font-size: 9.5pt;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ═══════════ HEADER ═══════════ -->
+<div class="cv-header">
+  <h1>Tim Alamenciak</h1>
+  <div class="contact-line">
+    Tim.A@uwaterloo.ca &middot; TimAlamenciak@cunet.carleton.ca<br>
+    (226) 698-0201 &middot; 184 Brandon Avenue, Kitchener, Ontario, Canada, N2M 2J6
+  </div>
+</div>
+
+
+<!-- ═══════════ RESEARCH POSITIONS ═══════════ -->
+<h2 class="cv-section">Research Positions</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Postdoctoral Fellow – Carleton University</span>
+    <span class="dates">2024 – Current</span>
+  </div>
+  <div class="org">Bennett Lab – Dr. Joseph Bennett</div>
+  <ul>
+    <li>Collaborate with Ducks Unlimited to research the effectiveness of temporary conservation agreements over time.</li>
+    <li>Plan quantitative and qualitative research approaches to measuring ecological and social outcomes of conservation agreements.</li>
+    <li>Provide mentorship and guidance to students at the PhD, Masters and Honours undergraduate levels.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Adjunct Associate Professor – University of Waterloo</span>
+    <span class="dates">2024 – Current</span>
+  </div>
+  <div class="org">School of Environment, Resources and Sustainability</div>
+  <ul>
+    <li>Faculty liaison for the Society for Ecological Restoration student group.</li>
+    <li>Provide mentorship and guidance to students at the PhD, Masters and Honours undergraduate levels, including sitting on thesis committees.</li>
+    <li>Researcher with the Waterloo Data &amp; Artificial Intelligence Institute.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Research Fellow – St. Jerome's University</span>
+    <span class="dates">2024 – Current</span>
+  </div>
+  <div class="org">DRAGEN Lab – Dr. Steven Bednarski</div>
+  <ul>
+    <li>Collaboratively design transdisciplinary research projects with Medieval environmental history scholars.</li>
+    <li>Provide mentorship and instruction to graduate student historians from the perspective of ecology.</li>
+    <li>Assist with technical development, including the implementation of AI technologies for text parsing and the development of knowledge graphs as a methodology.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Senior Research Scientist – University of Victoria</span>
+    <span class="dates">2024 – Current</span>
+  </div>
+  <div class="org">Restoration Futures Lab – Nancy Shackelford</div>
+  <ul>
+    <li>Lead the development of the Restoration and Conservation Ontology (RACOON).</li>
+    <li>Oversee and plan the development of the Toolkit for Restoration Ecology Knowledge (TReK).</li>
+    <li>Supervise and mentor students in the creation and maintenance of a community of practice.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Dissertation: "Volunteer Participation in Ecological Restoration"</span>
+    <span class="dates">2019 – 2024</span>
+  </div>
+  <div class="org">Advisor: Dr. Stephen D. Murphy</div>
+  <ul>
+    <li>Conducted a systematic map of literature analyzing the motivations of volunteers to participate in restoration and conservation using R.</li>
+    <li>Executed and analyzed a survey of volunteers to assess the relationship between organizational factors and volunteer engagement using structural equation modeling.</li>
+    <li>Interviewed volunteers for a community-based project and analyzed interview data using Atlas.Ti 9.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Research Associate – Ecological Restoration Knowledge Synthesis Project</span>
+    <span class="dates">2020 – 2023</span>
+  </div>
+  <div class="org">University of Victoria (in collaboration with University of Waterloo, Carleton University, and L'Université Laval). PI: Dr. Eric Higgs</div>
+  <ul>
+    <li>Conducted the first-ever systematic map of ecological restoration literature in Canada using R, Bibliometrix and Cadima.</li>
+    <li>Research outputs include 1 published peer-reviewed paper, 3 conference presentations, and 1 national workshop.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Project Manager – Campus EcoMap, University of Waterloo</span>
+    <span class="dates">2021 – 2022</span>
+  </div>
+  <ul>
+    <li>Secured $20,000 in funding over two years from the Sustainability Action Fund to map ecological data.</li>
+    <li>Supervised five undergraduate research associates in the creation of the map and accompanying report.</li>
+    <li>Used ArcGIS and QGIS to create an index and map of available ecological research in the Borealis repository.</li>
+  </ul>
+</div>
+
+
+<!-- ═══════════ EDUCATION ═══════════ -->
+<h2 class="cv-section">Education</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">PhD, Social and Ecological Sustainability, University of Waterloo</span>
+    <span class="dates">2019 – 2024</span>
+  </div>
+  <div class="org">Supervisor: Dr. Stephen D. Murphy</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">MA, Journalism, Toronto Metropolitan University</span>
+    <span class="dates">2010 – 2012</span>
+  </div>
+  <div class="org">Supervisor: Dr. Gene Allen</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">BA (Hons.), Peace and Conflict Studies, University of Waterloo</span>
+    <span class="dates">2004 – 2010</span>
+  </div>
+</div>
+
+
+<!-- ═══════════ TEACHING ═══════════ -->
+<h2 class="cv-section">Teaching Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Supervisor, Honours thesis, Bachelor of Science</span>
+    <span class="dates">Fall 2025</span>
+  </div>
+  <div class="org">Carleton University, Ottawa, Ontario. See resulting publication Alamenciak et al. 2026</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Group mentor, BIOL 5512 - Advances in Applied Ecology</span>
+    <span class="dates">Fall 2024</span>
+  </div>
+  <div class="org">Carleton University, Ottawa, Ontario. See resulting publication Hodgson et al. 2025 (in press)</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Supervisor, Honours thesis (Logan Rehberg), Bachelor of Science</span>
+    <span class="dates">Spring 2024</span>
+  </div>
+  <div class="org">Carleton University, Ottawa, Ontario. See resulting publication Alamenciak et al. 2025 (in press)</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Sessional lecturer, ERS 253 – Communities and sustainability</span>
+    <span class="dates">Winter 2024</span>
+  </div>
+  <div class="org">University of Waterloo, School of Environment, Resources and Sustainability (38 students; in-person)</div>
+  <ul>
+    <li>Re-designed course including entirely new readings, structure, assignments, lectures and online space through LEARN.</li>
+    <li>Incorporated inquiry-based learning and professional guest lectures into course materials.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Teaching assistant, ERS 340 – Ecosystem assessment</span>
+    <span class="dates">Spring 2021</span>
+  </div>
+  <div class="org">University of Waterloo (31 students; online)</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Teaching assistant, ERS 401 – Translational ecology</span>
+    <span class="dates">Winter 2021</span>
+  </div>
+  <div class="org">University of Waterloo (40 students; online)</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Teaching assistant, ERS 335 – Ecological restoration</span>
+    <span class="dates">Fall 2020</span>
+  </div>
+  <div class="org">University of Waterloo (40 students; online)</div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Teaching assistant (multiple courses)</span>
+    <span class="dates">Sept 2019 – Aug 2020</span>
+  </div>
+  <div class="org">University of Waterloo: ENVS 200, ERS 402, ERS 300</div>
+</div>
+
+
+<!-- ═══════════ WORK EXPERIENCE ═══════════ -->
+<h2 class="cv-section">Work Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Communications Manager – Reep Green Solutions</span>
+    <span class="dates">2021 – 2023</span>
+  </div>
+  <ul>
+    <li>Developed and executed engaging, accessible and effective communications strategies to increase knowledge of sustainability in community members.</li>
+    <li>Mobilized knowledge through partnerships with university researchers around climate mapping and flood risk.</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Digital Media Producer – TVO</span>
+    <span class="dates">2015 – 2018</span>
+  </div>
+  <ul>
+    <li>Produced and directed Climate Watch Shorts, a series of short documentaries on the impacts of climate change in Ontario.</li>
+    <li>Led the creation of TVO's first podcast (The #onpoli podcast).</li>
+  </ul>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">Staff Reporter – Toronto Star</span>
+    <span class="dates">2012 – 2015</span>
+  </div>
+  <ul>
+    <li>Covered major news stories including the Rob Ford scandal, Jian Ghomeshi's trial, and the impact of residential schools.</li>
+    <li>Managed large-scale, multi-part feature reporting projects.</li>
+  </ul>
+</div>
+
+
+<!-- ═══════════ PUBLICATIONS (from CSV) ═══════════ -->
+<h2 class="cv-section">Publications</h2>
+
+<ul class="pub-list">
+{% for pub in all_pubs %}
+  <li>
+    <span class="pub-year">{{ pub.year }}</span>
+    {{ pub.authors }}.
+{% if pub.url != "" %}
+    &ldquo;<a href="{{ pub.url }}">{{ pub.title }}</a>.&rdquo;
+{% else %}
+    &ldquo;{{ pub.title }}.&rdquo;
+{% endif %}
+    <em>{{ pub.journal }}</em>{% if pub.status != "published" %} ({{ pub.status }}){% endif %}.
+{% if pub.url != "" %}
+    <a href="{{ pub.url }}">{{ pub.url }}</a>
+{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+
+<!-- ═══════════ PRESENTATIONS (from CSV) ═══════════ -->
+<h2 class="cv-section">Presentations and Invited Lectures</h2>
+
+<ul class="pres-list">
+{% for pres in presentations %}
+  <li>
+    <span class="pub-year">{{ pres.year }}</span>
+    {{ pres.authors }}.
+    &ldquo;{{ pres.title }}&rdquo;
+    {{ pres.venue }}.{% if pres.invited == "TRUE" %} (Invited){% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+
+<!-- ═══════════ WORKSHOPS HOSTED ═══════════ -->
+<h2 class="cv-section">Workshops and Conferences Hosted</h2>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">GLELxSciComm: A Day of Science Communication Learning</span>
+    <span class="dates">2025</span>
+  </div>
+  <p>Full day workshop providing science communication training for 40 students and staff at Carleton.</p>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-entry-header">
+    <span class="role">From Abstract to Action</span>
+    <span class="dates">2024</span>
+  </div>
+  <p>Series of three talks organized for members of the GLEL. Approximately 40 faculty and students attended each talk.</p>
+</div>
+
+
+<!-- ═══════════ PROFESSIONAL SERVICE ═══════════ -->
+<h2 class="cv-section">Professional Service</h2>
+
+<h3 class="cv-subsection">Peer Reviews</h3>
+<p>Restoration Ecology; Sustainability Science; Society &amp; Natural Resources; Ecology &amp; Society; People &amp; Nature</p>
+
+<h3 class="cv-subsection">Grant Reviews</h3>
+<p>Digital Research Alliance – EDIA Champions Program; Earth Science Information Partners (ESIP) – Community Resilience RFP</p>
+
+<h3 class="cv-subsection">Service Roles</h3>
+<ul class="simple-list">
+  <li><span class="sl-dates">2025 – Current</span> Member, Knowledge Mobilization Community of Practice (UW)</li>
+  <li><span class="sl-dates">2025 – Current</span> Member, Natural Spaces Working Group (UW)</li>
+  <li><span class="sl-dates">2024 – Current</span> Board Member at-large, Ecological Studies Association of Canada (ESAC)</li>
+  <li><span class="sl-dates">2024 – 2025</span> Land Stewardship Committee Member, Ignatius Jesuit Centre</li>
+  <li><span class="sl-dates">2024 – 2025</span> Board Member, Emerging Leaders for Biodiversity (ELB)</li>
+  <li><span class="sl-dates">2021 – 2022</span> Writing Café Organizer, Weekend Warriors Writing Café, University of Waterloo</li>
+  <li><span class="sl-dates">2020 – 2021</span> Board Member, Society for Ecological Restoration (Ontario)</li>
+  <li><span class="sl-dates">2019 – 2021</span> Member, Ecological and Environmental Advisory Committee, Region of Waterloo</li>
+</ul>
+
+
+<!-- ═══════════ PROFESSIONAL TRAINING ═══════════ -->
+<h2 class="cv-section">Professional Training</h2>
+
+<ul class="simple-list">
+  <li><span class="sl-dates">2025</span> MobilizeU Knowledge Mobilization Certificate, Simon Fraser University</li>
+  <li><span class="sl-dates">2024</span> Knowledge Graphs – Foundations and Applications, Hasso Plattner Institute, Potsdam, Germany</li>
+  <li><span class="sl-dates">2024</span> Mental Health Literacy Certificate Program, University of Waterloo</li>
+  <li><span class="sl-dates">2021 – 2022</span> Certificate in University Teaching, University of Waterloo</li>
+  <li><span class="sl-dates">2020</span> Ontario Master Naturalist Certificate, Lakehead University</li>
+  <li><span class="sl-dates">2020</span> Data-Driven Ecological Synthesis Summer School</li>
+  <li><span class="sl-dates">2019</span> Ontario Benthic Biomonitoring Network (OBBN) Certificate</li>
+  <li><span class="sl-dates">2019</span> Common Cause for Conservation Values-Based Communications Training</li>
+</ul>
+
+
+<!-- ═══════════ FUNDING AND AWARDS ═══════════ -->
+<h2 class="cv-section">Funding and Awards</h2>
+
+<ul class="simple-list">
+  <li><span class="sl-dates">2025</span> University of Waterloo Sustainability Action Fund (collaborator) — $20,000</li>
+  <li><span class="sl-dates">2025</span> PSAC 77000 Postdoctoral Fellow Award — Finalist</li>
+  <li><span class="sl-dates">2024</span> NSERC Alliance fund with Ducks Unlimited — $355,000</li>
+  <li><span class="sl-dates">2021 – 2022</span> University of Waterloo Sustainability Action Fund — $20,000</li>
+  <li><span class="sl-dates">2022</span> Certificate in University Teaching Award — $1,000</li>
+  <li><span class="sl-dates">2020</span> Ontario Trillium Fund — $70,000</li>
+  <li><span class="sl-dates">2020</span> Waterloo Environment Students Endowment Fund — $1,000</li>
+  <li><span class="sl-dates">2019</span> Waterloo Environment Students Endowment Fund — $300</li>
+</ul>
+
+</body>
+</html>
