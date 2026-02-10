@@ -96,7 +96,6 @@
           <hr class="rule">
         </div>
 
-{% if featured_pubs or length > 0 -%}
 <div class="featured-pubs mt-2">
   <div class="d-flex align-items-center gap-2 mb-2">
     <h4 class="mb-0">Featured publications</h4>
@@ -106,69 +105,193 @@
   </div>
 
   <ul class="list-unstyled mb-0">
-{% for pub in featured_pubs -%}
-    <li class="paper paper-featured" data-key="{{ pub.key }}">
+<li class="paper paper-featured" data-key="sepr-2026">
       <span class="paper-title">
-        {{ pub.year }} &mdash; {{ pub.authors_html }}.
-{% if pub.url != "" -%}
-        <a href="{{ pub.url }}">{{ pub.title }}</a>
-{% else %}
-        &ldquo;{{ pub.title }}&rdquo;
-{% endif %}
-{% if pub.pdf != "" -%}
-        (<a href="{{ pub.pdf }}">pdf</a>)
-{% endif %}
+        2026 &mdash; <strong>Tim Alamenciak</strong>, Nancy Shackelford, Logan Rehberg, Ash Baron, Steven D. Murphy, Eric Higgs, Tina Heger, Alina Fisher, Bruno Travassos-Britto, Ryan Stephenson.
+<a href="https://link.springer.com/article/10.1007/s42532-025-00243-y">Paths to more quickly and effectively bridge science-practice gap in ecosystem restoration in Canada</a>
+
+(<a href="pdf/AlamenciakEtAl_2026.pdf">pdf</a>)
+
       </span><br>
-      <em>{{ pub.journal }}</em>{% if pub.status != "published" %} ({{ pub.status }}){% endif %}.
+      <em>Socio-Ecological Practice Research</em>.
 
       <p class="featured-reason mb-0">
         <i class="fa-solid fa-bolt me-1"></i>
-        <strong>Featured because:</strong> {{ pub.featured_reason }}
+        <strong>Featured because:</strong> This paper provides actionable strategies for bridging restoration science and practice in Canada aligning directly with my translational research focus.
       </p>
     </li>
-{% endfor %}
+<li class="paper paper-featured" data-key="rec-2025">
+      <span class="paper-title">
+        2025 &mdash; <strong>Tim Alamenciak</strong>, Elise Gornish, Stephen D. Murphy.
+<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028">Dimensions of Effective Volunteer Restoration Techniques in North America</a>
+
+(<a href="pdf/AlamenciakEtAl_2025.pdf">pdf</a>)
+
+      </span><br>
+      <em>Restoration Ecology</em>.
+
+      <p class="featured-reason mb-0">
+        <i class="fa-solid fa-bolt me-1"></i>
+        <strong>Featured because:</strong> This paper identifies core dimensions of effective volunteer-based restoration aligning participation that is ecologically meaningful and durable.
+      </p>
+    </li>
+<li class="paper paper-featured" data-key="tpdl-2025">
+      <span class="paper-title">
+        2025 &mdash; <strong>Tim Alamenciak</strong>, Carlos Alberto Arnillas, J. Harry Caufield, Katherine Compton, Kian Drew, Robert Frühstückl, Tina Heger, Birgitta König-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, Lars Vogt.
+<a href="https://link.springer.com/chapter/10.1007/978-3-032-06136-2_33">Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</a>
+
+(<a href="pdf/AlamenciakEtAl_2025b.pdf">pdf</a>)
+
+      </span><br>
+      <em>New Trends in Theory and Practice of Digital Libraries</em>.
+
+      <p class="featured-reason mb-0">
+        <i class="fa-solid fa-bolt me-1"></i>
+        <strong>Featured because:</strong> This paper proposes a shared schema for ecological knowledge graphs enabling interoperable data synthesis and reusable evidence pipelines across projects.
+      </p>
+    </li>
+
   </ul>
 </div>
-{% endif %}
+
 
 <!-- PEER-REVIEWED PUBLICATIONS -->
         <h4 class="mt-2">Peer-reviewed</h4>
         <ul class="list-unstyled">
-{% for pub in peer_reviewed_pubs %}
+
           <li class="paper">
-            <span class="paper-title">{{ pub.year }} &mdash; {{ pub.authors_html }}.
-{% if pub.url != "" %}
-              <a href="{{ pub.url }}">{{ pub.title }}</a>
-{% else %}
-              &ldquo;{{ pub.title }}&rdquo;
-{% endif %}
-{% if pub.pdf != "" %}
-              (<a href="{{ pub.pdf }}">pdf</a>)
-{% endif %}
+            <span class="paper-title">2026 &mdash; <strong>Tim Alamenciak</strong>, Nancy Shackelford, Logan Rehberg, Ash Baron, Steven D. Murphy, Eric Higgs, Tina Heger, Alina Fisher, Bruno Travassos-Britto, Ryan Stephenson.
+
+              <a href="https://link.springer.com/article/10.1007/s42532-025-00243-y">Paths to more quickly and effectively bridge science-practice gap in ecosystem restoration in Canada</a>
+
+
+              (<a href="pdf/AlamenciakEtAl_2026.pdf">pdf</a>)
+
             </span><br>
-            <em>{{ pub.journal }}</em>{% if pub.status != "published" %} ({{ pub.status }}){% endif %}.
+            <em>Socio-Ecological Practice Research</em>.
           </li>
-{% endfor %}
+
+          <li class="paper">
+            <span class="paper-title">2025 &mdash; Jeffrey O. Hanson, Jenny L. McCune, <strong>Tim Alamenciak</strong>, Joseph R. Bennett.
+
+              <a href="https://doi.org/10.1016/j.biocon.2025.111552">Increasing the credibility of conservation plans through citizen science</a>
+
+
+            </span><br>
+            <em>Biological Conservation</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2025 &mdash; Josie South, Roxana Barbulescu, Rafael L. Macêdo, Camille L. Musseau, Simone Guareschi, <strong>Tim Alamenciak</strong>, et al..
+
+              <a href="https://doi.org/10.1093/biosci/biaf073">Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al.</a>
+
+
+            </span><br>
+            <em>BioScience</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2025 &mdash; <strong>Tim Alamenciak</strong>, Elise Gornish, Stephen D. Murphy.
+
+              <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028">Dimensions of Effective Volunteer Restoration Techniques in North America</a>
+
+
+              (<a href="pdf/AlamenciakEtAl_2025.pdf">pdf</a>)
+
+            </span><br>
+            <em>Restoration Ecology</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2025 &mdash; <strong>Tim Alamenciak</strong>, Carlos Alberto Arnillas, J. Harry Caufield, Katherine Compton, Kian Drew, Robert Frühstückl, Tina Heger, Birgitta König-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, Lars Vogt.
+
+              <a href="https://link.springer.com/chapter/10.1007/978-3-032-06136-2_33">Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</a>
+
+
+              (<a href="pdf/AlamenciakEtAl_2025b.pdf">pdf</a>)
+
+            </span><br>
+            <em>New Trends in Theory and Practice of Digital Libraries</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2024 &mdash; <strong>Tim Alamenciak</strong>, Stephen D. Murphy.
+
+              <a href="https://doi.org/10.5751/ES-15258-290303">What makes a convivial community tool? Investigating grassroots ecological restoration</a>
+
+
+            </span><br>
+            <em>Ecology & Society</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2024 &mdash; <strong>Tim Alamenciak</strong>, Stephen D. Murphy.
+
+              <a href="https://doi.org/10.1111/rec.14155">Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map</a>
+
+
+            </span><br>
+            <em>Restoration Ecology</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2023 &mdash; <strong>Tim Alamenciak</strong>, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs.
+
+              <a href="https://doi.org/10.1139/facets-2022-0157">Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</a>
+
+
+            </span><br>
+            <em>FACETS</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2022 &mdash; Sutherland, William J.; Jake M. Robinson; David C. Aldridge; <strong>Tim Alamenciak</strong>; Matthew Armes; Nina Baranduin; Andrew J. Bladon; et al..
+
+              <a href="https://doi.org/10.52201/CEJ19XIFF2753">Creating Testable Questions in Practical Conservation</a>
+
+
+            </span><br>
+            <em>Conservation Evidence Journal</em>.
+          </li>
+
+          <li class="paper">
+            <span class="paper-title">2020 &mdash; Lazurko, Anita; <strong>Tim Alamenciak</strong>; Lowine Stella Hill; Ella-Kari Muhl; Augustine Kwame Osei; Dorian Pomezanski; Kyle Schang; Dilruba Fatima Sharmin.
+
+              <a href="https://doi.org/10.1177/1946756720976710">What Will a PhD Look Like in the Future?</a>
+
+
+            </span><br>
+            <em>World Futures Review</em>.
+          </li>
+
         </ul>
 
 <!-- PREPRINTS -->
-{% if preprint_pubs or length > 0 %}
+
         <h4 class="mt-3">Pre-prints and conference papers</h4>
         <ul class="list-unstyled">
-{% for pub in preprint_pubs %}
+
           <li class="paper">
-            <span class="paper-title">{{ pub.year }} &mdash; {{ pub.authors_html }}.
-{% if pub.url != "" %}
-              <a href="{{ pub.url }}">{{ pub.title }}</a>
-{% else %}
-              &ldquo;{{ pub.title }}&rdquo;
-{% endif %}
+            <span class="paper-title">2026 &mdash; Ryan Y. Hodgson, Steven A. Robinson, Amélie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E. L. Hanna, <strong>Tim Alamenciak</strong>.
+
+              &ldquo;Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis&rdquo;
+
             </span><br>
-            <em>{{ pub.journal }}</em>{% if pub.status != "published" %} ({{ pub.status }}){% endif %}.
+            <em>Environmental Evidence</em> (in_revision).
           </li>
-{% endfor %}
+
+          <li class="paper">
+            <span class="paper-title">2025 &mdash; Lars Vogt, Birgitta König-Ries, <strong>Tim Alamenciak</strong>, Joshua I. Brian, Carlos Alberto Arnillas, Lotte Korell, Robert Frühstückl, Tina Heger.
+
+              <a href="https://doi.org/10.48550/arXiv.2508.08959">A Framework for FAIR and CLEAR Ecological Data and Knowledge</a>
+
+            </span><br>
+            <em>arXiv</em>.
+          </li>
+
         </ul>
-{% endif %}
+
 
         <p class="small-note mb-0">
           My full publication history is listed in the CV.
