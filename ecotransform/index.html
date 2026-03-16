@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoTransform — AI & Ecology Hackathon · Waterloo</title>
+  <meta name="description" content="A 48-hour hackathon at the University of Waterloo where coders, ecologists, and designers build AI tools for biodiversity restoration." />
+
+  <!-- Match your site's Google Fonts exactly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ── Design tokens matching timalamenciak.github.io ── */
+    :root {
+      --green:       #2a4a1e;
+      --green-mid:   #3a6229;
+      --green-light: #5a8a3e;
+      --green-pale:  #e8f0e3;
+      --green-faint: #f4f8f1;
+      --ink:         #1a1a1a;
+      --ink-mid:     #444;
+      --ink-light:   #777;
+      --rule:        #d0d8cb;
+      --white:       #ffffff;
+      --gold:        #c5a028;
+      --crystal:     #6ab0c8;
+      --leaf:        #4a8a2e;
+
+      --font-body:   'Crimson Pro', Georgia, serif;
+      --font-mono:   'Source Code Pro', monospace;
+      --max-w:       860px;
+      --side-pad:    2rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      font-size: 1.15rem;
+      line-height: 1.75;
+      color: var(--ink);
+      background: var(--white);
+    }
+
+    /* ── Nav — exact match to your site ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--white);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem var(--side-pad);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    nav .site-name {
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.2rem 1.2rem;
+      font-size: 0.92rem;
+    }
+
+    nav a {
+      color: var(--ink-mid);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    nav a:hover { color: var(--green); }
+
+    /* ── Hero ── */
+    .hero {
+      background: var(--green);
+      color: var(--white);
+      padding: 5rem var(--side-pad) 4rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Subtle texture overlay */
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 3px,
+          rgba(255,255,255,0.018) 3px,
+          rgba(255,255,255,0.018) 4px
+        );
+      pointer-events: none;
+    }
+
+    .hero-inner { position: relative; max-width: var(--max-w); margin: 0 auto; }
+
+    .hero-raccoon {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,0.35);
+      object-fit: cover;
+      margin-bottom: 1.5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      /* Flickr CC-BY photo by GregTheBusker */
+    }
+
+    .hero h1 {
+      font-family: var(--font-body);
+      font-weight: 300;
+      font-size: clamp(2.4rem, 6vw, 3.6rem);
+      letter-spacing: -0.01em;
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero h1 strong { font-weight: 600; }
+
+    .hero .tagline {
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 0.82;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem 2rem;
+      font-size: 0.95rem;
+      opacity: 0.78;
+      font-family: var(--font-mono);
+      margin-bottom: 2.5rem;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.65rem 1.8rem;
+      border-radius: 3px;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity 0.15s, transform 0.1s;
+      cursor: pointer;
+    }
+
+    .btn:hover { opacity: 0.88; transform: translateY(-1px); }
+
+    .btn-primary {
+      background: var(--white);
+      color: var(--green);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--white);
+      border: 1.5px solid rgba(255,255,255,0.55);
+    }
+
+    /* ── Main content ── */
+    main {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 var(--side-pad);
+    }
+
+    /* ── Section headings — your site style ── */
+    section { padding: 3.5rem 0 2rem; }
+
+    section + section { border-top: 1px solid var(--rule); }
+
+    h2 {
+      font-family: var(--font-body);
+      font-size: 1.55rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 1.2rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--green-mid);
+      margin-bottom: 0.4rem;
+      margin-top: 1.6rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    p:last-child { margin-bottom: 0; }
+
+    a { color: var(--green-mid); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    strong { font-weight: 600; }
+    em { font-style: italic; }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2rem 0;
+    }
+
+    /* ── About callout ── */
+    .callout {
+      background: var(--green-faint);
+      border-left: 3px solid var(--green-light);
+      padding: 1.1rem 1.4rem;
+      margin: 1.5rem 0;
+      font-size: 1.05rem;
+    }
+
+    /* ── Tracks ── */
+    .tracks {
+      display: grid;
+      gap: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    .track-card {
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      padding: 1.3rem 1.5rem;
+      position: relative;
+    }
+
+    .track-card .track-num {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--green-light);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+
+    .track-card h3 {
+      margin-top: 0;
+      font-size: 1.05rem;
+      color: var(--ink);
+    }
+
+    .track-card p { font-size: 1rem; color: var(--ink-mid); }
+
+    .track-card .tag {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      background: var(--green-pale);
+      color: var(--green);
+      padding: 0.15rem 0.5rem;
+      border-radius: 2px;
+      margin-top: 0.6rem;
+    }
+
+    /* ── Awards ── */
+    .awards {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .award-card {
+      display: grid;
+      grid-template-columns: 3rem 1fr;
+      gap: 1rem;
+      align-items: start;
+      padding: 1.2rem 1.4rem;
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+    }
+
+    .award-icon {
+      font-size: 2rem;
+      line-height: 1;
+      padding-top: 0.15rem;
+    }
+
+    .award-card h3 {
+      margin-top: 0;
+      color: var(--ink);
+      font-size: 1.05rem;
+    }
+
+    .award-meta {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--ink-light);
+      margin-bottom: 0.3rem;
+    }
+
+    .award-card p {
+      font-size: 1rem;
+      color: var(--ink-mid);
+      margin-bottom: 0;
+    }
+
+    /* ── Schedule ── */
+    .schedule-day { margin-bottom: 1.8rem; }
+
+    .schedule-day h3 {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--green-light);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+      margin-top: 0;
+    }
+
+    .schedule-item {
+      display: grid;
+      grid-template-columns: 5rem 1fr;
+      gap: 0.8rem;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid var(--green-faint);
+      font-size: 1rem;
+    }
+
+    .schedule-item time {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: var(--ink-light);
+      padding-top: 0.1rem;
+    }
+
+    .schedule-item .event { color: var(--ink-mid); }
+
+    .schedule-item .event strong { color: var(--ink); }
+
+    /* ── Raccoon gallery ── */
+    .raccoon-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.8rem;
+      margin: 1.5rem 0;
+    }
+
+    .raccoon-gallery figure {
+      margin: 0;
+      overflow: hidden;
+      border-radius: 3px;
+    }
+
+    .raccoon-gallery img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .raccoon-gallery img:hover { transform: scale(1.03); }
+
+    .raccoon-gallery figcaption {
+      font-size: 0.72rem;
+      color: var(--ink-light);
+      font-family: var(--font-mono);
+      padding: 0.3rem 0;
+      line-height: 1.3;
+    }
+
+    /* ── Apply section ── */
+    .apply-box {
+      background: var(--green);
+      color: var(--white);
+      border-radius: 4px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      margin: 2rem 0 3rem;
+    }
+
+    .apply-box h2 { color: var(--white); font-size: 1.8rem; margin-bottom: 0.6rem; }
+
+    .apply-box p { opacity: 0.82; margin-bottom: 1.5rem; }
+
+    /* ── Sidebar-style info blocks ── */
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .info-block h3 {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--green-light);
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+
+    .info-block p, .info-block li {
+      font-size: 1rem;
+      color: var(--ink-mid);
+    }
+
+    .info-block ul {
+      padding-left: 1.1rem;
+    }
+
+    /* ── Footer — exact match ── */
+    footer {
+      border-top: 1px solid var(--rule);
+      padding: 2rem var(--side-pad);
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem 3rem;
+      font-size: 0.9rem;
+      color: var(--ink-light);
+    }
+
+    footer h4 {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--ink-light);
+      margin-bottom: 0.4rem;
+    }
+
+    footer a { color: var(--ink-mid); }
+    footer a:hover { color: var(--green); text-decoration: underline; }
+
+    /* ── Space gallery ── */
+    .space-gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+      margin: 1.5rem 0 0.5rem;
+    }
+
+    .space-gallery figure {
+      margin: 0;
+      overflow: hidden;
+      border-radius: 3px;
+    }
+
+    .space-gallery img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .space-gallery img:hover { transform: scale(1.02); }
+
+    .photo-credit {
+      font-size: 0.78rem;
+      color: var(--ink-light);
+      font-family: var(--font-mono);
+      margin-bottom: 0;
+    }
+
+    /* ── Supporters / sponsors bar ── */
+    .supporters {
+      margin: 2rem 0 0;
+    }
+
+    .supporters-label {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--ink-light);
+      text-align: center;
+      margin-bottom: 1.4rem;
+    }
+
+    .supporters-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1.2rem 2.8rem;
+    }
+
+    .supporter-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      padding: 1.2rem 2rem;
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      min-width: 160px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .supporter-card:hover {
+      border-color: var(--green-light);
+      box-shadow: 0 2px 10px rgba(42,74,30,0.08);
+      text-decoration: none;
+    }
+
+    /* NVIDIA wordmark — green eye + white text rendered in CSS */
+    .logo-nvidia {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-nvidia .eye {
+      width: 26px;
+      height: 26px;
+      /* NVIDIA eye mark shape approximated as CSS */
+      background: #76b900;
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      flex-shrink: 0;
+    }
+
+    .logo-nvidia .wordmark {
+      font-family: var(--font-mono);
+      font-size: 1.15rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      color: var(--ink);
+    }
+
+    /* SJU crest-style wordmark */
+    .logo-sju {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.15rem;
+      text-align: center;
+    }
+
+    .logo-sju .sju-name {
+      font-family: var(--font-body);
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--ink);
+      line-height: 1.2;
+    }
+
+    .logo-sju .sju-sub {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+    }
+
+    /* EcoWeaver logotype */
+    .logo-ecoweaver {
+      font-family: var(--font-body);
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--green);
+      letter-spacing: -0.01em;
+    }
+
+    .logo-ecoweaver .eco { color: var(--green); }
+    .logo-ecoweaver .weaver { color: var(--ink); }
+
+    .supporter-card .supporter-role {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--ink-light);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      :root { --side-pad: 1.2rem; }
+
+      nav ul { gap: 0.15rem 0.9rem; font-size: 0.85rem; }
+
+      .info-grid { grid-template-columns: 1fr; }
+      .raccoon-gallery { grid-template-columns: repeat(2, 1fr); }
+      .space-gallery { grid-template-columns: 1fr; }
+      footer { grid-template-columns: 1fr; }
+
+      .award-card { grid-template-columns: 2.4rem 1fr; }
+    }
+
+    /* ── Fade-in on load ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-inner { animation: fadeUp 0.6s ease both; }
+
+    main section {
+      animation: fadeUp 0.5s ease both;
+      animation-play-state: paused;
+    }
+
+    main section.visible { animation-play-state: running; }
+  </style>
+</head>
+<body>
+
+<!-- ── Nav ── -->
+<nav>
+  <a class="site-name" href="https://timalamenciak.github.io/">Tim Alamenciak</a>
+  <ul>
+    <li><a href="https://timalamenciak.github.io/#about">About</a></li>
+    <li><a href="https://timalamenciak.github.io/#publications">Publications</a></li>
+    <li><a href="https://timalamenciak.github.io/#research">Research</a></li>
+    <li><a href="https://timalamenciak.github.io/blog/">Blog</a></li>
+    <li><a href="https://timalamenciak.github.io/#teaching">Teaching</a></li>
+    <li><a href="https://timalamenciak.github.io/pdf/Alamenciak_CV.pdf">CV (pdf)</a></li>
+    <li><a href="#supporters">Support</a></li>
+    <li><a href="#space">The Space</a></li>
+    <li><a href="#apply">Apply</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ── -->
+<header class="hero">
+  <div class="hero-inner">
+    <!--
+      Raccoon portrait — Wikimedia Commons
+      "Raccoon - Flickr - GregTheBusker (1).jpg"
+      CC BY 2.0 · GregTheBusker · https://commons.wikimedia.org/wiki/File:Raccoon_-_Flickr_-_GregTheBusker_(1).jpg
+    -->
+    <img
+      class="hero-raccoon"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Raccoon_-_Flickr_-_GregTheBusker_%281%29.jpg/320px-Raccoon_-_Flickr_-_GregTheBusker_%281%29.jpg"
+      alt="Raccoon portrait — CC BY 2.0 GregTheBusker via Wikimedia Commons"
+    />
+    <h1><strong>EcoTransform</strong></h1>
+    <p class="tagline">An AI &amp; Ecology Hackathon</p>
+    <div class="hero-meta">
+      <span>📍 University of Waterloo · St. Jerome's University</span>
+      <span>📅 Date TBD · 48 hours</span>
+      <span>🌿 Nibi HPC · NVIDIA DGX Spark</span>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#apply">Register Interest</a>
+      <a class="btn btn-secondary" href="#about">Learn More</a>
+    </div>
+  </div>
+</header>
+
+<!-- ── Main ── -->
+<main>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      EcoTransform is a 48-hour hackathon at the University of Waterloo where teams of coders,
+      ecologists, and designers build AI tools for <strong>biodiversity restoration and conservation</strong>.
+      Participants tackle a connected pipeline of challenges — from extracting structured knowledge
+      out of scientific literature, to building evidence-backed agents, to designing interfaces that
+      put that evidence in the hands of practitioners in the field.
+    </p>
+
+    <div class="callout">
+      Teams will have access to two compute resources: the <strong>Nibi supercomputer</strong> at the
+      University of Waterloo — one of Canada's most energy-efficient HPC systems — and an
+      <strong>NVIDIA DGX Spark</strong> on-site for local GPU inference and fine-tuning workloads.
+    </div>
+
+    <p>
+      The event emphasizes <strong>sustainable AI</strong>: we award a dedicated prize for the solution
+      with the smallest environmental footprint. Tools built to protect nature should themselves tread lightly.
+    </p>
+
+    <div class="info-grid">
+      <div class="info-block">
+        <h3>Who Should Apply</h3>
+        <ul>
+          <li>Software developers &amp; ML engineers</li>
+          <li>Restoration &amp; conservation ecologists</li>
+          <li>UX/UI designers</li>
+          <li>Data scientists &amp; knowledge engineers</li>
+        </ul>
+      </div>
+      <div class="info-block">
+        <h3>Team Size</h3>
+        <p>Teams of <strong>2–6 people</strong>. You may apply as an individual and be matched to a team,
+        or apply as a group. Interdisciplinary teams are strongly encouraged and will be prioritized.</p>
+      </div>
+    </div>
+
+    <!-- Raccoon gallery -->
+    <div class="raccoon-gallery">
+      <figure>
+        <!--
+          CC BY 2.0 · GregTheBusker · Wikimedia Commons
+          https://commons.wikimedia.org/wiki/File:Raccoon_-_Flickr_-_GregTheBusker_(1).jpg
+        -->
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Raccoon_-_Flickr_-_GregTheBusker_%281%29.jpg/400px-Raccoon_-_Flickr_-_GregTheBusker_%281%29.jpg"
+          alt="Raccoon portrait" loading="lazy" />
+        <figcaption>CC BY 2.0 GregTheBusker / Wikimedia</figcaption>
+      </figure>
+      <figure>
+        <!--
+          CC BY-SA 3.0 · Darkone · Wikimedia Commons
+          https://commons.wikimedia.org/wiki/File:Raccoon_climbing_in_tree_-_Cropped_and_color_corrected.jpg
+        -->
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Raccoon_climbing_in_tree_-_Cropped_and_color_corrected.jpg/400px-Raccoon_climbing_in_tree_-_Cropped_and_color_corrected.jpg"
+          alt="Raccoon climbing a tree" loading="lazy" />
+        <figcaption>CC BY-SA 3.0 Darkone / Wikimedia</figcaption>
+      </figure>
+      <figure>
+        <!--
+          CC BY 2.0 · GregTheBusker · Wikimedia Commons
+          https://commons.wikimedia.org/wiki/File:Raccoon_-_Flickr_-_GregTheBusker_(2).jpg
+        -->
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Raccoon_-_Flickr_-_GregTheBusker_%282%29.jpg/400px-Raccoon_-_Flickr_-_GregTheBusker_%282%29.jpg"
+          alt="Raccoon close-up" loading="lazy" />
+        <figcaption>CC BY 2.0 GregTheBusker / Wikimedia</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Tracks -->
+  <section id="tracks">
+    <h2>Tracks</h2>
+    <p>
+      EcoTransform is structured as three <strong>interconnected tracks</strong> — the output of each feeds
+      into the next. Two scheduled connection points over the weekend bring teams together to coordinate
+      across tracks.
+    </p>
+
+    <div class="tracks">
+      <div class="track-card">
+        <div class="track-num">Track 1</div>
+        <h3>Evidence Extraction Pipeline</h3>
+        <p>
+          Given a corpus of 308 restoration ecology studies (pre-converted to Markdown), build a pipeline
+          that extracts structured ecological relationships and outputs them in
+          <strong>KGX format</strong> compatible with EcoWeaver. Teams receive gold-standard annotated
+          papers as examples and optimize for extraction accuracy.
+        </p>
+        <span class="tag">CS-heavy · ecologists as domain experts</span>
+      </div>
+
+      <div class="track-card">
+        <div class="track-num">Track 2</div>
+        <h3>RAG Agent</h3>
+        <p>
+          Given a KGX ecological knowledge graph built from grassland restoration literature, build an
+          AI assistant that retrieves relevant subgraphs for practitioner queries, synthesizes
+          evidence-backed <strong>Rosetta-style statements</strong>, provides provenance, and
+          avoids hallucination outside the graph.
+        </p>
+        <span class="tag">Balanced CS + ecology</span>
+      </div>
+
+      <div class="track-card">
+        <div class="track-num">Track 3</div>
+        <h3>Practitioner Query Interface</h3>
+        <p>
+          Build an interface where a restoration practitioner can describe their site — ecosystem type,
+          geography, restoration goal — and receive relevant evidence from the GraphRAG agent, presented
+          as readable summaries with provenance.
+        </p>
+        <span class="tag">Design-heavy · CS for implementation</span>
+      </div>
+    </div>
+
+    <p style="margin-top:1.4rem; font-size:1rem; color:var(--ink-mid);">
+      All teams will work with <strong>Rosetta Statements</strong> supported by the
+      <a href="https://timalamenciak.github.io/rosettaR" target="_blank" rel="noopener">rosettaR package</a>
+      and are encouraged to engage with
+      <a href="https://obofoundry.org/ontology/envo.html" target="_blank" rel="noopener">ENVO</a>
+      (the Environment Ontology).
+    </p>
+  </section>
+
+  <!-- Awards -->
+  <section id="awards">
+    <h2>Awards</h2>
+    <p>
+      Three award categories recognise excellence, collaboration, and sustainability.
+      Awards are distributed across tracks and the event as a whole.
+    </p>
+
+    <div class="awards">
+      <div class="award-card">
+        <div class="award-icon">🥇</div>
+        <div>
+          <div class="award-meta">3 AWARDS · ONE PER TRACK</div>
+          <h3>Gold Raccoon — Best Solution</h3>
+          <p>
+            Awarded to the team delivering the strongest overall solution in their track.
+            Judged on technical execution, creativity, and real-world impact potential by a
+            panel of industry and academic experts.
+          </p>
+        </div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🤝</div>
+        <div>
+          <div class="award-meta">1 AWARD · EVENT-WIDE · PARTICIPANT VOTE</div>
+          <h3>Crystal Raccoon — Best Collaborator</h3>
+          <p>
+            Voted on by all participants on Sunday evening. Awarded to the team that most
+            enriched the weekend through cross-track collaboration, knowledge-sharing,
+            and generosity with their work.
+          </p>
+        </div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">🌿</div>
+        <div>
+          <div class="award-meta">3 AWARDS · ONE PER TRACK</div>
+          <h3>Green Raccoon — Most Sustainable Solution</h3>
+          <p>
+            Awarded to the team whose solution best demonstrates sustainable AI practices:
+            efficient compute, thoughtful model selection, minimal environmental footprint,
+            and responsible use of the Nibi and DGX Spark infrastructure. Teams include a sustainability
+            statement in their final presentation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule">
+    <h2>Schedule</h2>
+    <p>
+      The hackathon runs Friday–Monday at St. Jerome's University. Teams may submit code
+      to run on the <strong>Nibi supercomputer</strong> at four checkpoints across Saturday and Sunday.
+      An <strong>NVIDIA DGX Spark</strong> will be available on-site throughout the event for
+      local GPU inference, fine-tuning, and rapid iteration.
+    </p>
+
+    <div class="schedule-day">
+      <h3>Friday</h3>
+      <div class="schedule-item"><time>1:00 pm</time><span class="event">Introductory gathering, ice-breakers, overview of weekend format</span></div>
+      <div class="schedule-item"><time>2:30 pm</time><span class="event"><strong>Tour of Nibi supercomputer &amp; DGX Spark</strong> · HPC training</span></div>
+      <div class="schedule-item"><time>4:00 pm</time><span class="event"><strong>Delivery of private brief</strong></span></div>
+      <div class="schedule-item"><time>5:00 pm</time><span class="event">End of day</span></div>
+    </div>
+
+    <div class="schedule-day">
+      <h3>Saturday</h3>
+      <div class="schedule-item"><time>8:00 am</time><span class="event">Work rooms open · <strong>Nibi checkpoint 1</strong></span></div>
+      <div class="schedule-item"><time>12:00 pm</time><span class="event">Lunch + <strong>Connection Point 1</strong> (cross-track sync)</span></div>
+      <div class="schedule-item"><time>1:00 pm</time><span class="event">Work rooms open</span></div>
+      <div class="schedule-item"><time>5:00 pm</time><span class="event">End of day · <strong>Nibi checkpoint 2</strong></span></div>
+    </div>
+
+    <div class="schedule-day">
+      <h3>Sunday</h3>
+      <div class="schedule-item"><time>8:00 am</time><span class="event">Work rooms open · <strong>Nibi checkpoint 3</strong></span></div>
+      <div class="schedule-item"><time>12:00 pm</time><span class="event">Lunch + <strong>Connection Point 2</strong> (cross-track sync)</span></div>
+      <div class="schedule-item"><time>1:00 pm</time><span class="event">Work rooms open</span></div>
+      <div class="schedule-item"><time>5:00 pm</time><span class="event">End of day · <strong>Nibi checkpoint 4</strong></span></div>
+    </div>
+
+    <div class="schedule-day">
+      <h3>Monday</h3>
+      <div class="schedule-item"><time>1:00 pm</time><span class="event"><strong>Presentations, judging, prizes awarded</strong></span></div>
+    </div>
+  </section>
+
+  <!-- The Space -->
+  <section id="space">
+    <h2>The Space</h2>
+    <p>
+      EcoTransform is hosted in the <strong>DRAGEN Lab</strong> at St. Jerome's University —
+      3,600&nbsp;ft² (242&nbsp;m²) of purpose-built collaborative research space inside the
+      newly renovated St. Jerome's University Library on the University of Waterloo campus.
+    </p>
+    <p>
+      The lab was designed for exactly the kind of work EcoTransform demands: team-based,
+      cross-disciplinary, student-centred research supported by emerging technologies.
+      Exposed ceilings, modern feature lighting, and flexible collaboration zones create an
+      environment built for long focused sessions — the kind you need during a 48-hour hack.
+    </p>
+
+    <!-- SJU Library photos — © ABA Architects, used for reference -->
+    <div class="space-gallery">
+      <figure>
+        <img
+          src="https://abarchitect.ca/wp-content/uploads/2020/12/DSQ04459-1.jpg"
+          alt="St. Jerome's University Library — main collaboration space"
+          loading="lazy" />
+      </figure>
+      <figure>
+        <img
+          src="https://abarchitect.ca/wp-content/uploads/2020/12/DSQ04532.jpg"
+          alt="St. Jerome's University Library — flexible study areas"
+          loading="lazy" />
+      </figure>
+      <figure>
+        <img
+          src="https://abarchitect.ca/wp-content/uploads/2020/12/DSQ04526.jpg"
+          alt="St. Jerome's University Library — research zone"
+          loading="lazy" />
+      </figure>
+      <figure>
+        <img
+          src="https://abarchitect.ca/wp-content/uploads/2020/12/DSQ04384.jpg"
+          alt="St. Jerome's University Library — open work area"
+          loading="lazy" />
+      </figure>
+    </div>
+    <p class="photo-credit">
+      Photos: St. Jerome's University Library renovation ©
+      <a href="https://abarchitect.ca/projects/jeromes-university-library/" target="_blank" rel="noopener">ABA Architects</a>, 2020.
+      The DRAGEN Lab occupies 3,600&nbsp;ft² within this space.
+    </p>
+
+    <div class="info-grid" style="margin-top:1.8rem;">
+      <div class="info-block">
+        <h3>Facilities</h3>
+        <ul>
+          <li>Flexible team workrooms</li>
+          <li>High-density collaboration zones</li>
+          <li>Dedicated research area</li>
+          <li>On-site NVIDIA DGX Spark</li>
+          <li>Strong campus WiFi throughout</li>
+        </ul>
+      </div>
+      <div class="info-block">
+        <h3>Food &amp; Coffee</h3>
+        <p>
+          <strong>Lunch is provided on both Saturday and Sunday.</strong>
+          Coffee is available from 8&nbsp;am each morning.
+          We are also planning an evening social event — details to follow.
+          Participants with dietary requirements will be accommodated.
+        </p>
+      </div>
+    </div>
+
+    <p style="font-size:1rem; color:var(--ink-mid); margin-top:1rem;">
+      St. Jerome's University is located at 290 Westmount Road North, Waterloo, ON, a short walk
+      from the heart of the University of Waterloo campus and accessible via the ION light rail.
+      More information on <a href="https://www.sju.ca" target="_blank" rel="noopener">sju.ca</a>
+      and the <a href="https://www.dragenlab.ca" target="_blank" rel="noopener">DRAGEN Lab</a>.
+    </p>
+  </section>
+
+  <!-- Apply -->
+  <section id="apply">
+    <h2>Register Interest</h2>
+    <p>
+      Applications are open to teams of 2–6. Teams are selected based on the range and quality
+      of skills represented. Each applicant provides a ~150-word biography; one member is
+      designated as the corresponding contact. Selected teams complete a <strong>Team Charter</strong>
+      before the event.
+    </p>
+    <p>
+      You may also apply as an individual — we will do our best to match you with a team that
+      complements your skillset.
+    </p>
+
+    <div class="apply-box">
+      <h2>Ready to hack ecology?</h2>
+      <p>
+        Registration is managed via Luma. Click below to register your interest —<br />
+        full applications will open once the date is confirmed.
+      </p>
+      <a class="btn btn-primary" href="https://lu.ma" target="_blank" rel="noopener">
+        Register on Luma →
+      </a>
+    </div>
+  </section>
+
+  <!-- Sponsors -->
+  <section id="sponsors">
+    <h2>Sponsors &amp; Partners</h2>
+    <p>
+      EcoTransform is looking for sponsors to support prizes, food, and infrastructure.
+      Prize categories include the Gold Raccoon, Crystal Raccoon, and Green Raccoon.
+      We are particularly interested in contributions of API credits, hardware, cash prizes,
+      and software subscriptions.
+    </p>
+    <p>
+      If your organization is interested in sponsoring, please contact
+      <a href="mailto:Tim.A@uwaterloo.ca">Tim.A@uwaterloo.ca</a>.
+    </p>
+
+    <div class="info-grid" style="margin-top:1.8rem;">
+      <div class="info-block">
+        <h3>Organised by</h3>
+        <p>
+          <a href="https://timalamenciak.github.io/" target="_blank" rel="noopener">Tim Alamenciak</a><br />
+          St. Jerome's University ·<br />
+          University of Waterloo
+        </p>
+      </div>
+      <div class="info-block">
+        <h3>Infrastructure</h3>
+        <p>
+          <strong>Nibi</strong> — Sustainable HPC<br />
+          <strong>NVIDIA DGX Spark</strong> — On-site GPU<br />
+          University of Waterloo<br />
+          St. Jerome's University (venue)
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Supporters -->
+  <section id="supporters">
+    <h2>Support</h2>
+    <p>
+      EcoTransform is made possible through the support of the following organisations,
+      who provide infrastructure, venue, and knowledge systems for the event.
+    </p>
+
+    <div class="supporters">
+      <p class="supporters-label">Support from</p>
+      <div class="supporters-grid">
+
+        <a class="supporter-card" href="https://www.nvidia.com" target="_blank" rel="noopener" aria-label="NVIDIA">
+          <div class="logo-nvidia">
+            <div class="eye"></div>
+            <span class="wordmark">NVIDIA</span>
+          </div>
+          <span class="supporter-role">DGX Spark · On-site GPU</span>
+        </a>
+
+        <a class="supporter-card" href="https://www.sju.ca" target="_blank" rel="noopener" aria-label="St. Jerome's University">
+          <div class="logo-sju">
+            <span class="sju-name">St. Jerome's University</span>
+            <span class="sju-sub">Waterloo, Ontario</span>
+          </div>
+          <span class="supporter-role">Venue · DRAGEN Lab</span>
+        </a>
+
+        <a class="supporter-card" href="https://ecoweaver.hi-knowledge.org" target="_blank" rel="noopener" aria-label="EcoWeaver">
+          <div class="logo-ecoweaver">
+            <span class="eco">Eco</span><span class="weaver">Weaver</span>
+          </div>
+          <span class="supporter-role">Knowledge Framework</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── Footer ── -->
+<footer>
+  <div>
+    <h4>EcoTransform</h4>
+    <p>
+      An AI &amp; Ecology Hackathon<br />
+      University of Waterloo<br />
+      <a href="mailto:Tim.A@uwaterloo.ca">Tim.A@uwaterloo.ca</a>
+    </p>
+  </div>
+  <div>
+    <h4>Links</h4>
+    <p>
+      <a href="https://timalamenciak.github.io/">timalamenciak.github.io</a><br />
+      <a href="https://ecoweaver.hi-knowledge.org" target="_blank" rel="noopener">EcoWeaver</a><br />
+      <a href="https://timalamenciak.github.io/rosettaR" target="_blank" rel="noopener">rosettaR</a>
+    </p>
+  </div>
+  <div style="grid-column: 1 / -1; padding-top:0.8rem; border-top: 1px solid var(--rule); font-size:0.8rem; color:var(--ink-light);">
+    Raccoon photos: <a href="https://commons.wikimedia.org/wiki/File:Raccoon_-_Flickr_-_GregTheBusker_(1).jpg" target="_blank" rel="noopener">GregTheBusker</a> (CC BY 2.0),
+    <a href="https://commons.wikimedia.org/wiki/File:Raccoon_climbing_in_tree_-_Cropped_and_color_corrected.jpg" target="_blank" rel="noopener">Darkone</a> (CC BY-SA 3.0) — via Wikimedia Commons.
+    Page content © Tim Alamenciak.
+  </div>
+</footer>
+
+<script>
+  // Fade sections in on scroll
+  const sections = document.querySelectorAll('main section');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.07 });
+  sections.forEach(s => io.observe(s));
+</script>
+
+</body>
+</html>
