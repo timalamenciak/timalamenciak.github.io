@@ -12,24 +12,13 @@
     <itunes:explicit>false</itunes:explicit>
 
     <item>
-      <title>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</title>
-      <description>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</description>
-      <itunes:summary>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</itunes:summary>
-      <itunes:author>Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield</itunes:author>
-      <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
-      <link>https://doi.org/10.53962/wwhz-tjtk</link>
-      <enclosure url="/audio/facets-2023.mp3" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">facets-2026</guid>
-    </item>
-
-    <item>
       <title>Dimensions of Effective Volunteer Restoration Techniques in North America</title>
       <description>Dimensions of Effective Volunteer Restoration Techniques in North America</description>
       <itunes:summary>Dimensions of Effective Volunteer Restoration Techniques in North America</itunes:summary>
       <itunes:author>Tim Alamenciak, Elise Gornish, Stephen D. Murphy</itunes:author>
       <pubDate>01 Jan 2025 00:00:00 +0000</pubDate>
       <link>https://doi.org/10.53962/g8bx-s4aa</link>
-      <enclosure url="/audio/re-2025.mp3" type="audio/mpeg" length="0"/>
+      <enclosure url="https://timalamenciak.github.io/audio/re-2025.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">rec-2025</guid>
     </item>
 
@@ -40,7 +29,7 @@
       <itunes:author>Tim Alamenciak, Stephen D. Murphy</itunes:author>
       <pubDate>01 Jan 2024 00:00:00 +0000</pubDate>
       <link>https://doi.org/10.53962/h3gv-g93x</link>
-      <enclosure url="/audio/es-2024.mp3" type="audio/mpeg" length="0"/>
+      <enclosure url="https://timalamenciak.github.io/audio/es-2024.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">es-2024</guid>
     </item>
 
@@ -51,8 +40,19 @@
       <itunes:author>Tim Alamenciak, Stephen D. Murphy</itunes:author>
       <pubDate>01 Jan 2024 00:00:00 +0000</pubDate>
       <link>https://doi.org/10.53962/hprp-rh02</link>
-      <enclosure url="/audio/re-2024.mp3" type="audio/mpeg" length="0"/>
+      <enclosure url="https://timalamenciak.github.io/audio/re-2024.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">rec-2024</guid>
+    </item>
+
+    <item>
+      <title>Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</title>
+      <description>Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</description>
+      <itunes:summary>Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</itunes:summary>
+      <itunes:author>Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs</itunes:author>
+      <pubDate>01 Jan 2023 00:00:00 +0000</pubDate>
+      <link>https://doi.org/10.53962/wwhz-tjtk</link>
+      <enclosure url="https://timalamenciak.github.io/audio/facets-2023.mp3" type="audio/mpeg" length="0"/>
+      <guid isPermaLink="false">facets-2023</guid>
     </item>
 
   </channel>
