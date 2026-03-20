@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tim Alamenciak – Research Audio</title>
+    <link>https://alamenciak.ca</link>
+    <description>Audio versions of selected research publications by Tim Alamenciak.</description>
+    <language>en-us</language>
+    <itunes:author>Tim Alamenciak</itunes:author>
+    <itunes:category text="Science"/>
+    <itunes:explicit>false</itunes:explicit>
+
+    <item>
+      <title>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</title>
+      <description>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</description>
+      <itunes:summary>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</itunes:summary>
+      <itunes:author>Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield</itunes:author>
+      <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
+      <link>https://doi.org/10.53962/wwhz-tjtk</link>
+      <enclosure url="/audio/facets-2023.mp3" type="audio/mpeg" length="0"/>
+      <guid isPermaLink="false">facets-2026</guid>
+    </item>
+
+    <item>
+      <title>Dimensions of Effective Volunteer Restoration Techniques in North America</title>
+      <description>Dimensions of Effective Volunteer Restoration Techniques in North America</description>
+      <itunes:summary>Dimensions of Effective Volunteer Restoration Techniques in North America</itunes:summary>
+      <itunes:author>Tim Alamenciak, Elise Gornish, Stephen D. Murphy</itunes:author>
+      <pubDate>01 Jan 2025 00:00:00 +0000</pubDate>
+      <link>https://doi.org/10.53962/g8bx-s4aa</link>
+      <enclosure url="/audio/re-2025.mp3" type="audio/mpeg" length="0"/>
+      <guid isPermaLink="false">rec-2025</guid>
+    </item>
+
+    <item>
+      <title>What makes a convivial community tool? Investigating grassroots ecological restoration</title>
+      <description>What makes a convivial community tool? Investigating grassroots ecological restoration</description>
+      <itunes:summary>What makes a convivial community tool? Investigating grassroots ecological restoration</itunes:summary>
+      <itunes:author>Tim Alamenciak, Stephen D. Murphy</itunes:author>
+      <pubDate>01 Jan 2024 00:00:00 +0000</pubDate>
+      <link>https://doi.org/10.53962/h3gv-g93x</link>
+      <enclosure url="/audio/es-2024.mp3" type="audio/mpeg" length="0"/>
+      <guid isPermaLink="false">es-2024</guid>
+    </item>
+
+    <item>
+      <title>Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map</title>
+      <description>Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map</description>
+      <itunes:summary>Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map</itunes:summary>
+      <itunes:author>Tim Alamenciak, Stephen D. Murphy</itunes:author>
+      <pubDate>01 Jan 2024 00:00:00 +0000</pubDate>
+      <link>https://doi.org/10.53962/hprp-rh02</link>
+      <enclosure url="/audio/re-2024.mp3" type="audio/mpeg" length="0"/>
+      <guid isPermaLink="false">rec-2024</guid>
+    </item>
+
+  </channel>
+</rss>
+

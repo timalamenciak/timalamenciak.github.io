@@ -12,102 +12,14 @@
     <itunes:explicit>false</itunes:explicit>
 
     <item>
-      <title>Data, politics, and funding cause uncertainty for conservation practitioners</title>
-      <description>Data, politics, and funding cause uncertainty for conservation practitioners</description>
-      <itunes:summary>Data, politics, and funding cause uncertainty for conservation practitioners</itunes:summary>
-      <itunes:author>Courtney D. Robichaud, Christine Beaudoin, Tim Alamenciak, Jaimie Vincent, Steven J. Cooke, Vivian M. Nguyen, Richard Schuster, Nathan Young, Joseph R. Bennett</itunes:author>
-      <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
-      <link>NA</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">csp-2026</guid>
-    </item>
-
-    <item>
-      <title>Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis</title>
-      <description>Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis</description>
-      <itunes:summary>Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis</itunes:summary>
-      <itunes:author>Ryan Y. Hodgson, Steven A. Robinson, Amelie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E. L. Hanna, Tim Alamenciak</itunes:author>
-      <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
-      <link>https://link.springer.com/article/10.1186/s13750-026-00381-0</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">ee-2025</guid>
-    </item>
-
-    <item>
       <title>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</title>
       <description>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</description>
       <itunes:summary>Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era</itunes:summary>
       <itunes:author>Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield</itunes:author>
       <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
-      <link>NA</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
+      <link>https://doi.org/10.53962/wwhz-tjtk</link>
+      <enclosure url="/audio/facets-2023.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">facets-2026</guid>
-    </item>
-
-    <item>
-      <title>Operationalizing the CARE principles in evidence synthesis for ecology and conservation</title>
-      <description>Operationalizing the CARE principles in evidence synthesis for ecology and conservation</description>
-      <itunes:summary>Operationalizing the CARE principles in evidence synthesis for ecology and conservation</itunes:summary>
-      <itunes:author>Federica Bocchi, Aline Potiron, Eleonore Slabbert, Tim Alamenciak, Anika Grose, Birgitta Konig-Ries, Lotte Korell, Carlos Santana, Tina Heger</itunes:author>
-      <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
-      <link>NA</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">ncomm-2026</guid>
-    </item>
-
-    <item>
-      <title>Paths to more quickly and effectively bridge science-practice gap in ecosystem restoration in Canada</title>
-      <description>Paths to more quickly and effectively bridge science-practice gap in ecosystem restoration in Canada</description>
-      <itunes:summary>Paths to more quickly and effectively bridge science-practice gap in ecosystem restoration in Canada</itunes:summary>
-      <itunes:author>Tim Alamenciak, Nancy Shackelford, Logan Rehberg, Ash Baron, Steven D. Murphy, Eric Higgs, Tina Heger, Alina Fisher, Bruno Travassos-Britto, Ryan Stephenson</itunes:author>
-      <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
-      <link>https://link.springer.com/article/10.1007/s42532-025-00243-y</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">sepr-2026</guid>
-    </item>
-
-    <item>
-      <title>Supporting frontline workers in the biodiversity crisis by empowering and enabling practitioners to embrace conservation evidence</title>
-      <description>Supporting frontline workers in the biodiversity crisis by empowering and enabling practitioners to embrace conservation evidence</description>
-      <itunes:summary>Supporting frontline workers in the biodiversity crisis by empowering and enabling practitioners to embrace conservation evidence</itunes:summary>
-      <itunes:author>Steven J. Cooke, Kevin A. Adeli, Trina Rytwinski, Andrew N. Kadykalo, Jennifer Provencher, Vivian Nguyen, Joseph Bennett, Christina Davy, Rachel Buxton, Dalal Hanna, Jesse C. Vermaire, Sean Landsman, Nathan Young, Graeme Auld, Danika Littlechild, Jennifer M. Holzer, Meagan Harper, Andrew Howarth, Tim Alamenciak, Lauren Lawson, Jayme Lewthwaite, Erin E. Stukenholtz, Paul A. Smith, Ilona Naujokaitis-Lewis, Josie Hughes, Barbara Frei, Amanda Martin, Amie Black, Richard Pither, Douglas MacNearney, Kristen Lalla, Carmen Galan-Acedo and Christopher Cvitanovic</itunes:author>
-      <pubDate>01 Jan 2026 00:00:00 +0000</pubDate>
-      <link>NA</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">sepr-2026b</guid>
-    </item>
-
-    <item>
-      <title>A Framework for FAIR and CLEAR Ecological Data and Knowledge</title>
-      <description>A Framework for FAIR and CLEAR Ecological Data and Knowledge</description>
-      <itunes:summary>A Framework for FAIR and CLEAR Ecological Data and Knowledge</itunes:summary>
-      <itunes:author>Lars Vogt, Birgitta Konig-Ries, Tim Alamenciak, Joshua I. Brian, Carlos Alberto Arnillas, Lotte Korell, Robert Fruehstueckl, Tina Heger</itunes:author>
-      <pubDate>01 Jan 2025 00:00:00 +0000</pubDate>
-      <link>https://doi.org/10.48550/arXiv.2508.08959</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">arxiv-2025</guid>
-    </item>
-
-    <item>
-      <title>Increasing the credibility of conservation plans through citizen science</title>
-      <description>Increasing the credibility of conservation plans through citizen science</description>
-      <itunes:summary>Increasing the credibility of conservation plans through citizen science</itunes:summary>
-      <itunes:author>Jeffrey O. Hanson, Jenny L. McCune, Tim Alamenciak, Joseph R. Bennett</itunes:author>
-      <pubDate>01 Jan 2025 00:00:00 +0000</pubDate>
-      <link>https://doi.org/10.1016/j.biocon.2025.111552</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">biocon-2025</guid>
-    </item>
-
-    <item>
-      <title>Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al.</title>
-      <description>Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al.</description>
-      <itunes:summary>Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al.</itunes:summary>
-      <itunes:author>Josie South, Roxana Barbulescu, Rafael L. Macedo, Camille L. Musseau, Simone Guareschi, Tim Alamenciak, et al.</itunes:author>
-      <pubDate>01 Jan 2025 00:00:00 +0000</pubDate>
-      <link>https://doi.org/10.1093/biosci/biaf073</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">biosci-2025</guid>
     </item>
 
     <item>
@@ -116,20 +28,9 @@
       <itunes:summary>Dimensions of Effective Volunteer Restoration Techniques in North America</itunes:summary>
       <itunes:author>Tim Alamenciak, Elise Gornish, Stephen D. Murphy</itunes:author>
       <pubDate>01 Jan 2025 00:00:00 +0000</pubDate>
-      <link>https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
+      <link>https://doi.org/10.53962/g8bx-s4aa</link>
+      <enclosure url="/audio/re-2025.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">rec-2025</guid>
-    </item>
-
-    <item>
-      <title>Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</title>
-      <description>Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</description>
-      <itunes:summary>Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</itunes:summary>
-      <itunes:author>Tim Alamenciak, Carlos Alberto Arnillas, J. Harry Caufield, Katherine Compton, Kian Drew, Robert Fruehstueckl, Tina Heger, Birgitta Konig-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, Lars Vogt</itunes:author>
-      <pubDate>01 Jan 2025 00:00:00 +0000</pubDate>
-      <link>https://link.springer.com/chapter/10.1007/978-3-032-06136-2_33</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">tpdl-2025</guid>
     </item>
 
     <item>
@@ -139,7 +40,7 @@
       <itunes:author>Tim Alamenciak, Stephen D. Murphy</itunes:author>
       <pubDate>01 Jan 2024 00:00:00 +0000</pubDate>
       <link>https://doi.org/10.53962/h3gv-g93x</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
+      <enclosure url="/audio/es-2024.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">es-2024</guid>
     </item>
 
@@ -150,41 +51,8 @@
       <itunes:author>Tim Alamenciak, Stephen D. Murphy</itunes:author>
       <pubDate>01 Jan 2024 00:00:00 +0000</pubDate>
       <link>https://doi.org/10.53962/hprp-rh02</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
+      <enclosure url="/audio/re-2024.mp3" type="audio/mpeg" length="0"/>
       <guid isPermaLink="false">rec-2024</guid>
-    </item>
-
-    <item>
-      <title>Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</title>
-      <description>Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</description>
-      <itunes:summary>Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?</itunes:summary>
-      <itunes:author>Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs</itunes:author>
-      <pubDate>01 Jan 2023 00:00:00 +0000</pubDate>
-      <link>https://doi.org/10.1139/facets-2022-0157</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">facets-2023</guid>
-    </item>
-
-    <item>
-      <title>Creating Testable Questions in Practical Conservation</title>
-      <description>Creating Testable Questions in Practical Conservation</description>
-      <itunes:summary>Creating Testable Questions in Practical Conservation</itunes:summary>
-      <itunes:author>William J. Sutherland, Jake M. Robinson, David C. Aldridge, Tim Alamenciak, Matthew Armes, Nina Baranduin, Andrew J. Bladon, et al.</itunes:author>
-      <pubDate>01 Jan 2022 00:00:00 +0000</pubDate>
-      <link>https://doi.org/10.52201/CEJ19XIFF2753</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">cej-2022</guid>
-    </item>
-
-    <item>
-      <title>What Will a PhD Look Like in the Future?</title>
-      <description>What Will a PhD Look Like in the Future?</description>
-      <itunes:summary>What Will a PhD Look Like in the Future?</itunes:summary>
-      <itunes:author>Anita Lazurko, Tim Alamenciak, Lowine Stella Hill, Ella-Kari Muhl, Augustine Kwame Osei, Dorian Pomezanski, Kyle Schang, Dilruba Fatima Sharmin</itunes:author>
-      <pubDate>01 Jan 2020 00:00:00 +0000</pubDate>
-      <link>https://doi.org/10.1177/1946756720976710</link>
-      <enclosure url="NA" type="audio/mpeg" length="0"/>
-      <guid isPermaLink="false">wfr-2020</guid>
     </item>
 
   </channel>
