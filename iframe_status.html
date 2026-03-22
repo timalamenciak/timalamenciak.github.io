@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nibi API Status Embed</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #f7f7f7;
+      color: #1f2933;
+    }
+
+    .status-card {
+      background: #ffffff;
+      border: 1px solid #d9e2ec;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .status-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .indicator {
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      background: #d64545;
+      flex: 0 0 auto;
+    }
+
+    .indicator.ok {
+      background: #1f9d55;
+    }
+
+    .message {
+      font-weight: 600;
+    }
+
+    .meta {
+      color: #52606d;
+      font-size: 0.95rem;
+    }
+
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: 1px solid #bcccdc;
+      border-radius: 8px;
+      background: #ffffff;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="status-card">
+    <div class="status-row">
+      <div id="indicator" class="indicator"></div>
+      <div>
+        <div id="message" class="message">Checking Nibi API status...</div>
+        <div id="meta" class="meta">Waiting for first health check.</div>
+      </div>
+    </div>
+
+    <!--
+      The iframe only becomes visible when the upstream API responds to
+      /v1/models. This prevents the page from showing an unavailable embed.
+    -->
+    <iframe
+      id="nibi-frame"
+      src="https://api.lab.tim-a.ca/nibi"
+      title="Nibi API Interface"
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <script>
+    const modelsUrl = "https://api.lab.tim-a.ca/nibi/v1/models";
+    const iframe = document.getElementById("nibi-frame");
+    const indicator = document.getElementById("indicator");
+    const message = document.getElementById("message");
+    const meta = document.getElementById("meta");
+
+    async function refreshStatus() {
+      try {
+        // Hit the model listing endpoint to confirm the API is reachable.
+        const response = await fetch(modelsUrl, {
+          method: "GET",
+          cache: "no-store"
+        });
+
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+
+        const payload = await response.json();
+        const models = Array.isArray(payload.data) ? payload.data : [];
+        const modelNames = models.map((item) => item.id).filter(Boolean);
+
+        indicator.classList.add("ok");
+        message.textContent = "Nibi API is reachable.";
+        meta.textContent = modelNames.length
+          ? "Models: " + modelNames.join(", ")
+          : "API reachable, but no models were reported.";
+
+        // Only reveal the iframe once the API check succeeds.
+        iframe.style.display = "block";
+      } catch (error) {
+        indicator.classList.remove("ok");
+        message.textContent = "Nibi API is not reachable.";
+        meta.textContent = "Last check failed: " + error.message;
+
+        // Hide the iframe when the API cannot be reached.
+        iframe.style.display = "none";
+      }
+    }
+
+    // Check once immediately, then refresh every 30 seconds.
+    refreshStatus();
+    window.setInterval(refreshStatus, 30000);
+  </script>
+</body>
+</html>
