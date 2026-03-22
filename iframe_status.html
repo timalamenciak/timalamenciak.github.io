@@ -99,6 +99,16 @@
           cache: "no-store"
         });
 
+        if (response.status === 401) {
+          indicator.classList.add("ok");
+          message.textContent = "Nibi API is reachable.";
+          meta.textContent = "Endpoint is up, but authentication is required.";
+
+          // Only reveal the iframe once the API check succeeds.
+          iframe.style.display = "block";
+          return;
+        }
+
         if (!response.ok) {
           throw new Error("HTTP " + response.status);
         }
