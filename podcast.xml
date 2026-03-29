@@ -4,7 +4,7 @@
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tim Alamenciak – Research Audio</title>
-    <link>https://alamenciak.ca</link>
+    <link>https://tim-a.ca</link>
     <description>Audio versions of selected research publications by Tim Alamenciak.</description>
     <language>en-us</language>
     <itunes:author>Tim Alamenciak</itunes:author>
@@ -57,4 +57,3 @@
 
   </channel>
 </rss>
-
