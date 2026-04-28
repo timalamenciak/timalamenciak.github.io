@@ -127,6 +127,12 @@ Supervisor: Dr. Gene Allen
 ## Teaching Experience
 
 
+**Sessional Lecturer, ENVS 205 - Sustainability: The Future We Want** *(Spring 2026)*
+
+University of Waterloo
+
+
+
 **Supervisor, Honours thesis (Kacey Hammond), Bachelor of Science** *(Fall 2025 & Winter 2026)*
 
 Carleton University, Ottawa, Ontario
