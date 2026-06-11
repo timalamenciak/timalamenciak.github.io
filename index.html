@@ -9,6 +9,53 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="/css/site.css">
+  <style>
+    .listen-badge {
+      display: inline-block;
+      background: var(--brand, #2d6a4f);
+      color: #fff !important;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 2px 9px;
+      border-radius: 999px;
+      text-decoration: none !important;
+      vertical-align: middle;
+      margin-left: 4px;
+      letter-spacing: 0.02em;
+    }
+    .listen-badge:hover { opacity: 0.85; }
+    .ecoweaver-card {
+      border-left: 3px solid var(--brand, #2d6a4f);
+      background: var(--surface, #f8f9fa);
+      border-radius: 6px;
+      padding: 14px 16px;
+      margin: 12px 0 4px;
+    }
+    .ecoweaver-card h5 { margin-bottom: 6px; }
+    .partner-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; }
+    .partner-chip {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 4px;
+      padding: 2px 10px;
+      font-size: 0.82rem;
+      color: var(--body, #333);
+    }
+    .upcoming-events { font-size: 0.88rem; margin-top: 10px; color: var(--muted, #666); }
+    .sidebar-listen-btn {
+      display: block;
+      background: var(--brand, #2d6a4f);
+      color: #fff !important;
+      text-align: center;
+      border-radius: 6px;
+      padding: 7px 12px;
+      font-weight: 600;
+      text-decoration: none !important;
+      font-size: 0.9rem;
+      margin-top: 4px;
+    }
+    .sidebar-listen-btn:hover { opacity: 0.88; }
+  </style>
 
 </head>
 
@@ -54,6 +101,37 @@
           through <strong>transdisciplinary research</strong> that supports evidence-informed decision-making —
           from landscape-scale conservation planning to the design of open digital tools for practitioners.
         </p>
+
+        <p class="mb-2 subhead">Guiding questions</p>
+
+        <ul class="focus-list">
+          <li>
+            <strong>Engagement:</strong> What are the socio-ecological legacies of short-term conservation agreements?
+            <div class="focus-note">
+              <i>Current Focus:</i>
+              Spatio-temporal modeling of term agreement outcomes and a participant analysis with
+              <a href="https://ducks.ca">Ducks Unlimited Canada</a>
+              to determine how temporary contracts shape long-term landscape connectivity.
+            </div>
+          </li>
+
+          <li>
+            <strong>Knowledge:</strong> How can we architect digital platforms that transform fragmented data into actionable local intelligence?
+            <div class="focus-note">
+              <i>Current Focus:</i>
+              Developing <a href="https://ecoweaver.hi-knowledge.org">EcoWeaver</a>, a novel semantic framework for synthesizing diverse ecological
+              data streams into accessible, community-ready formats.
+            </div>
+          </li>
+
+          <li>
+            <strong>Collaboration:</strong> What mechanisms facilitate the transition from passive engagement to durable community capacity?
+            <div class="focus-note">
+              <i>Current Focus:</i>
+              A pilot initiative using <strong>participatory scenario planning</strong> to co-design restoration strategies between community groups and municipalities.
+            </div>
+          </li>
+        </ul>
 
         <p class="mb-0">
           My research spans three interconnected areas — conservation mechanisms and landscape outcomes, computational knowledge systems for ecology, and community engagement in restoration — with current projects supported by an <strong>NSERC Alliance grant ($355K)</strong>. See <a href="#research">Research</a> for details.
@@ -103,7 +181,7 @@
         (<a href="pdf/AlamenciakEtAl_2025.pdf">pdf</a>)
 
 
-        (<a href="https://doi.org/10.53962/g8bx-s4aa"><i class="fa-solid fa-headphones"></i> audio</a>)
+        <a href="https://doi.org/10.53962/g8bx-s4aa" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
 
       </span><br>
       <em>Restoration Ecology</em>.
@@ -181,7 +259,7 @@
               (<a href="pdf/AlamenciakEtAl_2024.pdf">pdf</a>)
 
 
-              (<a href="https://doi.org/10.53962/h3gv-g93x"><i class="fa-solid fa-headphones"></i> audio</a>)
+              <a href="https://doi.org/10.53962/h3gv-g93x" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
 
             </span><br>
             <em>Ecology & Society</em>.
@@ -196,7 +274,7 @@
               (<a href="pdf/AlamenciakEtAl_2024b.pdf">pdf</a>)
 
 
-              (<a href="https://doi.org/10.53962/hprp-rh02"><i class="fa-solid fa-headphones"></i> audio</a>)
+              <a href="https://doi.org/10.53962/hprp-rh02" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
 
             </span><br>
             <em>Restoration Ecology</em>.
@@ -211,7 +289,7 @@
               (<a href="pdf/AlamenciakEtAl_2023.pdf">pdf</a>)
 
 
-              (<a href="https://doi.org/10.53962/wwhz-tjtk"><i class="fa-solid fa-headphones"></i> audio</a>)
+              <a href="https://doi.org/10.53962/wwhz-tjtk" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
 
             </span><br>
             <em>FACETS</em>.
@@ -350,17 +428,29 @@
           Ecological evidence is fragmented across disciplines, scales, and formats.
           I develop computational tools — ontologies, knowledge graphs, and semantic
           frameworks — that integrate this evidence into systems practitioners can
-          actually use. Current projects include
-          <a href="https://ecoweaver.hi-knowledge.org">EcoWeaver</a> (semantic
-          synthesis framework), the Restoration and Conservation Ontology
-          (<strong>RACOON</strong>), and the Toolkit for Restoration Ecology
-          Knowledge (<strong>TReK</strong>). This work involves international
-          collaborations with the
-          <a href="https://lamarr-institute.org">Lamarr Institute</a> (Germany),
-          the Hasso Plattner Institute, and the Centre for Interdisciplinary
-          Research (ZiF) at Bielefeld University, where I held a
-          visiting residency in 2024–25.
+          actually use. Projects include the Restoration and Conservation Ontology
+          (<strong>RACOON</strong>) and the Toolkit for Restoration Ecology
+          Knowledge (<strong>TReK</strong>), alongside the flagship platform below.
         </p>
+
+        <div class="ecoweaver-card">
+          <h5><a href="https://ecoweaver.hi-knowledge.org">EcoWeaver</a> — semantic synthesis framework for ecology</h5>
+          <p class="mb-1" style="font-size:0.93rem;">
+            EcoWeaver is an open platform for integrating heterogeneous ecological data streams
+            into interoperable, community-ready knowledge graphs. It underpins ongoing work on
+            AI-assisted evidence synthesis and practitioner-facing decision tools.
+          </p>
+          <div class="partner-list">
+            <span class="partner-chip">ZiF, Bielefeld University</span>
+            <span class="partner-chip">Carleton University</span>
+            <span class="partner-chip">University of Waterloo</span>
+            <span class="partner-chip">University of Jena</span>
+          </div>
+          <p class="upcoming-events mb-0">
+            <i class="fa-solid fa-calendar-days me-1"></i>
+            <strong>Upcoming:</strong> presentations and workshops in Jena, Waterloo, and Bielefeld (2025–26).
+          </p>
+        </div>
 
         <h4><i class="fa-solid fa-people-group me-2"></i>Evidence synthesis &amp; community engagement</h4>
         <p>
@@ -479,7 +569,9 @@
       <div class="sidebar-box">
         <div class="sidebar-heading">Quick links</div>
         <p><i class="fa-solid fa-file-lines"></i> <a href="pdf/Alamenciak_CV.pdf">CV (pdf)</a></p>
-        <p><i class="fa-solid fa-podcast"></i> <a href="podcast.xml">Research Audio (RSS)</a></p>
+        <a href="podcast.xml" class="sidebar-listen-btn">
+          <i class="fa-solid fa-headphones me-2"></i>Research Audio (RSS)
+        </a>
       </div>
 
     </div>
