@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EcoTransform — AI & Ecology Hackathon · Waterloo</title>
-  <meta name="description" content="A 48-hour hackathon at the University of Waterloo where coders, ecologists, and designers build AI tools for biodiversity restoration." />
+  <title>Evidence Jam 2026: Causapalooza! — AI Causal Synthesis Hackathon · Waterloo</title>
+  <meta name="description" content="A 48-hour hackathon at the University of Waterloo where teams use AI to synthesize causal ecological knowledge." />
 
   <!-- Match your site's Google Fonts exactly -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -632,8 +632,9 @@
 
 <!-- ── Nav ── -->
 <nav>
-  <a class="site-name" href="https://timalamenciak.github.io/ecotransform">EcoTransform 2026</a>
+  <a class="site-name" href="https://evidencejam.tim-a.ca">Evidence Jam 2026</a>
   <ul>
+    <li><a href="#tracks">Tracks</a></li>
     <li><a href="#supporters">Support</a></li>
     <li><a href="#space">The Space</a></li>
 <!--    <li><a href="#apply">Apply</a></li> -->
@@ -655,12 +656,12 @@
       src="racoon.jpg"
       alt="Raccoon portrait — CC BY 2.0 GregTheBusker via Wikimedia Commons"
     />
-    <h1><strong>EcoTransform</strong></h1>
-    <p class="tagline">An AI &amp; Ecology Hackathon</p>
+    <h1><strong>Evidence Jam 2026</strong><br><em>Causapalooza!</em></h1>
+    <p class="tagline">Using AI for causal synthesis of ecological knowledge</p>
     <div class="hero-meta">
       <span>📍 University of Waterloo · St. Jerome's University</span>
       <span>📅 Date November 6-8, 2026 · 48 hours</span>
-      <span>🌿 Nibi HPC · NVIDIA DGX Spark</span>
+      <span>🌿 Nibi HPC · GPU Workstations</span>
     </div>
     <div class="cta-row">
       <a class="btn btn-primary" href="https://luma.com/npklo5l1">Register Interest</a>
@@ -676,23 +677,24 @@
   <section id="about">
     <h2>About</h2>
     <p>
-      EcoTransform is a 48-hour hackathon at the University of Waterloo where teams of coders,
-      ecologists, and designers build AI tools for <strong>biodiversity restoration and conservation</strong>.
-      Participants tackle a connected pipeline of challenges — from extracting structured knowledge
-      out of scientific literature, to building evidence-backed agents, to designing interfaces that
-      put that evidence in the hands of practitioners in the field.
+      What is the best way to manage invasive buckthorn? How could species reintroduction change ecosystems?
+      What improves ecosystem resilience? These are crucial questions in the restoration and conservation of
+      biodiversity. Typically they would take years to answer through an exhaustive synthesis of the literature.
+      We are going to try to answer them in a weekend.
+    </p>
+    <p>
+      Evidence Jam is a blitz-style hackathon that challenges teams to synthesize evidence using cutting-edge
+      technology. This year we focus on <strong>causality</strong>. Six teams will be tasked with mapping the
+      causes and effects in ecology to address three challenges: the use of LLMs for information extraction;
+      the use of LLMs for question-answering; and the design and details of presenting such rich information.
     </p>
 
     <div class="callout">
-      Teams will have access to two compute resources: the <strong>Nibi supercomputer</strong> at the
-      University of Waterloo — one of Canada's most energy-efficient HPC systems — and an
-      <strong>NVIDIA DGX Spark</strong> on-site for local GPU inference and fine-tuning workloads.
+      Teams receive fully stocked GitHub repositories and real ecological data to work with. Roving mentors
+      will be available throughout the weekend to break logjams and encourage collaboration across teams.
+      We have access to the <a href="https://uwaterloo.ca/research/meet-nibi" target="_blank" rel="noopener"><strong>Nibi supercomputer</strong></a> and <strong>desktops with GPUs</strong> to
+      run local LLM models. Most importantly: we have food.
     </div>
-
-    <p>
-      The event emphasizes <strong>sustainable AI</strong>: we award a dedicated prize for the solution
-      with the smallest environmental footprint. Tools built to protect nature should themselves tread lightly.
-    </p>
 
     <div class="info-grid">
       <div class="info-block">
@@ -702,12 +704,12 @@
           <li>Restoration &amp; conservation ecologists</li>
           <li>UX/UI designers</li>
           <li>Data scientists &amp; knowledge engineers</li>
-          <li>Philosophers</li>
+          <li>Philosophers of science</li>
         </ul>
       </div>
       <div class="info-block">
         <h3>Team Size</h3>
-        <p>Teams of <strong>2–6 people</strong>. You may apply as an individual and be matched to a team,
+        <p>Six teams of <strong>2–6 people</strong>. You may apply as an individual and be matched to a team,
         or apply as a group. Interdisciplinary teams are strongly encouraged and will be prioritized.</p>
       </div>
     </div>
@@ -717,45 +719,90 @@
   <section id="tracks">
     <h2>Tracks</h2>
     <p>
-      EcoTransform is structured as three <strong>interconnected tracks</strong> — the output of each feeds
-      into the next. Two scheduled connection points over the weekend bring teams together to coordinate
-      across tracks.
+      Teams pick one track. Each is a single open problem. Two cross-team check-ins over the weekend
+      encourage collaboration and knowledge-sharing between tracks.
     </p>
 
     <div class="tracks">
       <div class="track-card">
         <div class="track-num">Track 1</div>
-        <h3>Evidence Extraction Pipeline</h3>
+        <h3>Turn papers into a causal graph</h3>
         <p>
-          Given a corpus of 308 restoration ecology studies (pre-converted to Markdown), build a pipeline
-          that extracts structured ecological relationships and outputs them in
-          <strong>KGX format</strong> compatible with EcoWeaver. Teams receive gold-standard annotated
-          papers as examples and optimize for extraction accuracy.
+          Given a corpus of restoration ecology journal articles, extract their causal claims into a graph.
+          How much of the CAMO schema's richness you capture, and how you get there, is your call.
         </p>
-        <span class="tag">CS-heavy · ecologists as domain experts</span>
+        <p style="font-size:0.95rem; color:var(--ink-light); margin-top:0.5rem;">
+          <strong>You get:</strong> the corpus, the schema, a few hand-annotated examples.
+        </p>
+        <span class="tag">Judged on: accuracy, richness, cleverness, scalability</span>
       </div>
 
       <div class="track-card">
         <div class="track-num">Track 2</div>
-        <h3>RAG Agent</h3>
+        <h3>Ask the graph</h3>
         <p>
-          Given a KGX ecological knowledge graph built from grassland restoration literature, build an
-          AI assistant that retrieves relevant subgraphs for practitioner queries, synthesizes
-          <strong>evidence-backed statements</strong>, provides provenance, and
-          avoids hallucination outside the graph.
+          Build something that lets a restoration practitioner ask a question and get a trustworthy,
+          evidence-grounded answer from a CAMO graph — without inventing anything the graph doesn't contain.
         </p>
-        <span class="tag">Balanced CS + ecology</span>
+        <p style="font-size:0.95rem; color:var(--ink-light); margin-top:0.5rem;">
+          <strong>You get:</strong> a pre-built CAMO graph, the schema.
+        </p>
+        <span class="tag">Judged on: usefulness, traceability, confidence, graceful "I don't know"</span>
       </div>
 
       <div class="track-card">
         <div class="track-num">Track 3</div>
-        <h3>Practitioner Query Interface</h3>
+        <h3>Help a practitioner decide</h3>
         <p>
-          Build an interface where a restoration practitioner can describe their site — ecosystem type,
-          geography, restoration goal — and receive relevant evidence from the GraphRAG agent, presented
-          as readable summaries with provenance.
+          Build an interface that helps someone planning a restoration make a decision from this evidence.
+          What they care about: will it work, how sure are we, can it be undone, does it fit my site.
         </p>
-        <span class="tag">Design-heavy · CS for implementation</span>
+        <p style="font-size:0.95rem; color:var(--ink-light); margin-top:0.5rem;">
+          <strong>You get:</strong> evidence data, existing wireframes (use them or don't).
+        </p>
+        <span class="tag">Judged on: real-world usefulness, honest confidence display</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAMO -->
+  <section id="camo">
+    <h2>What is the Causal Mosaic Schema?</h2>
+    <p>
+      The core of this challenge is the <a href="https://github.com/timalamenciak/causalmosaic" target="_blank" rel="noopener"><strong>Causal Mosaic Schema (CAMO)</strong></a> — a data schema written
+      in <a href="https://linkml.io/" target="_blank" rel="noopener">LinkML</a> that works like a fill-in-the-blanks form for documenting causal claims. If a researcher says
+      "X causes Y," CAMO provides ways to document exactly <em>how</em> X causes Y and how certain the
+      researcher is that the relationship is causal rather than correlational.
+    </p>
+    <p>
+      The schema has been collaboratively developed with philosophers of causality, including
+      <strong>Dr. Phyllis Illari</strong>, who <a href="https://archive.org/details/causalityphiloso0000illa" target="_blank" rel="noopener">wrote the book on causality</a>. All teams receive
+      a half-page primer and a worked example graph as part of their starter repository.
+    </p>
+
+    <div class="callout">
+      Track 1 extracts causal claims <em>into</em> CAMO. Track 2 queries a CAMO graph.
+      Track 3 helps practitioners act on CAMO-structured evidence. Each track builds on the
+      same schema — making collaboration across teams both possible and valuable.
+    </div>
+
+    <div class="info-grid">
+      <div class="info-block">
+        <h3>What's in the repos</h3>
+        <ul>
+          <li>The CAMO schema</li>
+          <li>One worked sample graph</li>
+          <li>A half-page primer</li>
+          <li>Environment setup</li>
+        </ul>
+      </div>
+      <div class="info-block">
+        <h3>Track extras</h3>
+        <ul>
+          <li><strong>Track 1:</strong> paper corpus, hand-annotated examples, held-out judging set</li>
+          <li><strong>Track 2:</strong> pre-built CAMO graph</li>
+          <li><strong>Track 3:</strong> practitioner evidence data, wireframes</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -764,33 +811,19 @@
   <section id="awards">
     <h2>Awards</h2>
     <p>
-      Three award categories recognise excellence, collaboration, and sustainability.
-      Awards are distributed across tracks and the event as a whole.
+      Three award categories recognise the best solution in each track, sustainable AI practices,
+      and outstanding collaboration.
     </p>
 
     <div class="awards">
       <div class="award-card">
-        <div class="award-icon">🥇</div>
+        <div class="award-icon">🦝</div>
         <div>
-          <div class="award-meta">3 AWARDS · ONE PER TRACK</div>
+          <div class="award-meta">3 AWARDS · ONE PER TRACK · AWARDED BY JUDGING TEAM</div>
           <h3>Gold Raccoon — Best Solution</h3>
           <p>
-            Awarded to the team delivering the strongest overall solution in their track.
-            Judged on technical execution, creativity, and real-world impact potential by a
-            panel of industry and academic experts.
-          </p>
-        </div>
-      </div>
-
-      <div class="award-card">
-        <div class="award-icon">🤝</div>
-        <div>
-          <div class="award-meta">1 AWARD · EVENT-WIDE · PARTICIPANT VOTE</div>
-          <h3>Crystal Raccoon — Best Collaborator</h3>
-          <p>
-            Voted on by all participants on Sunday evening. Awarded to the team that most
-            enriched the weekend through cross-track collaboration, knowledge-sharing,
-            and generosity with their work.
+            Awarded to the team delivering the strongest solution in each track.
+            Prize details to be announced.
           </p>
         </div>
       </div>
@@ -798,13 +831,24 @@
       <div class="award-card">
         <div class="award-icon">🌿</div>
         <div>
-          <div class="award-meta">3 AWARDS · ONE PER TRACK</div>
-          <h3>Green Raccoon — Most Sustainable Solution</h3>
+          <div class="award-meta">1 AWARD · EVENT-WIDE · AWARDED BY JUDGING TEAM</div>
+          <h3>Green Raccoon — Most Sustainable Use of AI</h3>
           <p>
-            Awarded to the team whose solution best demonstrates sustainable AI practices:
-            efficient compute, thoughtful model selection, minimal environmental footprint,
-            and responsible use of the Nibi and DGX Spark infrastructure. Teams include a sustainability
-            statement in their final presentation.
+            Awarded to the team best demonstrating efficient, responsible AI use — thoughtful model
+            selection, minimal compute footprint, and a sustainable approach throughout the weekend.
+          </p>
+        </div>
+      </div>
+
+      <div class="award-card">
+        <div class="award-icon">⭐</div>
+        <div>
+          <div class="award-meta">1 AWARD · EVENT-WIDE · VOTED BY ALL PARTICIPANTS</div>
+          <h3>Most Valuable Possum — Best Collaborator</h3>
+          <p>
+            Voted on by all individual project participants. Awarded to the person who most
+            enriched the weekend through cross-team collaboration, knowledge-sharing, and
+            generosity with their work.
           </p>
         </div>
       </div>
@@ -815,34 +859,33 @@
   <section id="schedule">
     <h2>Schedule</h2>
     <p>
-      The hackathon runs Friday–Monday at St. Jerome's University. Teams may submit code
-      to run on the <strong>Nibi supercomputer</strong> at four checkpoints across Saturday and Sunday.
-      An <strong>NVIDIA DGX Spark</strong> will be available on-site throughout the event for
-      local GPU inference, fine-tuning, and rapid iteration.
+      Physical access to the <a href="https://www.dragenlab.ca/" target="_blank" rel="noopener">DRAGEN Lab</a> runs from 9 a.m. to 9 p.m. on Saturday and Sunday.
+      Teams may submit jobs to the <a href="https://uwaterloo.ca/research/meet-nibi" target="_blank" rel="noopener"><strong>Nibi supercomputer</strong></a> at four checkpoints
+      across both days. Two cross-team check-ins encourage collaboration between tracks.
     </p>
 
     <div class="schedule-day">
       <h3>Friday</h3>
       <div class="schedule-item"><time>1:00 pm</time><span class="event">Introductory gathering, ice-breakers, overview of weekend format</span></div>
-      <div class="schedule-item"><time>2:30 pm</time><span class="event"><strong>Tour of Nibi supercomputer &amp; DGX Spark</strong> · HPC training</span></div>
+      <div class="schedule-item"><time>2:30 pm</time><span class="event"><strong>Tour of Nibi supercomputer &amp; GPU workstations</strong> · HPC training</span></div>
       <div class="schedule-item"><time>4:00 pm</time><span class="event"><strong>Delivery of private brief</strong></span></div>
       <div class="schedule-item"><time>5:00 pm</time><span class="event">End of day</span></div>
     </div>
 
     <div class="schedule-day">
       <h3>Saturday</h3>
-      <div class="schedule-item"><time>8:00 am</time><span class="event">Work rooms open · <strong>Nibi checkpoint 1</strong></span></div>
-      <div class="schedule-item"><time>12:00 pm</time><span class="event">Lunch + <strong>Connection Point 1</strong> (cross-track sync)</span></div>
-      <div class="schedule-item"><time>1:00 pm</time><span class="event">Work rooms open</span></div>
-      <div class="schedule-item"><time>5:00 pm</time><span class="event">End of day · <strong>Nibi checkpoint 2</strong></span></div>
+      <div class="schedule-item"><time>9:00 am</time><span class="event">Work rooms open · <strong>Nibi checkpoint 1</strong></span></div>
+      <div class="schedule-item"><time>12:00 pm</time><span class="event">Lunch + <strong>Cross-team check-in 1</strong></span></div>
+      <div class="schedule-item"><time>1:00 pm</time><span class="event">Work rooms open · <strong>Nibi checkpoint 2</strong></span></div>
+      <div class="schedule-item"><time>9:00 pm</time><span class="event">End of day</span></div>
     </div>
 
     <div class="schedule-day">
       <h3>Sunday</h3>
-      <div class="schedule-item"><time>8:00 am</time><span class="event">Work rooms open · <strong>Nibi checkpoint 3</strong></span></div>
-      <div class="schedule-item"><time>12:00 pm</time><span class="event">Lunch + <strong>Connection Point 2</strong> (cross-track sync)</span></div>
-      <div class="schedule-item"><time>1:00 pm</time><span class="event">Work rooms open</span></div>
-      <div class="schedule-item"><time>5:00 pm</time><span class="event">End of day · <strong>Nibi checkpoint 4</strong></span></div>
+      <div class="schedule-item"><time>9:00 am</time><span class="event">Work rooms open · <strong>Nibi checkpoint 3</strong></span></div>
+      <div class="schedule-item"><time>12:00 pm</time><span class="event">Lunch + <strong>Cross-team check-in 2</strong></span></div>
+      <div class="schedule-item"><time>1:00 pm</time><span class="event">Work rooms open · <strong>Nibi checkpoint 4</strong></span></div>
+      <div class="schedule-item"><time>9:00 pm</time><span class="event">End of day</span></div>
     </div>
 
     <div class="schedule-day">
@@ -855,7 +898,7 @@
   <section id="space">
     <h2>The Space</h2>
     <p>
-      EcoTransform takes place in the <strong>DRAGEN Lab</strong> — the Medieval Digital Research
+      Evidence Jam takes place in the <a href="https://www.dragenlab.ca/" target="_blank" rel="noopener"><strong>DRAGEN Lab</strong></a> — the Medieval Digital Research
       in Arts and Graphical Environmental Networks Laboratory — at St. Jerome's University on the
       University of Waterloo campus. Founded in 2016, the DRAGEN Lab is a purpose-built digital
       humanities research space that deploys a collaborative, learner-centred approach to knowledge
@@ -863,7 +906,7 @@
     </p>
     <p>
       The lab occupies <strong>3,600&nbsp;ft² (242&nbsp;m²)</strong> within the newly renovated
-      St. Jerome's University Library. It was built to support exactly the kind of work EcoTransform
+      St. Jerome's University Library. It was built to support exactly the kind of work Evidence Jam
       demands: expert and student researchers working side-by-side in teams, with access to
       high-performance computing, digital fabrication tools, and flexible collaborative space.
       It also includes a <strong>Makerspace</strong> with professional-grade 3D scanning, 3D
@@ -892,7 +935,7 @@
           <li>3,600&nbsp;ft² collaborative lab space</li>
           <li>Makerspace with HPC units &amp; fabrication tools</li>
           <li>Flexible team work areas</li>
-          <li>On-site NVIDIA DGX Spark</li>
+          <li>GPU workstations for local model inference</li>
           <li>Strong campus WiFi throughout</li>
         </ul>
       </div>
@@ -900,7 +943,7 @@
         <h3>Food &amp; Coffee</h3>
         <p>
           <strong>Breakfast and lunch is provided on both Saturday and Sunday.</strong>
-          Coffee is available from 8&nbsp;am each morning.
+          Coffee is available from 9&nbsp;am each morning.
           We are also planning an evening social event — details to follow.
           Participants with dietary requirements will be accommodated.
         </p>
@@ -930,7 +973,7 @@
     </p>
 
     <div class="apply-box">
-      <h2>Ready to hack ecology?</h2>
+      <h2>Ready to map the evidence?</h2>
       <p>
         Registration is managed via Luma. Click below to register your interest —<br />
         full applications will open once the date is confirmed.
@@ -945,8 +988,8 @@
   <section id="sponsors">
     <h2>Sponsors &amp; Partners</h2>
     <p>
-      EcoTransform is looking for sponsors to support prizes, food, and infrastructure.
-      Prize categories include the Gold Raccoon, Crystal Raccoon, and Green Raccoon.
+      Evidence Jam 2026 is looking for sponsors to support prizes, food, and infrastructure.
+      Prize categories include the Gold Raccoon, Green Raccoon, and Most Valuable Possum.
       We are particularly interested in contributions of API credits, hardware, cash prizes,
       and software subscriptions.
     </p>
@@ -967,7 +1010,7 @@
         <h3>Infrastructure</h3>
         <p>
           <strong>Nibi</strong> — Sustainable HPC<br />
-          <strong>NVIDIA DGX Spark</strong> — On-site GPU<br />
+          <strong>GPU Workstations</strong> — On-site inference<br />
           University of Waterloo<br />
           St. Jerome's University (venue)
         </p>
@@ -978,7 +1021,7 @@
   <section id="supporters">
     <h2>Support</h2>
     <p>
-      EcoTransform is made possible through the support of the following organisations,
+      Evidence Jam 2026 is made possible through the support of the following organisations,
       who provide infrastructure, venue, and knowledge systems for the event.
     </p>
 
@@ -991,7 +1034,7 @@
             <div class="eye"></div>
             <span class="wordmark">NVIDIA</span>
           </div>
-          <span class="supporter-role">DGX Spark · On-site GPU</span>
+          <span class="supporter-role">Supporter</span>
         </a>
 
         <a class="supporter-card" href="https://www.sju.ca" target="_blank" rel="noopener" aria-label="St. Jerome's University">
@@ -1018,9 +1061,9 @@
 <!-- ── Footer ── -->
 <footer>
   <div>
-    <h4>EcoTransform</h4>
+    <h4>Evidence Jam 2026</h4>
     <p>
-      An AI &amp; Ecology Hackathon<br />
+      An AI Causal Synthesis Hackathon<br />
       University of Waterloo<br />
       <a href="mailto:Tim.A@uwaterloo.ca">Tim.A@uwaterloo.ca</a>
     </p>
