@@ -208,37 +208,40 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 ### Peer-reviewed publications
 
 
-1. **2026** Ryan Y. Hodgson, Steven A. Robinson, Amelie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E.L. Hanna, Tim Alamenciak. "Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis." *Environmental Evidence*. <https://link.springer.com/article/10.1186/s13750-026-00381-0>
+1. **2026** Courtney D. Robichaud, Christine Beaudoin, Tim Alamenciak, Jaimie Vincent, Steven J. Cooke, Vivian M. Nguyen, Richard Schuster, Nathan Young, Joseph R. Bennett. "Data, politics, and funding cause uncertainty for conservation practitioners." *Conservation Science and Practice*. <https://doi.org/10.1111/csp2.70372>
 
 
-2. **2026** Tim Alamenciak, Nancy Shackelford, Logan Rehberg, Ash Baron, Steven D. Murphy, Eric Higgs, Tina Heger, Alina Fisher, Bruno Travassos-Britto, Ryan Stephenson. "Identifying practitioner and researcher collaboration needs to improve ecosystem restoration in Canada." *Socio-Ecological Practice Research*. <https://link.springer.com/article/10.1007/s42532-025-00243-y>
+2. **2026** Ryan Y. Hodgson, Steven A. Robinson, Amelie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E.L. Hanna, Tim Alamenciak. "Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis." *Environmental Evidence*. <https://link.springer.com/article/10.1186/s13750-026-00381-0>
 
 
-3. **2026** Steven J. Cooke, Kevin A. Adeli, Trina Rytwinski, Andrew N. Kadykalo, Jennifer Provencher, Vivian Nguyen, Joseph Bennett, Christina Davy, Rachel Buxton, Dalal Hanna, Jesse C. Vermaire, Sean Landsman, Nathan Young, Graeme Auld, Danika Littlechild, Jennifer M. Holzer, Meagan Harper, Andrew Howarth, Tim Alamenciak, Lauren Lawson, Jayme Lewthwaite, Erin E. Stukenholtz, Paul A. Smith, Ilona Naujokaitis-Lewis, Josie Hughes, Barbara Frei, Amanda Martin, Amie Black, Richard Pither, Douglas MacNearney, Kristen Lalla, Carmen Galan-Acedo and Christopher Cvitanovic. "Supporting frontline workers in the biodiversity crisis by empowering and enabling practitioners to embrace conservation evidence." *Socio-Ecological Practice Research*. <https://doi.org/10.1007/s42532-026-00255-2>
+3. **2026** Tim Alamenciak, Nancy Shackelford, Logan Rehberg, Ash Baron, Steven D. Murphy, Eric Higgs, Tina Heger, Alina Fisher, Bruno Travassos-Britto, Ryan Stephenson. "Identifying practitioner and researcher collaboration needs to improve ecosystem restoration in Canada." *Socio-Ecological Practice Research*. <https://link.springer.com/article/10.1007/s42532-025-00243-y>
 
 
-4. **2025** Jeffrey O. Hanson, Jenny L. McCune, Tim Alamenciak, Joseph R. Bennett. "Increasing the credibility of conservation plans through citizen science." *Biological Conservation*. <https://doi.org/10.1016/j.biocon.2025.111552>
+4. **2026** Steven J. Cooke, Kevin A. Adeli, Trina Rytwinski, Andrew N. Kadykalo, Jennifer Provencher, Vivian Nguyen, Joseph Bennett, Christina Davy, Rachel Buxton, Dalal Hanna, Jesse C. Vermaire, Sean Landsman, Nathan Young, Graeme Auld, Danika Littlechild, Jennifer M. Holzer, Meagan Harper, Andrew Howarth, Tim Alamenciak, Lauren Lawson, Jayme Lewthwaite, Erin E. Stukenholtz, Paul A. Smith, Ilona Naujokaitis-Lewis, Josie Hughes, Barbara Frei, Amanda Martin, Amie Black, Richard Pither, Douglas MacNearney, Kristen Lalla, Carmen Galan-Acedo and Christopher Cvitanovic. "Supporting frontline workers in the biodiversity crisis by empowering and enabling practitioners to embrace conservation evidence." *Socio-Ecological Practice Research*. <https://doi.org/10.1007/s42532-026-00255-2>
 
 
-5. **2025** Josie South, Roxana Barbulescu, Rafael L. Macedo, Camille L. Musseau, Simone Guareschi, Tim Alamenciak, et al.. "Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al." *BioScience*. <https://doi.org/10.1093/biosci/biaf073>
+5. **2025** Jeffrey O. Hanson, Jenny L. McCune, Tim Alamenciak, Joseph R. Bennett. "Increasing the credibility of conservation plans through citizen science." *Biological Conservation*. <https://doi.org/10.1016/j.biocon.2025.111552>
 
 
-6. **2025** Tim Alamenciak, Elise Gornish, Stephen D. Murphy. "Dimensions of Effective Volunteer Restoration Techniques in North America." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028> [Audio](https://doi.org/10.53962/g8bx-s4aa)
+6. **2025** Josie South, Roxana Barbulescu, Rafael L. Macedo, Camille L. Musseau, Simone Guareschi, Tim Alamenciak, et al.. "Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al." *BioScience*. <https://doi.org/10.1093/biosci/biaf073>
 
 
-7. **2024** Tim Alamenciak, Stephen D. Murphy. "What makes a convivial community tool? Investigating grassroots ecological restoration." *Ecology & Society*. <https://doi.org/10.5751/ES-15258-290303> [Audio](https://doi.org/10.53962/h3gv-g93x)
+7. **2025** Tim Alamenciak, Elise Gornish, Stephen D. Murphy. "Dimensions of Effective Volunteer Restoration Techniques in North America." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028> [Audio](https://doi.org/10.53962/g8bx-s4aa)
 
 
-8. **2024** Tim Alamenciak, Stephen D. Murphy. "Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map." *Restoration Ecology*. <https://doi.org/10.1111/rec.14155> [Audio](https://doi.org/10.53962/hprp-rh02)
+8. **2024** Tim Alamenciak, Stephen D. Murphy. "What makes a convivial community tool? Investigating grassroots ecological restoration." *Ecology & Society*. <https://doi.org/10.5751/ES-15258-290303> [Audio](https://doi.org/10.53962/h3gv-g93x)
 
 
-9. **2023** Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs. "Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?." *FACETS*. <https://doi.org/10.1139/facets-2022-0157> [Audio](https://doi.org/10.53962/wwhz-tjtk)
+9. **2024** Tim Alamenciak, Stephen D. Murphy. "Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map." *Restoration Ecology*. <https://doi.org/10.1111/rec.14155> [Audio](https://doi.org/10.53962/hprp-rh02)
 
 
-10. **2022** William J. Sutherland, Jake M. Robinson, David C. Aldridge, Tim Alamenciak, Matthew Armes, Nina Baranduin, Andrew J. Bladon, et al.. "Creating Testable Questions in Practical Conservation." *Conservation Evidence Journal*. <https://doi.org/10.52201/CEJ19XIFF2753>
+10. **2023** Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs. "Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?." *FACETS*. <https://doi.org/10.1139/facets-2022-0157> [Audio](https://doi.org/10.53962/wwhz-tjtk)
 
 
-11. **2020** Anita Lazurko, Tim Alamenciak, Lowine Stella Hill, Ella-Kari Muhl, Augustine Kwame Osei, Dorian Pomezanski, Kyle Schang, Dilruba Fatima Sharmin. "What Will a PhD Look Like in the Future?." *World Futures Review*. <https://doi.org/10.1177/1946756720976710>
+11. **2022** William J. Sutherland, Jake M. Robinson, David C. Aldridge, Tim Alamenciak, Matthew Armes, Nina Baranduin, Andrew J. Bladon, et al.. "Creating Testable Questions in Practical Conservation." *Conservation Evidence Journal*. <https://doi.org/10.52201/CEJ19XIFF2753>
+
+
+12. **2020** Anita Lazurko, Tim Alamenciak, Lowine Stella Hill, Ella-Kari Muhl, Augustine Kwame Osei, Dorian Pomezanski, Kyle Schang, Dilruba Fatima Sharmin. "What Will a PhD Look Like in the Future?." *World Futures Review*. <https://doi.org/10.1177/1946756720976710>
 
 
 
@@ -246,16 +249,13 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 ### Peer-reviewed publications in progress
 
 
-1. **2026** Courtney D. Robichaud, Christine Beaudoin, Tim Alamenciak, Jaimie Vincent, Steven J. Cooke, Vivian M. Nguyen, Richard Schuster, Nathan Young, Joseph R. Bennett. "Data, politics, and funding cause uncertainty for conservation practitioners." *Conservation Science and Practice* (Major revisions).
+1. **2026** Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield. "Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era." *FACETS* (Under review).
 
 
-2. **2026** Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield. "Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era." *FACETS* (Under review).
+2. **2026** Federica Bocchi, Aline Potiron, Eleonore Slabbert, Tim Alamenciak, Anika Grose, Birgitta Konig-Ries, Lotte Korell, Carlos Santana, Tina Heger. "Operationalizing the CARE principles in evidence synthesis for ecology and conservation." *Nature Communications* (Under review).
 
 
-3. **2026** Federica Bocchi, Aline Potiron, Eleonore Slabbert, Tim Alamenciak, Anika Grose, Birgitta Konig-Ries, Lotte Korell, Carlos Santana, Tina Heger. "Operationalizing the CARE principles in evidence synthesis for ecology and conservation." *Nature Communications* (Under review).
-
-
-4. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology* (Under review).
+3. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology* (Under review).
 
 
 
@@ -292,22 +292,49 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2026** Tim Alamenciak, Lauren Bortolotti and Joseph R. Bennett. "The enduring benefits of short-term conservation agreements" Canadian Society for Ecology and Evolution Annual Conference.
 
 
-- **2025** Tim Alamenciak. "Toolkit for Restoration Ecology Knowledge (TReK)." AI Colloquium, Lamarr Institute, Dortmund, Germany. *(Invited)*
+- **2026** Tim Alamenciak, Robert Frühstückl, Phyllis Illari, Lars Vogt. "Causal Mosaic Schema: Encoding Causal Claims in Ecological Literature as Machine-Actionable Knowledge Graphs" TDWG 2026 Conference.
 
 
-- **2025** Tim Alamenciak, Carlos Alberto Arnillas, J. Harry Caufield, Katherine Compton, Kian Drew, Robert Frühstückl, Tina Heger, Birgitta König-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, Lars Vogt. "Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems." EcoDL Workshop at the Theory and Practice of Digital Libraries conference, Tampere, Finland.
+- **2026** Tim Alamenciak. "The John Connor Guide to Life with LLMs" Brains on Tap.
+
+
+- **2026** Tim Alamenciak. "EcoWeaver Workbench  hands-on schema prototyping" Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis.
+
+
+- **2026** Federica Bocchi, Kian Drew, Tim Alamenciak. "Indigenous data sovereignty in computational ecological knowledge integration" Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis.
+
+
+- **2026** Tarek al Mustafa, Tim Alamenciak, Robert Frühstückl. "Bridging the evidence gap: a collaborative question-ranking workshop for EcoWeaver" Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis.
+
+
+- **2026** Tim Alamenciak. "AI and decision support tools for land trusts" Ontario Land Trust Alliance Conference.
 
 
 - **2025** Tim Alamenciak. "Mapping Evidence to Theory in Ecology." Workshop, University of Bielefeld.
 
 
+- **2025** Tim Alamenciak, Carlos Alberto Arnillas, J. Harry Caufield, Katherine Compton, Kian Drew, Robert FrÃ¼hstÃ¼ckl, Tina Heger, Birgitta KÃ¶nig-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, Lars Vogt. "Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems." EcoDL Workshop at the Theory and Practice of Digital Libraries conference, Tampere, Finland.
+
+
+- **2025** Tim Alamenciak. "Toolkit for Restoration Ecology Knowledge (TReK)." AI Colloquium, Lamarr Institute, Dortmund, Germany. *(Invited)*
+
+
 - **2025** Tim Alamenciak. "Three stories of restoration and conservation engagement." School of Environment, Resources and Sustainability Salon; Carleton BIOL 5534; Knowledge Mobilization Community of Practice; University of Waterloo PSCI 303. *(Invited)*
 
 
-- **2024** Tim Alamenciak & Steffanie Scott. "Engaging instructors and students in transformative learning amid polycrisis." University of Waterloo Teaching and Learning Conference.
+- **2024** Tim Alamenciak, Ash Baron, Catherine Febria, Eric Higgs, Ryan Stephenson, Stephen Murphy, Nancy Shackelford. "Boots & Suits: Mobilizing knowledge in ecosystem restoration." Society for Ecological Restoration North American Conference, Vancouver.
 
 
 - **2024** Tim Alamenciak. "Lowering barriers, changing behaviours." Guest lecture (Invited by Dr. Christina Davy). *(Invited)*
+
+
+- **2024** Tim Alamenciak. "Knowledge Graphs for Land-Based Knowledges: Encoding Restoration Ecology and Environmental History." Summer Research Institute, Quaker Institute for the Future.
+
+
+- **2024** Tim Alamenciak. "Fuzzy cognitive mapping using knowledge graphs for restoration ecology." Interdisciplinary Perspectives on Knowledge Synthesis in Ecology workshop, University of Bielefeld. *(Invited)*
+
+
+- **2024** Tim Alamenciak. "Volunteer engagement in ecological restoration." Guest lecture: ENVS 195 â Introduction to Environmental Studies. *(Invited)*
 
 
 - **2024** Tim Alamenciak. "Taming Complexity in Ecology." Workshop, Germany. *(Invited)*
@@ -319,22 +346,13 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2024** Tim Alamenciak. "People-powered ecosystem restoration." University of Arizona, Gornish Lab. *(Invited)*
 
 
-- **2024** Tim Alamenciak. "Volunteer engagement in ecological restoration." Guest lecture: ENVS 195 – Introduction to Environmental Studies. *(Invited)*
+- **2024** Tim Alamenciak & Steffanie Scott. "Engaging instructors and students in transformative learning amid polycrisis." University of Waterloo Teaching and Learning Conference.
 
 
 - **2024** Tim Alamenciak. "Mapping evidence to theory in ecology: Addressing the challenges of generalization and causality." Residency at Centre for Interdisciplinary Research (ZiF), Bielefeld University. *(Invited)*
 
 
 - **2024** Tim Alamenciak. "Mapping and assessing evidence in ecological restoration." Geomatics and Landscape Ecology Lab (GLEL), Carleton University.
-
-
-- **2024** Tim Alamenciak. "Knowledge Graphs for Land-Based Knowledges: Encoding Restoration Ecology and Environmental History." Summer Research Institute, Quaker Institute for the Future.
-
-
-- **2024** Tim Alamenciak, Ash Baron, Catherine Febria, Eric Higgs, Ryan Stephenson, Stephen Murphy, Nancy Shackelford. "Boots & Suits: Mobilizing knowledge in ecosystem restoration." Society for Ecological Restoration North American Conference, Vancouver.
-
-
-- **2024** Tim Alamenciak. "Fuzzy cognitive mapping using knowledge graphs for restoration ecology." Interdisciplinary Perspectives on Knowledge Synthesis in Ecology workshop, University of Bielefeld. *(Invited)*
 
 
 - **2024** Tim Alamenciak. "How to recruit and retain more volunteers." Webinar for Carolinian Canada. *(Invited)*
@@ -349,22 +367,13 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2022** Tim Alamenciak. "Comparing community-led tree planting programs." University of Waterloo, ERS 253. *(Invited)*
 
 
-- **2022** Tim Alamenciak. "Championing Change in the Field and Office." Designing Change for a Living Planet – World Wildlife Fund. *(Invited)*
+- **2022** Tim Alamenciak. "Championing Change in the Field and Office." Designing Change for a Living Planet â World Wildlife Fund. *(Invited)*
 
 
 - **2022** Tim Alamenciak. "Guest speaker." Landscapes of Holistic Sustainability and Wellbeing Retreat, Wilfrid Laurier University. *(Invited)*
 
 
 - **2022** Tim Alamenciak. "Advocacy 101: How to talk about climate change with politicians." ClimateActionWR sector committee talk. *(Invited)*
-
-
-- **2021** Tim Alamenciak. "Working Together and Giving Back: Building and sustaining volunteer motivation." Wholistic Restoration – Ignatius Jesuit Centre. *(Invited)*
-
-
-- **2021** Tim Alamenciak. "Decolonizing Worldviews: Unpacking nature and wilderness." Wholistic Restoration – Ignatius Jesuit Centre. *(Invited)*
-
-
-- **2021** Tim Alamenciak, Elise Gornish, Stephen Murphy. "How to design techniques for volunteer ecological restoration." National Extension Conference on Volunteerism-Lite.
 
 
 - **2021** Higgs, Eric, Tim Alamenciak, & Sonia Voicescu. "Ecological Restoration: Nature-Based Solutions for Climate Mitigation and Engaging Canadians with Nature." Living Within the Earth's Carrying Capacity Forum, Ottawa, Ontario.
@@ -379,7 +388,16 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2021** Tim Alamenciak. "Facilitator." Food Systems Summit 2021: Green Growth Dialogue, Arrell Food Institute, University of Guelph.
 
 
-- **2020** Tim Alamenciak. "Who gets to care for nature? Participation in ecological restoration." Guest Lecture – University of Waterloo PACS 310. *(Invited)*
+- **2021** Tim Alamenciak, Elise Gornish, Stephen Murphy. "How to design techniques for volunteer ecological restoration." National Extension Conference on Volunteerism-Lite.
+
+
+- **2021** Tim Alamenciak. "Decolonizing Worldviews: Unpacking nature and wilderness." Wholistic Restoration â Ignatius Jesuit Centre. *(Invited)*
+
+
+- **2021** Tim Alamenciak. "Working Together and Giving Back: Building and sustaining volunteer motivation." Wholistic Restoration â Ignatius Jesuit Centre. *(Invited)*
+
+
+- **2020** Tim Alamenciak. "Who gets to care for nature? Participation in ecological restoration." Guest Lecture â University of Waterloo PACS 310. *(Invited)*
 
 
 - **2020** Tim Alamenciak. "Assessment in restoration ecology." University of Waterloo, ERS 342. *(Invited)*
