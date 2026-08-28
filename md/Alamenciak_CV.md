@@ -113,8 +113,6 @@ Supervisor: Dr. Gene Allen
 
 - **2026** "Modelling and understanding the causal mosaic of social-ecological systems: Theoretical and methodological contributions in the context of the EcoWeaver initiative" - Center for Interdisciplinary Research (ZiF: Zentrum fur interdisziplinare Forschung), Bielefeld University - EUR 200,000 (Co-PI)
 
-- **2026** "We're Off to See the Wizard: Using Mechanical Neural Networks to Build AI Literacy in Environmental Studies and Arts Students" - Centre for Teaching Excellence, University of Waterloo - $7,500 (PI)
-
 
 ### Awards
 
