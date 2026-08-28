@@ -298,7 +298,7 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2026** Tim Alamenciak. "The John Connor Guide to Life with LLMs" Brains on Tap.
 
 
-- **2026** Tim Alamenciak. "EcoWeaver Workbench  hands-on schema prototyping" Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis.
+- **2026** Tim Alamenciak. "EcoWeaver Workbench — hands-on schema prototyping" Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis.
 
 
 - **2026** Federica Bocchi, Kian Drew, Tim Alamenciak. "Indigenous data sovereignty in computational ecological knowledge integration" Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis.
@@ -313,7 +313,7 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2025** Tim Alamenciak. "Mapping Evidence to Theory in Ecology." Workshop, University of Bielefeld.
 
 
-- **2025** Tim Alamenciak, Carlos Alberto Arnillas, J. Harry Caufield, Katherine Compton, Kian Drew, Robert FrÃ¼hstÃ¼ckl, Tina Heger, Birgitta KÃ¶nig-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, Lars Vogt. "Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems." EcoDL Workshop at the Theory and Practice of Digital Libraries conference, Tampere, Finland.
+- **2025** Tim Alamenciak, Carlos Alberto Arnillas, J. Harry Caufield, Katherine Compton, Kian Drew, Robert Frühstückl, Tina Heger, Birgitta König-Ries, Chris Mungall, Sierra Moxon, Justin Reese, Jordan Tardif, Lars Vogt. "Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems." EcoDL Workshop at the Theory and Practice of Digital Libraries conference, Tampere, Finland.
 
 
 - **2025** Tim Alamenciak. "Toolkit for Restoration Ecology Knowledge (TReK)." AI Colloquium, Lamarr Institute, Dortmund, Germany. *(Invited)*
@@ -334,7 +334,7 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2024** Tim Alamenciak. "Fuzzy cognitive mapping using knowledge graphs for restoration ecology." Interdisciplinary Perspectives on Knowledge Synthesis in Ecology workshop, University of Bielefeld. *(Invited)*
 
 
-- **2024** Tim Alamenciak. "Volunteer engagement in ecological restoration." Guest lecture: ENVS 195 â Introduction to Environmental Studies. *(Invited)*
+- **2024** Tim Alamenciak. "Volunteer engagement in ecological restoration." Guest lecture: ENVS 195 — Introduction to Environmental Studies. *(Invited)*
 
 
 - **2024** Tim Alamenciak. "Taming Complexity in Ecology." Workshop, Germany. *(Invited)*
@@ -367,7 +367,7 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2022** Tim Alamenciak. "Comparing community-led tree planting programs." University of Waterloo, ERS 253. *(Invited)*
 
 
-- **2022** Tim Alamenciak. "Championing Change in the Field and Office." Designing Change for a Living Planet â World Wildlife Fund. *(Invited)*
+- **2022** Tim Alamenciak. "Championing Change in the Field and Office." Designing Change for a Living Planet — World Wildlife Fund. *(Invited)*
 
 
 - **2022** Tim Alamenciak. "Guest speaker." Landscapes of Holistic Sustainability and Wellbeing Retreat, Wilfrid Laurier University. *(Invited)*
@@ -391,13 +391,13 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 - **2021** Tim Alamenciak, Elise Gornish, Stephen Murphy. "How to design techniques for volunteer ecological restoration." National Extension Conference on Volunteerism-Lite.
 
 
-- **2021** Tim Alamenciak. "Decolonizing Worldviews: Unpacking nature and wilderness." Wholistic Restoration â Ignatius Jesuit Centre. *(Invited)*
+- **2021** Tim Alamenciak. "Decolonizing Worldviews: Unpacking nature and wilderness." Wholistic Restoration — Ignatius Jesuit Centre. *(Invited)*
 
 
-- **2021** Tim Alamenciak. "Working Together and Giving Back: Building and sustaining volunteer motivation." Wholistic Restoration â Ignatius Jesuit Centre. *(Invited)*
+- **2021** Tim Alamenciak. "Working Together and Giving Back: Building and sustaining volunteer motivation." Wholistic Restoration — Ignatius Jesuit Centre. *(Invited)*
 
 
-- **2020** Tim Alamenciak. "Who gets to care for nature? Participation in ecological restoration." Guest Lecture â University of Waterloo PACS 310. *(Invited)*
+- **2020** Tim Alamenciak. "Who gets to care for nature? Participation in ecological restoration." Guest Lecture — University of Waterloo PACS 310. *(Invited)*
 
 
 - **2020** Tim Alamenciak. "Assessment in restoration ecology." University of Waterloo, ERS 342. *(Invited)*
@@ -407,16 +407,24 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 ## Workshops and Conferences Hosted
 
 
-**EcoTransform: An AI & Ecology Hackathon** *(Forthcoming November 2026)*
-This hackathon will challenge students to use generative AI tools for environmental evidence synthesis in rigorous, repeatable ways.
+**Ontario Ecological Restoration Conference** *(Forthcoming October 2026)*
+Conference co-organizer. Hosted at the University of Waterloo.
+
+
+**Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis** *(Forthcoming 28 September - 1 October 2026)*
+Workshop co-organizer. Friedrich Schiller University Jena, Germany. Funded by the DFG Workshop Fund.
+
+
+**Evidence Jam** *(Forthcoming November 2026)*
+Organizer. This hackathon will challenge students to use generative AI tools for environmental evidence synthesis in rigorous, repeatable ways.
 
 
 **GLELxSciComm: A Day of Science Communication Learning** *(2025)*
-Full day workshop providing science communication training for 40 students and staff at Carleton.
+Organizer. Full day workshop providing science communication training for 40 students and staff at Carleton.
 
 
 **From Abstract to Action** *(2024)*
-Series of three talks organized for members of the Geomatics and Landscape Ecology Lab (GLEL). Approximately 40 faculty and students attended each talk.
+Organizer. Series of three talks organized for members of the Geomatics and Landscape Ecology Lab (GLEL). Approximately 40 faculty and students attended each talk.
 
 
 

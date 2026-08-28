@@ -2,8 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tim Alamenciak — Academic CV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tim Alamenciak — Translational Ecologist | Restoration, Knowledge Systems, Community Engagement</title>
+  <meta name="description" content="Translational ecologist studying why ecological evidence rarely reaches restoration practitioners — and building the knowledge systems and partnerships that close the gap.">
+  <link rel="canonical" href="https://tim-a.ca/">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Tim Alamenciak">
+  <meta property="og:title" content="Tim Alamenciak — Translational Ecologist">
+  <meta property="og:description" content="Restoration ecology, computational knowledge systems, and community engagement. PhD, Social and Ecological Sustainability (Waterloo, 2024).">
+  <meta property="og:url" content="https://tim-a.ca/">
+  <meta property="og:image" content="https://tim-a.ca/img/frontpage.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tim Alamenciak — Translational Ecologist">
+  <meta name="twitter:description" content="Restoration ecology, computational knowledge systems, and community engagement. PhD, Social and Ecological Sustainability (Waterloo, 2024).">
+  <meta name="twitter:image" content="https://tim-a.ca/img/frontpage.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tim Alamenciak",
+    "url": "https://tim-a.ca/",
+    "image": "https://tim-a.ca/pfp.jpg",
+    "email": "mailto:TimAlamenciak@cunet.carleton.ca",
+    "jobTitle": "Postdoctoral Fellow",
+    "description": "Translational ecologist working on ecological restoration, computational knowledge systems, and community engagement.",
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Waterloo" },
+      { "@type": "CollegeOrUniversity", "name": "Toronto Metropolitan University" }
+    ],
+    "affiliation": [
+      { "@type": "CollegeOrUniversity", "name": "Carleton University" },
+      { "@type": "CollegeOrUniversity", "name": "University of Waterloo" },
+      { "@type": "CollegeOrUniversity", "name": "University of Victoria" },
+      { "@type": "CollegeOrUniversity", "name": "St. Jerome's University" }
+    ],
+    "knowsLanguage": ["en", "fr"],
+    "knowsAbout": [
+      "Ecological restoration",
+      "Knowledge graphs and ontologies for environmental evidence",
+      "Volunteer engagement and community-based conservation",
+      "Translational ecology",
+      "Science communication"
+    ],
+    "sameAs": [
+      "https://orcid.org/0000-0002-1296-2528",
+      "https://scholar.google.com/citations?user=3B0nmbcAAAAJ",
+      "https://www.wikidata.org/wiki/Q120766436",
+      "https://dblp.uni-trier.de/pid/414/9729.html",
+      "https://github.com/timalamenciak",
+      "https://www.linkedin.com/in/tim-alamenciak-41419b15/",
+      "https://muckrack.com/tim-alamenciak",
+      "https://www.tvo.org/author/tim-alamenciak"
+    ]
+  }
+  </script>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
@@ -55,6 +111,84 @@
       margin-top: 4px;
     }
     .sidebar-listen-btn:hover { opacity: 0.88; }
+
+    /* Credential bar — answers the screening questions in the first 15 seconds */
+    .credential-bar {
+      text-align: center;
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 4px;
+      margin-bottom: 18px;
+    }
+
+    /* Recent & upcoming */
+    .recent-box {
+      background: rgba(139, 173, 140, 0.12);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .recent-heading {
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--brand);
+      margin-bottom: 8px;
+    }
+    .recent-list { list-style: none; padding: 0; margin: 0; font-size: 0.94rem; }
+    .recent-list li { margin-bottom: 7px; }
+    .recent-list li:last-child { margin-bottom: 0; }
+    .recent-date {
+      display: inline-block;
+      min-width: 84px;
+      font-weight: 700;
+      color: var(--brand);
+    }
+
+    /* Selected talks */
+    .talk-list { margin-bottom: 0; }
+    .talk {
+      display: flex;
+      gap: 12px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 1px dashed rgba(36, 63, 50, 0.2);
+    }
+    .talk:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    .talk-year { flex: 0 0 44px; font-weight: 700; color: var(--brand); }
+    .talk-title { font-weight: 700; }
+    .talk-invited {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--brand);
+      background: rgba(139, 173, 140, 0.28);
+      border: 1px solid rgba(139, 173, 140, 0.5);
+      border-radius: 999px;
+      padding: 0 7px;
+      margin-left: 6px;
+      vertical-align: 2px;
+    }
+
+    .teaching-list > li { margin-bottom: 12px; }
+
+    /* Funding sidebar */
+    .funding-total { font-size: 1.02rem; margin-bottom: 8px; }
+    .funding-total strong { font-size: 1.25rem; color: var(--brand); }
+    .funding-list { padding-left: 0; list-style: none; margin-bottom: 0; font-size: 0.86rem; }
+    .funding-list li {
+      margin-bottom: 7px;
+      padding-left: 10px;
+      border-left: 2px solid var(--sage);
+      color: var(--muted);
+    }
+    .funding-year { font-weight: 700; color: var(--brand); margin-right: 4px; }
   </style>
 
 </head>
@@ -63,19 +197,20 @@
 
 <nav class="navbar navbar-expand-lg navbar-custom shadow-sm sticky-top">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#" style="color:var(--brand);">Tim Alamenciak</a>
+    <a class="navbar-brand fw-bold" href="/" style="color:var(--brand);">Tim Alamenciak</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
         <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
-        <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
-        <li class="nav-item"><a class="nav-link" href="#writing">Writing &amp; Media</a></li>
+        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#talks">Talks</a></li>
         <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
-        <li class="nav-item"><a class="nav-link" href="pdf/Alamenciak_CV.pdf">CV (pdf)</a></li>
+        <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
+        <li class="nav-item"><a class="nav-link" href="#writing">Writing &amp; Media</a></li>
+        <li class="nav-item"><a class="nav-link" href="/pdf/Alamenciak_CV.pdf">CV (pdf)</a></li>
       </ul>
     </div>
   </div>
@@ -90,42 +225,50 @@
 
         <h1 class="text-center mb-2">Tim Alamenciak</h1>
         <p class="text-center mb-3">
-          <span class="pill"><i class="fa-solid fa-leaf"></i> Restoration</span>
+          <span class="pill"><i class="fa-solid fa-leaf"></i> Biodiversity Restoration & Conservation</span>
           <span class="pill"><i class="fa-solid fa-diagram-project"></i> Knowledge Systems</span>
           <span class="pill"><i class="fa-solid fa-people-group"></i> Community Engagement</span>
         </p>
 
+        <p class="credential-bar">
+          PhD, Social and Ecological Sustainability, University of Waterloo (2024)
+          &middot; Postdoctoral Fellow, Carleton University
+          &middot; Adjunct Assistant Professor, University of Waterloo
+          &middot; Research Fellow, St. Jerome&rsquo;s University
+          &middot; English / French (B2)
+        </p>
+
         <p class="lead mb-3">
-          I am a translational ecologist investigating the critical gap between scientific evidence and on-the-ground practice.
-          My work integrates ecological restoration, computational knowledge systems, and community engagement
-          through <strong>transdisciplinary research</strong> that supports evidence-informed decision-making —
-          from landscape-scale conservation planning to the design of open digital tools for practitioners.
+          I study biodiversity restoration and conservation, focusing on building evidence for good decisions and mobilizing evidence with practitioners who can use it. I build the tools and partnerships that close the distance between research and practice. My work spans from the
+          Canadian prairies, where I model what happens to land after a conservation contract expires,
+          to the knowledge graphs that make scattered ecological evidence usable, to the neighbourhood
+          groups whose volunteers do a significant portion of the restoration in this country.
         </p>
 
         <p class="mb-2 subhead">Guiding questions</p>
 
         <ul class="focus-list">
           <li>
-            <strong>Engagement:</strong> What are the socio-ecological legacies of short-term conservation agreements?
+            <strong>Biodiversity Restoration and Conservation:</strong> What are the socio-ecological legacies of short-term conservation agreements?
             <div class="focus-note">
               <i>Current Focus:</i>
               Spatio-temporal modeling of term agreement outcomes and a participant analysis with
               <a href="https://ducks.ca">Ducks Unlimited Canada</a>
-              to determine how temporary contracts shape long-term landscape connectivity.
+              to determine how temporary contracts shape long-term biodiversity outcomes.
             </div>
           </li>
 
           <li>
-            <strong>Knowledge:</strong> How can we architect digital platforms that transform fragmented data into actionable local intelligence?
+            <strong>Knowledge Systems:</strong> How can digital platforms turn fragmented ecological data into evidence practitioners can act on?
             <div class="focus-note">
               <i>Current Focus:</i>
-              Developing <a href="https://ecoweaver.hi-knowledge.org">EcoWeaver</a>, a novel semantic framework for synthesizing diverse ecological
+              Developing <a href="https://ecoweaver.hi-knowledge.org">EcoWeaver</a>, a semantic framework for synthesizing diverse ecological
               data streams into accessible, community-ready formats.
             </div>
           </li>
 
           <li>
-            <strong>Collaboration:</strong> What mechanisms facilitate the transition from passive engagement to durable community capacity?
+            <strong>Community Engagement:</strong> What mechanisms facilitate the transition from passive engagement to durable community capacity?
             <div class="focus-note">
               <i>Current Focus:</i>
               A pilot initiative using <strong>participatory scenario planning</strong> to co-design restoration strategies between community groups and municipalities.
@@ -133,9 +276,27 @@
           </li>
         </ul>
 
-        <p class="mb-0">
-          My research spans three interconnected areas — conservation mechanisms and landscape outcomes, computational knowledge systems for ecology, and community engagement in restoration — with current projects supported by an <strong>NSERC Alliance grant ($355K)</strong>. See <a href="#research">Research</a> for details.
+        <p class="mb-4">
+          My research across three interconnected areas has been supported by
+          <strong>$607,000 in awarded research funding</strong> as PI or co-PI across
+          11 competitions. See <a href="#research">Research</a> for details.
         </p>
+
+        <!-- Recent &amp; upcoming: hand-maintained. Update monthly — four minutes.
+             Bump the date below every time you touch this list. build_site.py checks it
+             and complains if it has gone stale, or if nothing here is still upcoming.
+             recent-updated: 2026-08-27 -->
+        <div class="recent-box">
+          <div class="recent-heading"><i class="fa-solid fa-calendar-days me-2"></i>Recent &amp; upcoming</div>
+          <ul class="recent-list">
+            <li><span class="recent-date">Nov 2026</span> Organizing <strong>Evidence Jam</strong>, an AI &amp; ecology hackathon at St. Jerome&rsquo;s University.</li>
+            <li><span class="recent-date">Oct 2026</span> Co-organizing the <strong>Ontario Ecological Restoration Conference</strong> at the University of Waterloo.</li>
+            <li><span class="recent-date">Sep 2026</span> Co-organizing <strong>Integrative Social-Ecological Knowledge Systems</strong>, a workshop in Jena, Germany (28 Sept – 1 Oct).</li>
+            <li><span class="recent-date">2026</span> Talk: <em>Causal Mosaic Schema</em> at TDWG 2026; <em>AI and decision support tools for land trusts</em> at the Ontario Land Trust Alliance conference.</li>
+            <li><span class="recent-date">2026</span> Awarded an <strong>NVIDIA Academic Grant</strong> (PI) and an <strong>ESIIL working group</strong> for CMSMapper (co-PI).</li>
+            <li><span class="recent-date">2026</span> Papers out in <em>Environmental Evidence</em>, <em>Socio-Ecological Practice Research</em> and <em>Conservation Science and Practice</em>.</li>
+          </ul>
+        </div>
       </section>
 
       <section id="publications" class="content-card">
@@ -410,9 +571,9 @@
 
         <p class="lead mb-3">
           My research operates at three interconnected scales: understanding how
-          <strong>conservation mechanisms</strong> shape landscapes and communities,
-          building <strong>knowledge systems</strong> that make ecological evidence
-          accessible, and studying how <strong>people engage</strong> with restoration
+          conservation mechanisms shape landscapes and communities,
+          building equitable, accessible knowledge systems that make ecological evidence
+          usable, and studying how people engage with biodiversity restoration
           and conservation work on the ground.
         </p>
 
@@ -432,9 +593,10 @@
           Ecological evidence is fragmented across disciplines, scales, and formats.
           I develop computational tools — ontologies, knowledge graphs, and semantic
           frameworks — that integrate this evidence into systems practitioners can
-          actually use. Projects include the Restoration and Conservation Ontology
-          (<strong>RACOON</strong>) and the Toolkit for Restoration Ecology
-          Knowledge (<strong>TReK</strong>), alongside the flagship platform below.
+          actually use. Projects include the
+          <a href="https://link.springer.com/chapter/10.1007/978-3-032-06136-2_33">Ecolink Model Ontology (ELMO)</a>,
+          which I lead for the Restoration Futures Lab, and the Toolkit for Restoration Ecology
+          Knowledge (<strong>TReK</strong>), alongside the platform below.
         </p>
 
         <div class="ecoweaver-card">
@@ -448,11 +610,16 @@
             <span class="partner-chip">ZiF, Bielefeld University</span>
             <span class="partner-chip">Carleton University</span>
             <span class="partner-chip">University of Waterloo</span>
+            <span class="partner-chip">University of Victoria</span>
+            <span class="partner-chip">University of Calgary</span>
             <span class="partner-chip">University of Jena</span>
           </div>
           <p class="upcoming-events mb-0">
             <i class="fa-solid fa-calendar-days me-1"></i>
-            <strong>Upcoming:</strong> presentations and workshops in Jena, Waterloo, and Bielefeld (2025–26).
+            <strong>Convening in 2026:</strong> co-organizing <em>Integrative Social-Ecological Knowledge
+            Systems</em> in Jena (28 Sept – 1 Oct, funded by the DFG Workshop Fund); organizing the Ontario
+            Ecological Restoration Conference at Waterloo (October); co-organizing the Evidence Jam AI
+            &amp; ecology hackathon (November).
           </p>
         </div>
 
@@ -469,9 +636,161 @@
         <p class="small-note mb-0">
           <strong>Key collaborators:</strong>
           <a href="https://carleton.ca/bennett-lab/">Bennett Lab</a> (Carleton) &middot;
-          <a href="https://www.nancyshackelford.com">Restoration Futures Lab</a> (UVic) &middot;
-          <a href="https://www.uni-bielefeld.de/fakultaeten/biologie/forschung/arbeitsgruppen/ecology_of_plant_interactions/">Heger Group</a> (Bielefeld)
+          <a href="https://www.restorationscience.net/">Restoration Futures Lab</a> (UVic)
         </p>
+      </section>
+
+      <section id="talks" class="content-card">
+        <div class="section-title">
+          <h2 class="mb-0">Selected talks</h2>
+          <hr class="rule">
+        </div>
+
+        <ul class="list-unstyled talk-list mb-2">
+
+          <li class="talk">
+            <span class="talk-year">2026</span>
+            <span class="talk-body">
+              <span class="talk-title">The enduring benefits of short-term conservation agreements</span>
+              <br>
+              <span class="small-note">Canadian Society for Ecology and Evolution Annual Conference</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2026</span>
+            <span class="talk-body">
+              <span class="talk-title">Causal Mosaic Schema: Encoding Causal Claims in Ecological Literature as Machine-Actionable Knowledge Graphs</span>
+              <br>
+              <span class="small-note">TDWG 2026 Conference</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2026</span>
+            <span class="talk-body">
+              <span class="talk-title">AI and decision support tools for land trusts</span>
+              <br>
+              <span class="small-note">Ontario Land Trust Alliance Conference</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2025</span>
+            <span class="talk-body">
+              <span class="talk-title">Ecolink: Towards a Knowledge Graph Schema for Complex Environmental Systems</span>
+              <br>
+              <span class="small-note">EcoDL Workshop at the Theory and Practice of Digital Libraries conference, Tampere, Finland</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2025</span>
+            <span class="talk-body">
+              <span class="talk-title">Toolkit for Restoration Ecology Knowledge (TReK)</span>
+              <span class="talk-invited">Invited</span><br>
+              <span class="small-note">AI Colloquium, Lamarr Institute, Dortmund, Germany</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2025</span>
+            <span class="talk-body">
+              <span class="talk-title">Three stories of restoration and conservation engagement</span>
+              <span class="talk-invited">Invited</span><br>
+              <span class="small-note">School of Environment, Resources and Sustainability Salon; Carleton BIOL 5534; Knowledge Mobilization Community of Practice; University of Waterloo PSCI 303</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2024</span>
+            <span class="talk-body">
+              <span class="talk-title">Boots & Suits: Mobilizing knowledge in ecosystem restoration</span>
+              <br>
+              <span class="small-note">Society for Ecological Restoration North American Conference, Vancouver</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2024</span>
+            <span class="talk-body">
+              <span class="talk-title">People-powered ecosystem restoration</span>
+              <span class="talk-invited">Invited</span><br>
+              <span class="small-note">University of Arizona, Gornish Lab</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2024</span>
+            <span class="talk-body">
+              <span class="talk-title">Mapping evidence to theory in ecology: Addressing the challenges of generalization and causality</span>
+              <span class="talk-invited">Invited</span><br>
+              <span class="small-note">Residency at Centre for Interdisciplinary Research (ZiF), Bielefeld University</span>
+            </span>
+          </li>
+
+          <li class="talk">
+            <span class="talk-year">2024</span>
+            <span class="talk-body">
+              <span class="talk-title">How to recruit and retain more volunteers</span>
+              <span class="talk-invited">Invited</span><br>
+              <span class="small-note">Webinar for Carolinian Canada</span>
+            </span>
+          </li>
+
+        </ul>
+
+        <p class="small-note mb-0">Full list of presentations in the <a href="/pdf/Alamenciak_CV.pdf">CV</a>.</p>
+      </section>
+
+      <section id="service" class="content-card">
+        <div class="section-title">
+          <h2 class="mb-0">Service</h2>
+          <hr class="rule">
+        </div>
+
+        <h4>Boards &amp; professional service</h4>
+        <ul>
+
+          <li><strong>Board Member at-large, Environmental Studies Association of Canada (ESAC)</strong> <span class="small-note">(2024 - Current)</span></li>
+
+          <li><strong>Board Member, Emerging Leaders for Biodiversity (ELB)</strong> <span class="small-note">(2024 - 2025)</span></li>
+
+          <li><strong>Board Member, Society for Ecological Restoration (Ontario)</strong> <span class="small-note">(2020 - 2021)</span></li>
+
+        </ul>
+
+        <h4>Institutional &amp; community committees</h4>
+        <ul>
+
+          <li><strong>Member, Knowledge Mobilization Community of Practice (UW)</strong> <span class="small-note">(2025 - Current)</span></li>
+
+          <li><strong>Member, Natural Spaces Working Group (UW)</strong> <span class="small-note">(2025 - Current)</span></li>
+
+          <li><strong>Faculty liaison, Society for Ecological Restoration UW Student Chapter (SER-UW)</strong> <span class="small-note">(2023 - Current)</span></li>
+
+          <li><strong>Land Stewardship Committee Member, Ignatius Jesuit Centre</strong> <span class="small-note">(2024 - 2025)</span></li>
+
+          <li><strong>Writing Cafe Organizer, Weekend Warriors Writing Cafe, University of Waterloo</strong> <span class="small-note">(2021 - 2022)</span></li>
+
+          <li><strong>Member, Ecological and Environmental Advisory Committee, Region of Waterloo</strong> <span class="small-note">(2019 - 2021)</span></li>
+
+        </ul>
+
+        <h4>Peer review</h4>
+        <p class="mb-2">
+          Reviewer for
+<em>Restoration Ecology</em>, <em>Sustainability Science</em>, <em>Society & Natural Resources</em>, <em>Ecology & Society</em>, <em>People & Nature</em>.
+        </p>
+
+        <h4>Grant review</h4>
+        <ul class="mb-0">
+
+          <li>Digital Research Alliance - EDIA Champions Program</li>
+
+          <li>Earth Science Information Partners (ESIP) - Community Resilience RFP</li>
+
+        </ul>
       </section>
 
       <section id="writing" class="content-card">
@@ -481,15 +800,24 @@
         </div>
 
         <p>
-          Before entering academia, I worked as a staff reporter at the
-          <strong>Toronto Star</strong> and as a digital media producer at
-          <strong>TVO</strong>, where I created and directed
-          <em>Climate Watch Shorts</em> (a documentary series on climate
-          impacts in Ontario) and launched TVO's first podcast.
-          I bring this science communication experience into my academic work.
+          Before entering academia I spent a decade as a working journalist — a staff reporter at the
+          <strong>Toronto Star</strong>, then a digital media producer at <strong>TVO</strong>, where I
+          created and directed <a href="https://www.tvo.org/programs/climate-watch-shorts"><em>Climate
+          Watch Shorts</em></a>, a documentary series on climate impacts in Ontario, and launched TVO&rsquo;s
+          first podcast. Daily deadline reporting is where I learned to find out what a specialist actually
+          means, and to say it to someone who has ninety seconds. That is the same problem my research
+          works on, and it shapes how I design studies, tools and partnerships.
         </p>
 
-        <h4>Science Communication Initiatives</h4>
+        <h4>Selected journalism</h4>
+        <ul class="writing-links">
+          <li><a href="https://www.tvo.org/author/tim-alamenciak">TVO author archive</a> — <span class="small-note">Climate Watch Shorts episodes and reporting.</span></li>
+          <li><a href="https://www.tvo.org/programs/climate-watch-shorts">Climate Watch Shorts</a> — <span class="small-note">the full documentary series.</span></li>
+          <li><a href="https://muckrack.com/tim-alamenciak">Muck Rack profile</a> — <span class="small-note">Toronto Star and Globe and Mail bylines.</span></li>
+          <li><a href="https://niche-canada.org/2021/03/23/restoring-relationships-dismantling-colonial-visions-of-landscape-restoration/">Cycles of Use on the Landscape</a> (NiCHE, 2021) — <span class="small-note">essay on relationships, Land Back and long-term restoration planning, in the <em>Environmental Histories of the Future</em> series.</span></li>
+        </ul>
+
+        <h4>Science communication initiatives</h4>
         <ul>
           <li><strong>GLELxSciComm</strong> (2025) — Organized a full-day science
           communication workshop for 40 students and staff at Carleton, featuring
@@ -522,20 +850,121 @@
           that give students concrete skills alongside conceptual depth.
         </p>
         <p class="mb-4">
-          A decade as a journalist covering science and environment shapes how I teach science communication. I design assignments that push students to translate technical findings for non-specialist audiences — treating that skill as fundamental, not supplementary.
+          A decade as a journalist shapes how I teach science communication. I design assignments that push students to translate technical findings for non-specialist audiences — treating that skill as fundamental, not supplementary.
         </p>
 
-        <h4>Courses Designed &amp; Taught</h4>
-        <ul>
-          <li><strong>ERS 253 – Communities and Sustainability</strong> (University of Waterloo, Winter 2024, 38 students) — Complete course redesign with new readings, inquiry-based structure, and professional guest lectures.</li>
+        <h4>Courses taught</h4>
+        <ul class="teaching-list">
+
+          <li>
+            <strong>ENVS 205 - Sustainability: The Future We Want</strong>
+            <span class="small-note">— Sessional Lecturer, University of Waterloo, Spring 2026</span>
+
+
+          </li>
+
+          <li>
+            <strong>BIOL 5512 - Advances in Applied Ecology</strong>
+            <span class="small-note">— Course Mentor, Carleton University, Ottawa, Ontario, Fall 2024</span>
+
+            <div class="focus-note">Led a group's intensive research project. See resulting publication Hodgson et al. 2026</div>
+
+
+          </li>
+
+          <li>
+            <strong>ERS 253 - Communities and Sustainability</strong>
+            <span class="small-note">— Sessional Lecturer, University of Waterloo, School of Environment, Resources and Sustainability, Winter 2024 (38 students; in-person)</span>
+
+
+            <ul class="mt-1">
+
+              <li>Re-designed course including entirely new readings, structure, assignments, lectures, and online space through LEARN.</li>
+
+              <li>Incorporated inquiry-based learning and professional guest lectures into course materials.</li>
+
+            </ul>
+
+          </li>
+
+          <li>
+            <strong>ERS 340 - Ecosystem Assessment</strong>
+            <span class="small-note">— Teaching Assistant, University of Waterloo, Spring 2021 (31 students; online)</span>
+
+
+          </li>
+
+          <li>
+            <strong>ERS 401 - Translational Ecology</strong>
+            <span class="small-note">— Teaching Assistant, University of Waterloo, Winter 2021 (40 students; online)</span>
+
+
+          </li>
+
+          <li>
+            <strong>ERS 335 - Ecological Restoration</strong>
+            <span class="small-note">— Teaching Assistant, University of Waterloo, Fall 2020 (40 students; online)</span>
+
+
+          </li>
+
+          <li>
+            <strong>multiple courses</strong>
+            <span class="small-note">— Teaching Assistant, University of Waterloo, Sept 2019 - Aug 2020 (ENVS 200, ERS 402, ERS 300)</span>
+
+
+          </li>
+
         </ul>
 
-        <h4>Research Supervision</h4>
-        <ul>
-          <li><strong>Honours thesis (Fall 2025)</strong>, Carleton University — resulted in Alamenciak et al. 2026, <em>Socio-Ecological Practice Research</em></li>
-          <li><strong>Honours thesis, Logan Rehberg (Spring 2024)</strong>, Carleton University — resulted in Alamenciak et al. 2025, <em>Restoration Ecology</em> (in press)</li>
-          <li><strong>Group mentor, BIOL 5512 (Fall 2024)</strong>, Carleton University — resulted in Hodgson et al. 2025, <em>Environmental Evidence</em> (accepted)</li>
-          <li>Ongoing graduate mentorship at Carleton University, University of Waterloo, and St. Jerome's University, including thesis committee membership.</li>
+        <p class="small-note">
+          Plus invited guest lectures in ten-plus courses across ecology, environmental studies,
+          political science, and peace and conflict studies at Waterloo and Carleton.
+        </p>
+
+        <h4>Research supervision</h4>
+        <ul class="teaching-list">
+
+          <li>
+            <strong>Honours thesis (Kacey Hammond), Bachelor of Science</strong>
+            <span class="small-note">— Carleton University, Ottawa, Ontario, Fall 2025 & Winter 2026</span>
+
+          </li>
+
+          <li>
+            <strong>Honours thesis (Logan Rehberg), Bachelor of Science</strong>
+            <span class="small-note">— Carleton University, Ottawa, Ontario, Spring 2024</span>
+
+            <div class="focus-note">See resulting publication Alamenciak et al. 2026.</div>
+
+          </li>
+
+          <li>Ongoing graduate mentorship at Carleton University, the University of Waterloo, and
+          St. Jerome&rsquo;s University, including thesis committee membership.</li>
+        </ul>
+
+        <h4>Teaching qualifications &amp; professional development</h4>
+        <ul class="mb-0">
+
+          <li><strong>MobilizeU Knowledge Mobilization Certificate</strong> <span class="small-note">(2025, Simon Fraser University)</span></li>
+
+          <li><strong>Knowledge Graphs - Foundations and Applications</strong> <span class="small-note">(2024, Hasso Plattner Institute, Potsdam, Germany)</span></li>
+
+          <li><strong>Mental Health Literacy Certificate Program</strong> <span class="small-note">(2024, University of Waterloo)</span></li>
+
+          <li><strong>Certificate in University Teaching</strong> <span class="small-note">(2021 - 2022, University of Waterloo)</span></li>
+
+          <li><strong>Fundamentals of University Teaching</strong> <span class="small-note">(2021, University of Waterloo)</span></li>
+
+          <li><strong>Ontario Master Naturalist Certificate</strong> <span class="small-note">(2020, Lakehead University)</span></li>
+
+          <li><strong>Data-Driven Ecological Synthesis Summer School</strong> <span class="small-note">(2020)</span></li>
+
+          <li><strong>Ontario Benthic Biomonitoring Network (OBBN) Certificate</strong> <span class="small-note">(2019)</span></li>
+
+          <li><strong>Common Cause for Conservation Values-Based Communications Training</strong> <span class="small-note">(2019)</span></li>
+
+          <li><strong>Certificate in University Teaching Award</strong> <span class="small-note">(2022, $1,000, University of Waterloo)</span></li>
         </ul>
       </section>
 
@@ -549,30 +978,56 @@
       </div>
 
       <div class="sidebar-box">
-        <div class="sidebar-heading">Affiliations</div>
-        <p><strong><a href="https://carleton.ca/bennett-lab/">Bennett Lab</a></strong><br>Carleton University</p>
-        <p><strong><a href="https://www.dragenlab.ca/">DRAGEN Lab</a></strong><br>St. Jerome's University</p>
-        <p><strong><a href="https://uwaterloo.ca/artificial-intelligence-institute/">Waterloo.AI</a></strong><br>Data &amp; Artificial Intelligence Institute<br>University of Waterloo</p>
+        <div class="sidebar-heading">Appointments</div>
+        <p><strong>Postdoctoral Fellow</strong><br><a href="https://carleton.ca/bennett-lab/">Bennett Lab</a>, Carleton University</p>
+        <p><strong>Adjunct Assistant Professor</strong><br>School of Environment, Resources and Sustainability, University of Waterloo</p>
+        <p><strong>Research Fellow</strong><br><a href="https://www.dragenlab.ca/">DRAGEN Lab</a>, St. Jerome's University</p>
+        <p class="mb-0"><strong>Researcher</strong><br><a href="https://uwaterloo.ca/artificial-intelligence-institute/">Waterloo.AI</a>, University of Waterloo</p>
       </div>
 
       <div class="sidebar-box">
         <div class="sidebar-heading">Funding</div>
-        <p><i class="fa-solid fa-dollar-sign" style="width:20px;text-align:center;margin-right:6px;opacity:0.9;"></i> <strong>$355K</strong> NSERC Alliance<br>
-          <span style="font-size:0.9rem;color:var(--muted);margin-left:26px;display:inline-block;">Co-lead with J. Bennett<br>Temporary conservation agreements<br>with Ducks Unlimited Canada</span></p>
+        <p class="funding-total"><strong>$607,000</strong> awarded as PI or co-PI across 11 competitions</p>
+        <ul class="funding-list">
+
+          <li><span class="funding-year">2024</span> NSERC Alliance fund, &quot;Evaluating the potential of temporary conserved areas for biodiversity conservation&quot; with Ducks Unlimited Canada - $355,000 (co-PI with Dr. Joseph Bennett)</li>
+
+          <li><span class="funding-year">2026</span> Environmental Data Science Innovation &amp; Impact Lab (ESIIL) 2026 working group - CMSMapper: Optimal climate mitigation planning for nature and people - $65,000 USD (co-PI)</li>
+
+          <li><span class="funding-year">2020</span> Ontario Trillium Fund, ecological restoration education with Ignatius Jesuit Centre - $70,000 (co-applicant)</li>
+
+          <li><span class="funding-year">2026</span> DFG Workshop Fund for September EcoWeaver workshop - €22,000</li>
+
+          <li><span class="funding-year">2022</span> University of Waterloo Sustainability Action Fund - $20,000 (co-PI with Dr. Shefaza Esmail)</li>
+
+        </ul>
+
+        <div class="sidebar-heading" style="margin-top:12px;">In review</div>
+        <ul class="funding-list mb-0">
+
+          <li><span class="funding-year">2026</span> &quot;Modelling and understanding the causal mosaic of social-ecological systems: Theoretical and methodological contributions in the context of the EcoWeaver initiative&quot; - Center for Interdisciplinary Research (ZiF: Zentrum fur interdisziplinare Forschung), Bielefeld University - EUR 200,000 (Co-PI)</li>
+
+          <li><span class="funding-year">2026</span> &quot;We&#x27;re Off to See the Wizard: Using Mechanical Neural Networks to Build AI Literacy in Environmental Studies and Arts Students&quot; - Centre for Teaching Excellence, University of Waterloo - $7,500 (PI)</li>
+
+        </ul>
+
       </div>
 
       <div class="sidebar-box">
         <div class="sidebar-heading">Profiles</div>
         <p><i class="fa-brands fa-github"></i> <a href="https://github.com/timalamenciak">GitHub</a></p>
         <p><i class="fa-solid fa-id-card"></i> <a href="https://orcid.org/0000-0002-1296-2528">ORCID</a></p>
-        <p><i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=Q120766436">Google Scholar</a></p>
+        <p><i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=3B0nmbcAAAAJ">Google Scholar</a></p>
         <p><i class="fa-solid fa-graduation-cap"></i> <a href="https://scholia.toolforge.org/author/Q120766436">Scholia</a></p>
+        <p><i class="fa-solid fa-database"></i> <a href="https://www.wikidata.org/wiki/Q120766436">Wikidata</a></p>
+        <p><i class="fa-solid fa-code"></i> <a href="https://dblp.uni-trier.de/pid/414/9729.html">dblp</a></p>
         <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/tim-alamenciak-41419b15/">LinkedIn</a></p>
+        <p class="mb-0"><i class="fa-solid fa-newspaper"></i> <a href="https://muckrack.com/tim-alamenciak">Muck Rack</a></p>
       </div>
 
       <div class="sidebar-box">
         <div class="sidebar-heading">Quick links</div>
-        <p><i class="fa-solid fa-file-lines"></i> <a href="pdf/Alamenciak_CV.pdf">CV (pdf)</a></p>
+        <p><i class="fa-solid fa-file-lines"></i> <a href="/pdf/Alamenciak_CV.pdf">CV (pdf)</a></p>
         <a href="podcast.xml" class="sidebar-listen-btn">
           <i class="fa-solid fa-headphones me-2"></i>Research Audio (RSS)
         </a>
