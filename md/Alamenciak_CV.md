@@ -10,7 +10,7 @@ TimAlamenciak@cunet.carleton.ca · Tim.A@uwaterloo.ca<br/>
 Citizenship: Canadian<br/>
 Languages: English, French (B2)<br/>
 
-**Research interests:** Ecological restoration · Conservation policy and temporary conservation mechanisms · Knowledge graphs and ontologies for environmental evidence synthesis · Volunteer engagement and community-based conservation · Translational ecology · AI-assisted evidence synthesis
+**Research interests:** Environmental communication · Engagement and community-based conservation · Trust and science communication · Knowledge graphs and ontologies for environmental evidence synthesis · Translational ecology · AI-assisted evidence synthesis
 
 ---
 
@@ -20,6 +20,7 @@ Languages: English, French (B2)<br/>
 Bennett Lab - Dr. Joseph Bennett
 
 - Collaborate with Ducks Unlimited to research the effectiveness of temporary conservation agreements over time using ArcGIS and R with annual crop inventory (ACI) data.
+- Develop and implement the knowledge mobilization plan for the ECCC-funded Grasslands Learning and Knowledge Hub (GLKH).
 - Plan quantitative and qualitative research approaches to measuring ecological and social outcomes of conservation agreements using surveys of landowners.
 - Provide mentorship and guidance to students at the PhD, Masters, and Honours undergraduate levels in the Bennett Lab.
 
@@ -37,7 +38,7 @@ Digital Research Arts for Graphical and Environmental Networks (DRAGEN) Lab - Dr
 - Provide mentorship and instruction to graduate student historians from the perspective of ecology.
 - Assist with research development, including interpreting stratigraphy and remote sensing data for restoration ecology.
 
-**Senior Research Scientist - University of Victoria** *(2024 - Current)*
+**Senior Research Scientist - University of Victoria** *(2024 - 2026)*
 Restoration Futures Lab - Dr. Nancy Shackelford
 
 - Lead the development of the Ecolink Model Ontology (ELMO).
@@ -58,7 +59,7 @@ University of Victoria (in collaboration with University of Waterloo, Carleton U
 
 ## Visiting Positions & Residencies
 
-**Visiting Researcher - Centre for Interdisciplinary Research (ZiF), Bielefeld University** *(Sept 2024 - Feb 2025)*
+**Visiting Researcher - Center for Interdisciplinary Research (ZiF), Bielefeld University** *(Sept 2024 - Feb 2025)*
 Research group: "Mapping Evidence to Theory in Ecology" (invited by Dr. Tina Heger)
 
 - Contributed to interdisciplinary working group on evidence synthesis and theory formation in ecology.
@@ -75,15 +76,17 @@ Supervisor: Dr. Stephen D. Murphy
     - Executed and analyzed a survey of volunteers to assess the relationship between organizational factors and volunteer engagement using structural equation modeling.
     - Interviewed volunteers for a community-based project and analyzed interview data using Atlas.Ti 9.
 
-**MA, Journalism, Toronto Metropolitan University** *(2010 - 2012)*
+**Master of Journalism, Toronto Metropolitan University** *(2010 - 2012)*
 Supervisor: Dr. Gene Allen
 
 **BA (Hons.), Peace and Conflict Studies, University of Waterloo** *(2004 - 2010)*
 
 ## Funding and Awards
 
-### Research Grants (Total: $612,000)
+### Research Grants (Total in CAD: $626,000)
 
+
+- **2026** Dell Technologies in-kind computing support (Evidence Jam) - $14,000
 
 - **2026** DFG Workshop Fund for September EcoWeaver workshop - €22,000
 
@@ -91,7 +94,7 @@ Supervisor: Dr. Gene Allen
 
 - **2026** NVIDIA Academic Grant Program Award, NVIDIA DGX Spark - $10,000 (PI)
 
-- **2025** St. Jerome's University Faculty Research Grant (EcoTransform Hackathon) - $10,000 (co-PI with Kian Drew)
+- **2025** St. Jerome's University Faculty Research Grant (Evidence Jam Hackathon) - $10,000 (co-PI with Kian Drew)
 
 - **2025** PSAC 77000 Professional Development Fund - $2,000 (PI)
 
@@ -113,6 +116,8 @@ Supervisor: Dr. Gene Allen
 
 - **2026** "Modelling and understanding the causal mosaic of social-ecological systems: Theoretical and methodological contributions in the context of the EcoWeaver initiative" - Center for Interdisciplinary Research (ZiF: Zentrum fur interdisziplinare Forschung), Bielefeld University - EUR 200,000 (Co-PI)
 
+- **2026** "Interpreting Traditional Ecological Knowledge for grassland conservation: a synthesis of qualitative methods grounded in Indigenous data governance" - Mitacs $45,000 Indigenous Pathways fund with Ducks Unlimited Canada (Co-PI)
+
 
 ### Awards
 
@@ -127,7 +132,7 @@ Supervisor: Dr. Gene Allen
 
 **Sessional Lecturer, ENVS 205 - Sustainability: The Future We Want** *(Spring 2026)*
 
-University of Waterloo
+University of Waterloo (96 students; online)
 
 
 
@@ -151,7 +156,7 @@ Carleton University, Ottawa, Ontario (See resulting publication Alamenciak et al
 
 **Sessional Lecturer, ERS 253 - Communities and Sustainability** *(Winter 2024)*
 
-University of Waterloo, School of Environment, Resources and Sustainability (38 students; in-person)
+University of Waterloo, School of Environment, Resources and Sustainability (39 students; in-person)
 
 - Re-designed course including entirely new readings, structure, assignments, lectures, and online space through LEARN.
 
@@ -184,7 +189,7 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 
 
 
-## Work Experience
+## Communication Practice
 
 **Communications Manager - Reep Green Solutions** *(2021 - 2023)*
 
@@ -212,7 +217,7 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 2. **2026** Ryan Y. Hodgson, Steven A. Robinson, Amelie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E.L. Hanna, Tim Alamenciak. "Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis." *Environmental Evidence*. <https://link.springer.com/article/10.1186/s13750-026-00381-0>
 
 
-3. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology*.
+3. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/10.1111/rec.70550>
 
 
 4. **2026** Tim Alamenciak, Nancy Shackelford, Logan Rehberg, Ash Baron, Steven D. Murphy, Eric Higgs, Tina Heger, Alina Fisher, Bruno Travassos-Britto, Ryan Stephenson. "Identifying practitioner and researcher collaboration needs to improve ecosystem restoration in Canada." *Socio-Ecological Practice Research*. <https://link.springer.com/article/10.1007/s42532-025-00243-y>
@@ -250,10 +255,16 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 ### Peer-reviewed publications in progress
 
 
-1. **2026** Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield. "Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era." *FACETS* (Under review).
+1. **2026** Tim Alamenciak, Lauren Bortolotti, Jeffrey O. Hanson, Joseph R. Bennett. "The enduring benefits of temporary conservation agreements." *Biological Conservation* (Revision submitted).
 
 
-2. **2026** Federica Bocchi, Aline Potiron, Eleonore Slabbert, Tim Alamenciak, Anika Grose, Birgitta Konig-Ries, Lotte Korell, Carlos Santana, Tina Heger. "Operationalizing the CARE principles in evidence synthesis for ecology and conservation." *Nature Communications* (Under review).
+2. **2026** Tim Alamenciak, Joshua I. Brian, Randi Church, Robert Fruhstuckl, Kacey Hammond, Tina Heger, Lotte Korell, Birgitta Konig-Ries, Heather MacDonald, Lena Neuenkamp, Maria Alejandra Parreno, Vicky M. Temperton, Bruno Travassos-Britto, Lars Vogt. "What evidence exists in peer-reviewed literature for the outcomes of grassland restoration interventions globally? A systematic map protocol." *Environmental Evidence* (Revision submitted).
+
+
+3. **2026** Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield. "Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era." *FACETS* (Major revisions).
+
+
+4. **2026** Federica Bocchi, Aline Potiron, Eleonore Slabbert, Tim Alamenciak, Anika Grose, Birgitta Konig-Ries, Lotte Korell, Carlos Santana, Tina Heger. "Operationalizing the CARE principles in evidence synthesis for ecology and conservation." *Nature Communications* (Accepted).
 
 
 
@@ -278,8 +289,9 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 
 ## Software & Research Tools
 
-- **Ducks Unlimited Reversion Detector** - An RShiny geospatial interface for 20 years of Ducks Unlimited Canada temporary conservation agreements that allows staff to inspect which agreements reverted back to cropland during or after the agreement period. *Internal tooling for DUC*
+- **Ducks Unlimited Reversion Detector** - An RShiny geospatial interface for 20 years of Ducks Unlimited Canada temporary conservation agreements that allows staff to inspect which agreements reverted back to cropland during or after the agreement period. 
 - **EcoWeaver** - Semantic framework for synthesizing ecological data streams into accessible, practitioner-ready formats. <https://ecoweaver.hi-knowledge.org>
+- **Causal Mosaic Schema** - A knowledge schema for documenting causal claims from ecological literature so that practitioners can use them for modeling restoration outcomes. (lead developer). [Github repository](https://github.com/timalamenciak/causalmosaic)
 - **ELMO** - Ecolink Model Ontology (lead developer). An OWL ontology for standardizing terminology in biodiversity restoration and conservation across research and practice. [Github repository](https://github.com/timalamenciak/elmo)
 - **Ecolink** - Knowledge graph schema for representing complex environmental relationships (see Alamenciak et al. 2025, TPDL).
 - **rosettaR** - R package for bidirectional translation between structured KGX data and natural language using template-based rendering. [Github repository](https://github.com/timalamenciak/rosettaR)
@@ -402,16 +414,24 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 ## Workshops and Conferences Hosted
 
 
-**Ontario Ecological Restoration Conference** *(Forthcoming October 2026)*
-Conference co-organizer. Hosted at the University of Waterloo.
+**Evidence Jam** *(Forthcoming November 2026)*
+Organizer. This hackathon will challenge students to use generative AI tools for environmental evidence synthesis in rigorous, repeatable ways.
 
 
-**Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis** *(Forthcoming 28 September - 1 October 2026)*
+**EcoWeaver Global Hybrid Workshop** *(Forthcoming March 2027)*
+Organizer. A hybrid workshop across time zones including all of Canada and Europe.
+
+
+**Integrative Social-Ecological Knowledge Systems: Conceptual and Computational Foundations for Ecological Synthesis** *(2026)*
 Workshop co-organizer. Friedrich Schiller University Jena, Germany. Funded by the DFG Workshop Fund.
 
 
-**Evidence Jam** *(Forthcoming November 2026)*
-Organizer. This hackathon will challenge students to use generative AI tools for environmental evidence synthesis in rigorous, repeatable ways.
+**Ontario Ecological Restoration Conference** *(2026)*
+Conference co-organizer. Hosted at the University of Waterloo.
+
+
+**Participatory Scenario Planning for Community-Led Restoration** *(2026)*
+Organizer. Pilot workshop held bringing together municipal staff and community members in Wellington County.
 
 
 **GLELxSciComm: A Day of Science Communication Learning** *(2025)*
@@ -435,6 +455,8 @@ Digital Research Alliance - EDIA Champions Program; Earth Science Information Pa
 
 ### Service Roles
 
+
+- **2026 - Current** Member, Environmental Humanities Network
 
 - **2025 - Current** Member, Knowledge Mobilization Community of Practice (UW)
 
