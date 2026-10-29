@@ -211,43 +211,46 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 ### Peer-reviewed publications
 
 
-1. **2026** Courtney D. Robichaud, Christine Beaudoin, Tim Alamenciak, Jaimie Vincent, Steven J. Cooke, Vivian M. Nguyen, Richard Schuster, Nathan Young, Joseph R. Bennett. "Data, politics, and funding cause uncertainty for conservation practitioners." *Conservation Science and Practice*. <https://doi.org/10.1111/csp2.70372>
+1. **2026** Tim Alamenciak, Lauren Bortolotti, Jeffrey O. Hanson, Joseph R. Bennett. "The enduring benefits of temporary conservation agreements." *Biological Conservation*. <https://doi.org/10.1016/j.biocon.2026.112177>
 
 
-2. **2026** Ryan Y. Hodgson, Steven A. Robinson, Amelie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E.L. Hanna, Tim Alamenciak. "Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis." *Environmental Evidence*. <https://link.springer.com/article/10.1186/s13750-026-00381-0>
+2. **2026** Courtney D. Robichaud, Christine Beaudoin, Tim Alamenciak, Jaimie Vincent, Steven J. Cooke, Vivian M. Nguyen, Richard Schuster, Nathan Young, Joseph R. Bennett. "Data, politics, and funding cause uncertainty for conservation practitioners." *Conservation Science and Practice*. <https://doi.org/10.1111/csp2.70372>
 
 
-3. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/10.1111/rec.70550>
+3. **2026** Ryan Y. Hodgson, Steven A. Robinson, Amelie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E.L. Hanna, Tim Alamenciak. "Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis." *Environmental Evidence*. <https://link.springer.com/article/10.1186/s13750-026-00381-0>
 
 
-4. **2026** Tim Alamenciak, Nancy Shackelford, Logan Rehberg, Ash Baron, Steven D. Murphy, Eric Higgs, Tina Heger, Alina Fisher, Bruno Travassos-Britto, Ryan Stephenson. "Identifying practitioner and researcher collaboration needs to improve ecosystem restoration in Canada." *Socio-Ecological Practice Research*. <https://link.springer.com/article/10.1007/s42532-025-00243-y>
+4. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/10.1111/rec.70550>
 
 
-5. **2026** Steven J. Cooke, Kevin A. Adeli, Trina Rytwinski, Andrew N. Kadykalo, Jennifer Provencher, Vivian Nguyen, Joseph Bennett, Christina Davy, Rachel Buxton, Dalal Hanna, Jesse C. Vermaire, Sean Landsman, Nathan Young, Graeme Auld, Danika Littlechild, Jennifer M. Holzer, Meagan Harper, Andrew Howarth, Tim Alamenciak, Lauren Lawson, Jayme Lewthwaite, Erin E. Stukenholtz, Paul A. Smith, Ilona Naujokaitis-Lewis, Josie Hughes, Barbara Frei, Amanda Martin, Amie Black, Richard Pither, Douglas MacNearney, Kristen Lalla, Carmen Galan-Acedo and Christopher Cvitanovic. "Supporting frontline workers in the biodiversity crisis by empowering and enabling practitioners to embrace conservation evidence." *Socio-Ecological Practice Research*. <https://doi.org/10.1007/s42532-026-00255-2>
+5. **2026** Tim Alamenciak, Nancy Shackelford, Logan Rehberg, Ash Baron, Catherine Febria, Alina Fisher, Tina Heger, Eric Higgs, Stephen D. Murphy, Ryan Stephenson, Bruno Travassos-Britto. "Identifying practitioner and researcher collaboration needs to improve ecosystem restoration in Canada." *Socio-Ecological Practice Research*. <https://link.springer.com/article/10.1007/s42532-025-00243-y>
 
 
-6. **2025** Jeffrey O. Hanson, Jenny L. McCune, Tim Alamenciak, Joseph R. Bennett. "Increasing the credibility of conservation plans through citizen science." *Biological Conservation*. <https://doi.org/10.1016/j.biocon.2025.111552>
+6. **2026** Steven J. Cooke, Kevin A. Adeli, Trina Rytwinski, Andrew N. Kadykalo, Jennifer Provencher, Vivian Nguyen, Joseph Bennett, Christina Davy, Rachel Buxton, Dalal Hanna, Jesse C. Vermaire, Sean Landsman, Nathan Young, Graeme Auld, Danika Littlechild, Jennifer M. Holzer, Meagan Harper, Andrew Howarth, Tim Alamenciak, Lauren Lawson, Jayme Lewthwaite, Erin E. Stukenholtz, Paul A. Smith, Ilona Naujokaitis-Lewis, Josie Hughes, Barbara Frei, Amanda Martin, Amie Black, Richard Pither, Douglas MacNearney, Kristen Lalla, Carmen Galan-Acedo and Christopher Cvitanovic. "Supporting frontline workers in the biodiversity crisis by empowering and enabling practitioners to embrace conservation evidence." *Socio-Ecological Practice Research*. <https://doi.org/10.1007/s42532-026-00255-2>
 
 
-7. **2025** Josie South, Roxana Barbulescu, Rafael L. Macedo, Camille L. Musseau, Simone Guareschi, Tim Alamenciak, et al.. "Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al." *BioScience*. <https://doi.org/10.1093/biosci/biaf073>
+7. **2025** Jeffrey O. Hanson, Jenny L. McCune, Tim Alamenciak, Joseph R. Bennett. "Increasing the credibility of conservation plans through citizen science." *Biological Conservation*. <https://doi.org/10.1016/j.biocon.2025.111552>
 
 
-8. **2025** Tim Alamenciak, Elise Gornish, Stephen D. Murphy. "Dimensions of Effective Volunteer Restoration Techniques in North America." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028> [Audio](https://doi.org/10.53962/g8bx-s4aa)
+8. **2025** Josie South, Roxana Barbulescu, Rafael L. Macedo, Camille L. Musseau, Simone Guareschi, Tim Alamenciak, et al.. "Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al." *BioScience*. <https://doi.org/10.1093/biosci/biaf073>
 
 
-9. **2024** Tim Alamenciak, Stephen D. Murphy. "What makes a convivial community tool? Investigating grassroots ecological restoration." *Ecology & Society*. <https://doi.org/10.5751/ES-15258-290303> [Audio](https://doi.org/10.53962/h3gv-g93x)
+9. **2025** Tim Alamenciak, Elise Gornish, Stephen D. Murphy. "Dimensions of Effective Volunteer Restoration Techniques in North America." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028> [Audio](https://doi.org/10.53962/g8bx-s4aa)
 
 
-10. **2024** Tim Alamenciak, Stephen D. Murphy. "Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map." *Restoration Ecology*. <https://doi.org/10.1111/rec.14155> [Audio](https://doi.org/10.53962/hprp-rh02)
+10. **2024** Tim Alamenciak, Stephen D. Murphy. "What makes a convivial community tool? Investigating grassroots ecological restoration." *Ecology & Society*. <https://doi.org/10.5751/ES-15258-290303> [Audio](https://doi.org/10.53962/h3gv-g93x)
 
 
-11. **2023** Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs. "Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?." *FACETS*. <https://doi.org/10.1139/facets-2022-0157> [Audio](https://doi.org/10.53962/wwhz-tjtk)
+11. **2024** Tim Alamenciak, Stephen D. Murphy. "Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map." *Restoration Ecology*. <https://doi.org/10.1111/rec.14155> [Audio](https://doi.org/10.53962/hprp-rh02)
 
 
-12. **2022** William J. Sutherland, Jake M. Robinson, David C. Aldridge, Tim Alamenciak, Matthew Armes, Nina Baranduin, Andrew J. Bladon, et al.. "Creating Testable Questions in Practical Conservation." *Conservation Evidence Journal*. <https://doi.org/10.52201/CEJ19XIFF2753>
+12. **2023** Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs. "Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?." *FACETS*. <https://doi.org/10.1139/facets-2022-0157> [Audio](https://doi.org/10.53962/wwhz-tjtk)
 
 
-13. **2020** Anita Lazurko, Tim Alamenciak, Lowine Stella Hill, Ella-Kari Muhl, Augustine Kwame Osei, Dorian Pomezanski, Kyle Schang, Dilruba Fatima Sharmin. "What Will a PhD Look Like in the Future?." *World Futures Review*. <https://doi.org/10.1177/1946756720976710>
+13. **2022** William J. Sutherland, Jake M. Robinson, David C. Aldridge, Tim Alamenciak, Matthew Armes, Nina Baranduin, Andrew J. Bladon, et al.. "Creating Testable Questions in Practical Conservation." *Conservation Evidence Journal*. <https://doi.org/10.52201/CEJ19XIFF2753>
+
+
+14. **2020** Anita Lazurko, Tim Alamenciak, Lowine Stella Hill, Ella-Kari Muhl, Augustine Kwame Osei, Dorian Pomezanski, Kyle Schang, Dilruba Fatima Sharmin. "What Will a PhD Look Like in the Future?." *World Futures Review*. <https://doi.org/10.1177/1946756720976710>
 
 
 
@@ -255,16 +258,13 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 ### Peer-reviewed publications in progress
 
 
-1. **2026** Tim Alamenciak, Lauren Bortolotti, Jeffrey O. Hanson, Joseph R. Bennett. "The enduring benefits of temporary conservation agreements." *Biological Conservation* (Revision submitted).
+1. **2026** Tim Alamenciak, Joshua I. Brian, Randi Church, Robert Fruhstuckl, Kacey Hammond, Tina Heger, Lotte Korell, Birgitta Konig-Ries, Heather MacDonald, Lena Neuenkamp, Maria Alejandra Parreno, Vicky M. Temperton, Bruno Travassos-Britto, Lars Vogt. "What evidence exists in peer-reviewed literature for the outcomes of grassland restoration interventions globally? A systematic map protocol." *Environmental Evidence* (Revision submitted).
 
 
-2. **2026** Tim Alamenciak, Joshua I. Brian, Randi Church, Robert Fruhstuckl, Kacey Hammond, Tina Heger, Lotte Korell, Birgitta Konig-Ries, Heather MacDonald, Lena Neuenkamp, Maria Alejandra Parreno, Vicky M. Temperton, Bruno Travassos-Britto, Lars Vogt. "What evidence exists in peer-reviewed literature for the outcomes of grassland restoration interventions globally? A systematic map protocol." *Environmental Evidence* (Revision submitted).
+2. **2026** Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield. "Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era." *FACETS* (Major revisions).
 
 
-3. **2026** Tim Alamenciak, Amy Bachhuber, Joseph R. Bennett, Steven J. Cooke, Kian L. Drew, Daniel Dylewsky, Emily McKnight, Pat Moore, Ana Hernandez Martinez De La Riva, Bronwyn Rayfield. "Machines in the loop: Challenges and opportunities for environmental evidence synthesis research in the artificial intelligence era." *FACETS* (Major revisions).
-
-
-4. **2026** Federica Bocchi, Aline Potiron, Eleonore Slabbert, Tim Alamenciak, Anika Grose, Birgitta Konig-Ries, Lotte Korell, Carlos Santana, Tina Heger. "Operationalizing the CARE principles in evidence synthesis for ecology and conservation." *Nature Communications* (Accepted).
+3. **2026** Federica Bocchi, Aline Potiron, Eleonore Slabbert, Tim Alamenciak, Anika Grose, Birgitta Konig-Ries, Lotte Korell, Carlos Santana, Tina Heger. "Operationalizing the CARE principles in evidence synthesis for ecology and conservation." *Nature Communications* (Accepted).
 
 
 
