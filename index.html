@@ -80,6 +80,64 @@
       letter-spacing: 0.02em;
     }
     .listen-badge:hover { opacity: 0.85; }
+
+    /* -- Inline audio player shown beside publication titles --------------
+       Hidden until the script below marks it ready, so browsers without JS
+       fall through to the plain <noscript> download link instead. */
+    .pub-audio {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      vertical-align: middle;
+      margin-left: 6px;
+      padding: 2px 9px 2px 3px;
+      border: 1px solid var(--border, rgba(36, 63, 50, 0.18));
+      border-radius: 999px;
+      background: rgba(143, 191, 159, 0.14);
+      line-height: 1;
+    }
+    .pub-audio.is-ready { display: inline-flex; }
+    .pub-audio-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 22px;
+      width: 22px;
+      height: 22px;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      background: var(--brand, #243F32);
+      color: #fff;
+      font-size: 0.6rem;
+      cursor: pointer;
+    }
+    .pub-audio-btn:hover { opacity: 0.85; }
+    .pub-audio-btn:disabled { opacity: 0.5; cursor: default; }
+    .pub-audio-track {
+      position: relative;
+      width: 64px;
+      height: 4px;
+      border-radius: 2px;
+      background: rgba(36, 63, 50, 0.22);
+      cursor: pointer;
+    }
+    .pub-audio-progress {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      border-radius: 2px;
+      background: var(--brand, #243F32);
+    }
+    .pub-audio-time {
+      min-width: 2.5em;
+      font-size: 0.7rem;
+      font-variant-numeric: tabular-nums;
+      color: var(--muted, #504c4c);
+    }
+    @media print { .pub-audio { display: none !important; } }
     .ecoweaver-card {
       border-left: 3px solid var(--brand, #243F32);
       background: rgba(143, 191, 159, 0.12);
@@ -326,6 +384,13 @@
         (<a href="pdf/AlamenciakEtAl_2026b.pdf">pdf</a>)
 
 
+        <span class="pub-audio" data-audio-player>
+          <button type="button" class="pub-audio-btn" aria-label="Play the audio version of Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
+          <span class="pub-audio-track"><span class="pub-audio-progress"></span></span>
+          <span class="pub-audio-time">0:00</span>
+          <audio preload="none" src="https://timalamenciak.github.io/audio/AlamenciakAndMurphy2026.mp3"></audio>
+        </span>
+        <noscript><a href="https://timalamenciak.github.io/audio/AlamenciakAndMurphy2026.mp3" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a></noscript>
       </span><br>
       <em>Restoration Ecology</em>.
 
@@ -356,8 +421,13 @@
         (<a href="pdf/AlamenciakEtAl_2025.pdf">pdf</a>)
 
 
-        <a href="https://doi.org/10.53962/g8bx-s4aa" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
-
+        <span class="pub-audio" data-audio-player>
+          <button type="button" class="pub-audio-btn" aria-label="Play the audio version of Dimensions of Effective Volunteer Restoration Techniques in North America"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
+          <span class="pub-audio-track"><span class="pub-audio-progress"></span></span>
+          <span class="pub-audio-time">0:00</span>
+          <audio preload="none" src="https://timalamenciak.github.io/audio/re-2025.mp3"></audio>
+        </span>
+        <noscript><a href="https://timalamenciak.github.io/audio/re-2025.mp3" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a></noscript>
       </span><br>
       <em>Restoration Ecology</em>.
 
@@ -458,8 +528,13 @@
               (<a href="pdf/AlamenciakEtAl_2024.pdf">pdf</a>)
 
 
-              <a href="https://doi.org/10.53962/h3gv-g93x" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
-
+        <span class="pub-audio" data-audio-player>
+          <button type="button" class="pub-audio-btn" aria-label="Play the audio version of What makes a convivial community tool? Investigating grassroots ecological restoration"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
+          <span class="pub-audio-track"><span class="pub-audio-progress"></span></span>
+          <span class="pub-audio-time">0:00</span>
+          <audio preload="none" src="https://timalamenciak.github.io/audio/es-2024.mp3"></audio>
+        </span>
+        <noscript><a href="https://timalamenciak.github.io/audio/es-2024.mp3" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a></noscript>
             </span><br>
             <em>Ecology & Society</em>.
           </li>
@@ -473,8 +548,13 @@
               (<a href="pdf/AlamenciakEtAl_2024b.pdf">pdf</a>)
 
 
-              <a href="https://doi.org/10.53962/hprp-rh02" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
-
+        <span class="pub-audio" data-audio-player>
+          <button type="button" class="pub-audio-btn" aria-label="Play the audio version of Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
+          <span class="pub-audio-track"><span class="pub-audio-progress"></span></span>
+          <span class="pub-audio-time">0:00</span>
+          <audio preload="none" src="https://timalamenciak.github.io/audio/re-2024.mp3"></audio>
+        </span>
+        <noscript><a href="https://timalamenciak.github.io/audio/re-2024.mp3" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a></noscript>
             </span><br>
             <em>Restoration Ecology</em>.
           </li>
@@ -488,8 +568,13 @@
               (<a href="pdf/AlamenciakEtAl_2023.pdf">pdf</a>)
 
 
-              <a href="https://doi.org/10.53962/wwhz-tjtk" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a>
-
+        <span class="pub-audio" data-audio-player>
+          <button type="button" class="pub-audio-btn" aria-label="Play the audio version of Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?"><i class="fa-solid fa-play" aria-hidden="true"></i></button>
+          <span class="pub-audio-track"><span class="pub-audio-progress"></span></span>
+          <span class="pub-audio-time">0:00</span>
+          <audio preload="none" src="https://timalamenciak.github.io/audio/facets-2023.mp3"></audio>
+        </span>
+        <noscript><a href="https://timalamenciak.github.io/audio/facets-2023.mp3" class="listen-badge"><i class="fa-solid fa-headphones me-1"></i>Listen</a></noscript>
             </span><br>
             <em>FACETS</em>.
           </li>
@@ -858,8 +943,9 @@
         </ul>
 
         <p class="small-note mb-0">
-          Audio versions of selected publications are available on
-          <a href="https://www.researchequals.com">ResearchEquals</a>.
+          Audio versions of selected publications play straight from the
+          publication list above, or subscribe to them as a
+          <a href="podcast.xml">podcast feed</a>.
         </p>
       </section>
 
@@ -1064,6 +1150,69 @@
     </div>
   </div>
 </div>
+
+<script>
+  // Compact inline players for the audio versions of publications.
+  document.querySelectorAll('[data-audio-player]').forEach(function (player) {
+    var audio = player.querySelector('audio');
+    var button = player.querySelector('.pub-audio-btn');
+    var icon = button.querySelector('i');
+    var track = player.querySelector('.pub-audio-track');
+    var progress = player.querySelector('.pub-audio-progress');
+    var readout = player.querySelector('.pub-audio-time');
+
+    function clock(seconds) {
+      if (!isFinite(seconds) || seconds < 0) return '0:00';
+      var mins = Math.floor(seconds / 60);
+      var secs = Math.floor(seconds % 60);
+      return mins + ':' + (secs < 10 ? '0' : '') + secs;
+    }
+
+    // At the start show how long the recording is; once playing show the
+    // position, which is the number a listener actually wants mid-episode.
+    function render() {
+      var atStart = !audio.currentTime;
+      readout.textContent = clock(atStart && audio.duration ? audio.duration : audio.currentTime);
+      progress.style.width = audio.duration
+        ? (audio.currentTime / audio.duration * 100) + '%'
+        : '0';
+    }
+
+    button.addEventListener('click', function () {
+      if (audio.paused) {
+        document.querySelectorAll('[data-audio-player] audio').forEach(function (other) {
+          if (other !== audio) other.pause();
+        });
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+
+    track.addEventListener('click', function (event) {
+      if (!audio.duration) return;
+      var box = track.getBoundingClientRect();
+      var ratio = (event.clientX - box.left) / box.width;
+      audio.currentTime = Math.min(Math.max(ratio, 0), 1) * audio.duration;
+      render();
+    });
+
+    audio.addEventListener('play', function () { icon.className = 'fa-solid fa-pause'; });
+    audio.addEventListener('pause', function () { icon.className = 'fa-solid fa-play'; });
+    audio.addEventListener('ended', function () { audio.currentTime = 0; render(); });
+    audio.addEventListener('loadedmetadata', render);
+    audio.addEventListener('timeupdate', render);
+    audio.addEventListener('seeked', render);
+    audio.addEventListener('error', function () {
+      button.disabled = true;
+      readout.textContent = '\u2014';
+      player.title = 'This audio file could not be loaded';
+    });
+
+    player.title = 'Listen to the audio version';
+    player.classList.add('is-ready');
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

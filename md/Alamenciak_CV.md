@@ -220,7 +220,7 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 3. **2026** Ryan Y. Hodgson, Steven A. Robinson, Amelie C. Boutin, Felix K. Chan, Joseph R. Bennett, Rachel T. Buxton, J. Harry Caufield, Dalal E.L. Hanna, Tim Alamenciak. "Assessing the Effectiveness of Ontology-Grounded AI Term Extraction Using OntoGPT for Environmental Evidence Synthesis." *Environmental Evidence*. <https://link.springer.com/article/10.1186/s13750-026-00381-0>
 
 
-4. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/10.1111/rec.70550>
+4. **2026** Tim Alamenciak, Stephen D. Murphy. "Which Aspects of Restoration Project Organization Affect Volunteer Engagement in Community-Based Initiatives?." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/10.1111/rec.70550> [Audio](https://timalamenciak.github.io/audio/AlamenciakAndMurphy2026.mp3)
 
 
 5. **2026** Tim Alamenciak, Nancy Shackelford, Logan Rehberg, Ash Baron, Catherine Febria, Alina Fisher, Tina Heger, Eric Higgs, Stephen D. Murphy, Ryan Stephenson, Bruno Travassos-Britto. "Identifying practitioner and researcher collaboration needs to improve ecosystem restoration in Canada." *Socio-Ecological Practice Research*. <https://link.springer.com/article/10.1007/s42532-025-00243-y>
@@ -235,16 +235,16 @@ University of Waterloo (ENVS 200, ERS 402, ERS 300)
 8. **2025** Josie South, Roxana Barbulescu, Rafael L. Macedo, Camille L. Musseau, Simone Guareschi, Tim Alamenciak, et al.. "Parallels between biological invasions and human migration are flawed and undermine both disciplines. Response to Ahmed et al." *BioScience*. <https://doi.org/10.1093/biosci/biaf073>
 
 
-9. **2025** Tim Alamenciak, Elise Gornish, Stephen D. Murphy. "Dimensions of Effective Volunteer Restoration Techniques in North America." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028> [Audio](https://doi.org/10.53962/g8bx-s4aa)
+9. **2025** Tim Alamenciak, Elise Gornish, Stephen D. Murphy. "Dimensions of Effective Volunteer Restoration Techniques in North America." *Restoration Ecology*. <https://onlinelibrary.wiley.com/doi/full/10.1111/rec.70028> [Audio](https://timalamenciak.github.io/audio/re-2025.mp3)
 
 
-10. **2024** Tim Alamenciak, Stephen D. Murphy. "What makes a convivial community tool? Investigating grassroots ecological restoration." *Ecology & Society*. <https://doi.org/10.5751/ES-15258-290303> [Audio](https://doi.org/10.53962/h3gv-g93x)
+10. **2024** Tim Alamenciak, Stephen D. Murphy. "What makes a convivial community tool? Investigating grassroots ecological restoration." *Ecology & Society*. <https://doi.org/10.5751/ES-15258-290303> [Audio](https://timalamenciak.github.io/audio/es-2024.mp3)
 
 
-11. **2024** Tim Alamenciak, Stephen D. Murphy. "Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map." *Restoration Ecology*. <https://doi.org/10.1111/rec.14155> [Audio](https://doi.org/10.53962/hprp-rh02)
+11. **2024** Tim Alamenciak, Stephen D. Murphy. "Motivations for Volunteers to Participate in Ecological Restoration: A Systematic Map." *Restoration Ecology*. <https://doi.org/10.1111/rec.14155> [Audio](https://timalamenciak.github.io/audio/re-2024.mp3)
 
 
-12. **2023** Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs. "Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?." *FACETS*. <https://doi.org/10.1139/facets-2022-0157> [Audio](https://doi.org/10.53962/wwhz-tjtk)
+12. **2023** Tim Alamenciak, Dorian Pomezanski, Nancy Shackelford, Stephen D. Murphy, Steven J. Cooke, Line Rochefort, Sonia Voicescu, Eric Higgs. "Ecological Restoration Research in Canada: Who, What, Where, When, Why, and How?." *FACETS*. <https://doi.org/10.1139/facets-2022-0157> [Audio](https://timalamenciak.github.io/audio/facets-2023.mp3)
 
 
 13. **2022** William J. Sutherland, Jake M. Robinson, David C. Aldridge, Tim Alamenciak, Matthew Armes, Nina Baranduin, Andrew J. Bladon, et al.. "Creating Testable Questions in Practical Conservation." *Conservation Evidence Journal*. <https://doi.org/10.52201/CEJ19XIFF2753>
